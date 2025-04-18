@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ようこそ on ユエリーの台日近代史ノート</title>
+    <link>/</link>
+    <description>Recent content in ようこそ on ユエリーの台日近代史ノート</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LoveItのテスト投稿</title>
+      <link>/my-first-post/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/my-first-post/</guid>
+      <description>&lt;p&gt;これはLoveItテーマで表示するためのテスト投稿です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LoveItのテスト投稿</title>
+      <link>/posts/test-post/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/test-post/</guid>
+      <description>&lt;p&gt;これは &lt;strong&gt;LoveIt&lt;/strong&gt; テーマで表示するためのテスト投稿です。&lt;/p&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;fmt.Println(&#34;Hello, Hugo!&#34;)&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>はじめに</title>
+      <link>/posts/welcome/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/welcome/</guid>
+      <description>&lt;p&gt;ここから台日近代史の調査記録を始めます。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

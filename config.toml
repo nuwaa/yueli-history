@@ -1,0 +1,21 @@
+
+baseURL = "/"
+languageCode = "ja"
+title = "ユエリーの台日近代史ノート"
+theme = "LoveIt"
+
+[params]
+  title = "ユエリーの台日近代史ノート"
+  description = "台日近代史に関する調査記録"
+  defaultTheme = "auto"
+  showCodeCopyButtons = true
+  dateFormat = "2006-01-02"
+  showReadingTime = true
+  showLastMod = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "ホーム"
+    url = "/"
+    weight = 1
