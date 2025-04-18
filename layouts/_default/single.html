@@ -1,5 +1,9 @@
 {{ define "main" }}
 <main class="post-card">
+  <nav class="post-nav">
+    <a href="/">🏠 ホーム</a> | <a href="/questions/">📋 質問一覧</a>
+  </nav>
+
   <article>
     <h1>{{ .Title }}</h1>
     <p class="date">📅 {{ .Date.Format "2006年01月02日" }}</p>

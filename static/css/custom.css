@@ -76,3 +76,19 @@
   font-size: 1.05em;
   line-height: 1.8;
 }
+
+.post-nav {
+  margin-bottom: 1.5rem;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.post-nav a {
+  text-decoration: none;
+  color: #007acc;
+  margin: 0 1em;
+}
+
+.post-nav a:hover {
+  text-decoration: underline;
+}
