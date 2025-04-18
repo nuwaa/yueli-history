@@ -1,0 +1,12 @@
+.table-wide-bordered {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+
+.table-wide-bordered th,
+.table-wide-bordered td {
+  padding: 10px;
+  border: 1px solid #333;
+  text-align: left;
+}
