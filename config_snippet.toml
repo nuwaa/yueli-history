@@ -1,0 +1,4 @@
+
+# config.toml の [params] セクションに以下を追加してください
+[params]
+  customCSS = ["css/custom.css"]
