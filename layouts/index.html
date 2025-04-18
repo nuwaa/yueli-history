@@ -1,13 +1,33 @@
 {{ define "main" }}
 <main style="padding: 2rem;">
-<center>
-  <p>🌸 ユエリーです！ 🌸</p>
-<img src="/images/Yueli.png" alt="月璃(Yueli)" style="width:100%; max-width:200px;"><br /><br />
-台湾と日本の近現代史を一緒に学びましょう！
+  <center>
+    <div class="animated-title">🌸 ユエリーです！ 🌸</div>
+    <img src="/images/Yueli.png" alt="月璃(Yueli)" style="width:100%; max-width:200px;"><br /><br />
+    台湾と日本の近現代史を一緒に学びましょう！
 
-  <p style="margin-top: 2rem;">
-    👉 <a href="/questions/">質問一覧はこちら</a>
-  </p>
-</center>
+    <p style="margin-top: 2rem;">
+      👉 <a href="/questions/">質問一覧はこちら</a>
+    </p>
+  </center>
+
+  <style>
+    .animated-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      animation: slide-fade 3s ease-in-out infinite alternate;
+      color: #aa336a;
+    }
+
+    @keyframes slide-fade {
+      from {
+        opacity: 0.4;
+        transform: translateX(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(10px);
+      }
+    }
+  </style>
 </main>
 {{ end }}
