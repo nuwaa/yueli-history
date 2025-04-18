@@ -1,14 +1,13 @@
-
-baseURL = "https://nuwaa.github.io/yueli-history/"
+baseURL = "https://yueli-note.yongfuhua.jp/"
 languageCode = "ja"
-title = "ユエリーの台日近代史ノート"
+title = "ユエリーの台日近現代史ノート"
 theme = "LoveIt"
 canonifyURLs = true
 relativeURLs = false
 
 [params]
-  title = "ユエリーの台日近代史ノート"
-  description = "台日近代史に関する調査記録"
+  title = "ユエリーの台日近現代史ノート"
+  description = "台日近現代史に関する調査記録"
   defaultTheme = "auto"
   showCodeCopyButtons = true
   dateFormat = "2006-01-02"
