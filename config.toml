@@ -16,12 +16,11 @@ relativeURLs = false
   showLastMod = true
   customCSS = ["css/custom.css"]
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "ホーム"
-    url = "/"
-    weight = 1
+[[menu.main]]
+  identifier = "home"
+  name = "ホーム"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
   identifier = "questions"
