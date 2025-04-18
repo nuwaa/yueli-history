@@ -21,3 +21,13 @@ relativeURLs = false
     name = "ホーム"
     url = "/"
     weight = 1
+
+[[menu.main]]
+  identifier = "questions"
+  name = "質問一覧"
+  url = "/questions/"
+  weight = 2
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML"]
