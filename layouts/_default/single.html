@@ -1,7 +1,11 @@
 {{ define "main" }}
-<article>
-  <h1>{{ .Title }}</h1>
-  <p><small>{{ .Date.Format "2006-01-02" }}</small></p>
-  <div>{{ .Content }}</div>
-</article>
+<main class="post-card">
+  <article>
+    <h1>{{ .Title }}</h1>
+    <p class="date">📅 {{ .Date.Format "2006年01月02日" }}</p>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
 {{ end }}

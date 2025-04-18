@@ -49,3 +49,30 @@
   border: 3px dashed red !important;
   background-color: #fff8f8 !important;
 }
+
+.post-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 720px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.post-card h1 {
+  font-size: 2em;
+  color: #007acc;
+  margin-bottom: 0.5em;
+}
+
+.post-card .date {
+  font-size: 0.9em;
+  color: #999;
+  margin-bottom: 1.5em;
+}
+
+.post-card .content {
+  font-size: 1.05em;
+  line-height: 1.8;
+}
