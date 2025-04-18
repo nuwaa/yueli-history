@@ -1,11 +1,10 @@
 {{ define "main" }}
-<h1>投稿一覧</h1>
-<ul>
-  {{ range .Pages.ByDate.Reverse }}
-    <li>
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Content }}</p>
-    </li>
-  {{ end }}
-</ul>
+<main style="padding: 2rem;">
+  <h1>ユエリーの台日近代史ノート</h1>
+  <p>🌸 ここに自己紹介文が入ります（後日追加予定）🌸</p>
+
+  <p style="margin-top: 2rem;">
+    👉 <a href="/yueli-history/questions/">質問一覧はこちら</a>
+  </p>
+</main>
 {{ end }}
