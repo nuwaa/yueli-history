@@ -1,12 +1,11 @@
 {{ define "main" }}
-<h1>🌸 最新の質問一覧 🌸</h1>
-<div style="display: flex; flex-direction: column; gap: 1.5rem;">
+<h1>投稿一覧</h1>
+<ul>
   {{ range .Pages.ByDate.Reverse }}
-    <div style="background: #fff0f5; padding: 1rem; border-radius: 10px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
-      <h2><a href="{{ .RelPermalink }}" style="color: #d63384;">{{ .Title }}</a></h2>
-      <p>{{ .Summary }}</p>
-      <p><a href="{{ .RelPermalink }}" style="font-weight: bold;">続きを読む →</a></p>
-    </div>
+    <li>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Content }}</p>
+    </li>
   {{ end }}
-</div>
+</ul>
 {{ end }}
