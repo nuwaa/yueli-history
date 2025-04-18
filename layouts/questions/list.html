@@ -1,16 +1,3 @@
-
 {{ define "main" }}
-<main class="question-cards">
-  <h1>質問一覧</h1>
-  <div class="card-container">
-    {{ range .Pages }}
-      <div class="card">
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Params.description }}</p>
-        <p class="date">📅 {{ .Date.Format "2006年01月02日" }}</p>
-        <a href="{{ .RelPermalink }}" class="read-more">続きを読む →</a>
-      </div>
-    {{ end }}
-  </div>
-</main>
+<h1>テスト中：これは layouts/questions/list.html から表示しています</h1>
 {{ end }}
