@@ -1,7 +1,8 @@
 {{ define "main" }}
 <main class="post-card">
   <nav class="post-nav">
-    <a href="/">🏠 ホーム</a> | <a href="/questions/">📋 質問一覧</a>
+    <a class="nav-btn" href="/">🏠 ホーム</a>
+    <a class="nav-btn" href="/questions/">📋 質問一覧</a>
   </nav>
 
   <article>
@@ -11,5 +12,10 @@
       {{ .Content }}
     </div>
   </article>
+
+  <nav class="post-nav post-nav-bottom">
+    <a class="nav-btn" href="/">🏠 ホーム</a>
+    <a class="nav-btn" href="/questions/">📋 質問一覧</a>
+  </nav>
 </main>
 {{ end }}
