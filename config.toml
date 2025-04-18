@@ -34,3 +34,6 @@ section = ["HTML"]
 
 [params.footer]
 copyright = "© 2025 月璃(Yueli)"
+
+[params.author]
+name = "月璃(Yueli)"
