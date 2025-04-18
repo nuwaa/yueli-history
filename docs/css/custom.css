@@ -1,0 +1,18 @@
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 1em;
+}
+header, footer {
+  background-color: #202020;
+  color: white;
+  padding: 1em;
+}
+h1, h2, h3 {
+  color: #d34d4d;
+}
+a {
+  color: #2a7ae2;
+}
