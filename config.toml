@@ -1,8 +1,10 @@
 
-baseURL = "/"
+baseURL = "https://nuwaa.github.io/yueli-history/"
 languageCode = "ja"
 title = "ユエリーの台日近代史ノート"
 theme = "LoveIt"
+canonifyURLs = true
+relativeURLs = false
 
 [params]
   title = "ユエリーの台日近代史ノート"
