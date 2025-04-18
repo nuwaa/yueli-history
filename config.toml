@@ -31,3 +31,6 @@ relativeURLs = false
 [outputs]
 home = ["HTML", "RSS"]
 section = ["HTML"]
+
+[params.footer]
+copyright = "© 2025 月璃(Yueli)"
