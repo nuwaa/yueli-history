@@ -207,3 +207,14 @@ html, body {
   height: auto;
   display: block;
 }
+
+.page-content table {
+  display: block;
+  width: 100% !important;     /* ← 重要：強制的に100%に固定 */
+  max-width: 100% !important;
+  overflow-x: auto;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  white-space: normal;
+  table-layout: auto !important; /* ← ハード指定打ち消し用 */
+}
