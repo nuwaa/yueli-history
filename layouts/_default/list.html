@@ -1,11 +1,13 @@
 {{ define "main" }}
-<h1>💡 DEBUG: list.html 読み込み成功</h1>
-<p>{{ len .Pages }} 件のページがあります</p>
+<h1>💡 DEBUG：テンプレートは読み込まれています</h1>
+
+<p>ページ数: {{ len .Pages }}</p>
+
 <ul>
   {{ range .Pages }}
     <li>{{ .Title }}</li>
   {{ else }}
-    <li>表示するページがありません</li>
+    <li>（⚠️ ページが 0 件です）</li>
   {{ end }}
 </ul>
 {{ end }}
