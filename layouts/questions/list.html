@@ -1,15 +1,31 @@
 {{ define "main" }}
-<main class="question-cards">
-  <h1>質問一覧</h1>
-  <div class="card-container">
-    {{ range .Pages }}
-      <div class="card">
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Params.description }}</p>
-        <p class="date">📅 {{ .Date.Format "2006年01月02日" }}</p>
-        <a href="{{ .RelPermalink }}" class="read-more">続きを読む →</a>
-      </div>
-    {{ end }}
+<main>
+  <div class="home-button-top" style="text-align:center; margin-bottom:1rem;">
+    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
   </div>
+
+  <h1>質問一覧</h1>
+
+  {{ range .Pages.ByDate.Reverse }}
+    <article style="margin-bottom: 2rem;">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p><small>{{ .Date.Format "2006年01月02日" }}</small></p>
+      <p><a href="{{ .RelPermalink }}">続きを読む →</a></p>
+    </article>
+  {{ end }}
+
+  <!-- 広告予定スペース -->
+  <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
+    <!-- Google AdSenseのコードを将来的にここに -->
+    <!-- 例: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" ...></ins> -->
+  </div>
+
+  <div class="home-button-bottom" style="text-align:center; margin-top:1rem;">
+    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+  </div>
+
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
+    © 2025 月璃(Yueli)
+  </footer>
 </main>
 {{ end }}
