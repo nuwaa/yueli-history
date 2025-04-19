@@ -233,3 +233,22 @@ html, body {
   white-space: normal !important;
   word-break: break-word !important;
 }
+
+/* 長い表が横に伸びても、テーブルだけスクロール可能にする */
+.page-content table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+/* テーブルセル内の長文も折り返し＆拡張対策 */
+.page-content td,
+.page-content th {
+  word-break: break-word;
+  white-space: normal;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+}
