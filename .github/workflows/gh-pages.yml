@@ -1,26 +1,28 @@
-
 name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # ← main ブランチが更新されたら発火
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.128.0'
+          hugo-version: '0.125.3'
 
       - name: Build
         run: hugo --minify
+
+      - name: Create CNAME
+        run: echo "yueli-note.yongfuhua.jp" > ./public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
