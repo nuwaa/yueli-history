@@ -7,16 +7,32 @@
     {{ $style := resources.Get "css/custom.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZWFMY2RM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- ✅ Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZWFMY2RM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CYZWFMY2RM');
+    </script>
 
-  gtag('config', 'G-CYZWFMY2RM');
-</script>
+    <!-- ✅ OGP / Twitterカード / SEOメタ情報 -->
+    {{ $desc := .Params.description | default "台湾と日本の近現代史をやさしく解説する、ユエリーのノート。" }}
+    {{ $title := .Title | default "ユエリーの台日近現代史ノート" }}
+    {{ $img := .Params.image | default "https://yueli-note.yongfuhua.jp/images/ogp-default.jpg" }}
+    {{ $url := .Permalink }}
 
+    <meta name="description" content="{{ $desc }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ $img }}">
+    <meta property="og:url" content="{{ $url }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $title }}">
+    <meta name="twitter:description" content="{{ $desc }}">
+    <meta name="twitter:image" content="{{ $img }}">
   </head>
   <body>
     <main style="border: 2px dashed pink; padding: 1rem;">
