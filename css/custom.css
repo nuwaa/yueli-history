@@ -105,3 +105,32 @@
   line-height: 1.8;
   color: #444;
 }
+
+/* â¬à§Ç≠Çƒå©Ç‚Ç∑Ç¢ÉeÅ[ÉuÉã */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
+  background-color: #fff;
+  border: 2px solid #ffb6c1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+}
+
+table th, table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ffc0cb;
+  text-align: left;
+}
+
+table th {
+  background-color: #ffe4ec;
+  color: #cc3366;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #fff6fa;
+}
