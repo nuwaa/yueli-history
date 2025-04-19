@@ -49,19 +49,47 @@
   </footer>
 
   <!-- 🔍 JavaScript for 検索 -->
-  <script>
-    const searchInput = document.getElementById("searchInput");
-    const cards = document.querySelectorAll(".card");
+<script>
+  const searchInput = document.getElementById("searchInput");
+  const cards = document.querySelectorAll(".card");
 
-    searchInput.addEventListener("input", function () {
-      const keyword = this.value.toLowerCase();
-      cards.forEach(card => {
-        const title = card.getAttribute("data-title");
-        const body = card.getAttribute("data-body");
-        const match = title.includes(keyword) || body.includes(keyword);
-        card.style.display = match ? "block" : "none";
-      });
+  function highlight(text, keyword) {
+    if (!keyword) return text;
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(escaped, "gi");
+    return text.replace(re, match => `<mark>${match}</mark>`);
+  }
+
+  searchInput.addEventListener("input", function () {
+    const keyword = this.value.toLowerCase();
+
+    cards.forEach(card => {
+      const titleElem = card.querySelector("h3");
+      const bodyElem = card.querySelector("p:not(.date)");
+
+      const rawTitle = card.getAttribute("data-title");
+      const rawBody = card.getAttribute("data-body");
+
+      const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
+
+      if (match || keyword === "") {
+        card.style.display = "block";
+        card.style.opacity = 0;
+        setTimeout(() => {
+          card.style.opacity = 1;
+        }, 50);
+      } else {
+        card.style.display = "none";
+      }
+
+      // ハイライト処理
+      const origTitle = titleElem.textContent;
+      const origBody = bodyElem.textContent;
+      titleElem.innerHTML = highlight(origTitle, keyword);
+      bodyElem.innerHTML = highlight(origBody, keyword);
     });
-  </script>
+  });
+</script>
+
 </main>
 {{ end }}

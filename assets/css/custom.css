@@ -66,3 +66,13 @@
   max-width: 100%;  /* © ‚±‚±‚ªd—vI */
   margin: 0 auto;
 }
+
+mark {
+  background-color: yellow;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.card {
+  transition: opacity 0.3s ease;
+}
