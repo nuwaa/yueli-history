@@ -13,6 +13,8 @@ relativeURLs = false
   dateFormat = "2006-01-02"
   showReadingTime = true
   showLastMod = true
+
+[params.assets]
   customCSS = ["css/custom.css"]
 
 [[menu.main]]
