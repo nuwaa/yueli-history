@@ -1,9 +1,9 @@
-/* ƒJ[ƒhƒzƒo[Œø‰Ê */
+/* ã‚«ãƒ¼ãƒ‰ãƒ›ãƒãƒ¼åŠ¹æœ */
 .card:hover {
   transform: scale(1.02);
 }
 
-/* ¿–âˆê——ƒJ[ƒh‚ÌƒŒƒCƒAƒEƒg */
+/* è³ªå•ä¸€è¦§ã‚«ãƒ¼ãƒ‰ã®ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 
-/* ƒJ[ƒh‚ÌŠî–{ƒXƒ^ƒCƒ‹ */
+/* ã‚«ãƒ¼ãƒ‰ã®åŸºæœ¬ã‚¹ã‚¿ã‚¤ãƒ« */
 .card {
   background-color: #fffafc;
   border: 1px dashed #e68ac1;
@@ -24,14 +24,14 @@
   transition: opacity 0.3s ease;
 }
 
-/* ŒŸõƒnƒCƒ‰ƒCƒg */
+/* æ¤œç´¢ãƒã‚¤ãƒ©ã‚¤ãƒˆ */
 mark {
   background-color: yellow;
   padding: 0 2px;
   border-radius: 3px;
 }
 
-/* ‘S‘Ì‚Ì—]”’’²®‚ÆƒXƒNƒ[ƒ‹§Œä */
+/* å…¨ä½“ã®ä½™ç™½èª¿æ•´ã¨ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«åˆ¶å¾¡ */
 html, body {
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ html, body {
   width: 100%;
 }
 
-/* eƒRƒ“ƒeƒi—Ş‚Ì•§ŒÀ‚ÆƒI[ƒo[ƒtƒ[§Œä */
+/* è¦ªã‚³ãƒ³ãƒ†ãƒŠé¡ã®å¹…åˆ¶é™ã¨ã‚ªãƒ¼ãƒãƒ¼ãƒ•ãƒ­ãƒ¼åˆ¶å¾¡ */
 main, .page, .single, .cute-article {
   box-sizing: border-box;
   max-width: 100vw;
@@ -47,20 +47,18 @@ main, .page, .single, .cute-article {
   overflow-x: hidden !important;
 }
 
-/* ‰Âˆ¤‚­‚Ä_“î‚È‹L–ƒJ[ƒhiÚ×ƒy[ƒWj */
 .cute-article {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 2rem;
+  margin: 2rem auto;
   background-color: #fff7fa;
   border-radius: 16px;
-  padding: 2rem;
-  width: 100%;
-  max-width: 100%;
-  margin: 2rem auto;
-  box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
-  box-sizing: border-box;
-  overflow-x: hidden;
 }
 
-/* ƒŒƒXƒ|ƒ“ƒVƒu‚ÉÅ‘å•’²® */
+
+/* ãƒ¬ã‚¹ãƒãƒ³ã‚·ãƒ–ã«æœ€å¤§å¹…èª¿æ•´ */
 @media (min-width: 768px) {
   .cute-article {
     max-width: 90vw;
@@ -73,7 +71,7 @@ main, .page, .single, .cute-article {
   }
 }
 
-/* ƒI[ƒo[‚µ‚â‚·‚¢—v‘f‚Ì—}§ */
+/* ã‚ªãƒ¼ãƒãƒ¼ã—ã‚„ã™ã„è¦ç´ ã®æŠ‘åˆ¶ */
 .cute-article img,
 .cute-article table,
 .cute-article iframe,
@@ -85,12 +83,12 @@ main, .page, .single, .cute-article {
   word-break: break-word;
 }
 
-/* mark ‚âƒŠƒ“ƒN‚ª‚Í‚İo‚³‚È‚¢‚æ‚¤‚É */
+/* mark ã‚„ãƒªãƒ³ã‚¯ãŒã¯ã¿å‡ºã•ãªã„ã‚ˆã†ã« */
 mark, a {
   word-break: break-word;
 }
 
-/* ¿–âˆê———pƒXƒ^ƒCƒ‹i‰Âˆ¤‚¢ƒJ[ƒh•—j */
+/* è³ªå•ä¸€è¦§ç”¨ã‚¹ã‚¿ã‚¤ãƒ«ï¼ˆå¯æ„›ã„ã‚«ãƒ¼ãƒ‰é¢¨ï¼‰ */
 .question-cards .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -138,7 +136,7 @@ mark, a {
   text-decoration: none;
 }
 
-/* ‘SƒRƒ“ƒeƒ“ƒc‚Ì‰¡‚Í‚İo‚µ‘Îôi•¶š—ñ‚Ì‹­§‰üsj */
+/* å…¨ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã®æ¨ªã¯ã¿å‡ºã—å¯¾ç­–ï¼ˆæ–‡å­—åˆ—ã®å¼·åˆ¶æ”¹è¡Œï¼‰ */
 .cute-article, .cute-article * {
   word-break: break-word;
   overflow-wrap: break-word;
@@ -151,5 +149,37 @@ mark, a {
   overflow-x: auto;
   display: block;
   box-sizing: border-box;
+  word-break: break-word;
+}
+
+/* ğŸ’¡ ãƒšãƒ¼ã‚¸å…¨ä½“ã®å¼·åˆ¶æ”¹è¡Œï¼†æ¨ªã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«é˜²æ­¢ */
+html, body {
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* ğŸ’¡ cute-articleå†…ã®ã™ã¹ã¦ã«æ”¹è¡Œè¨±å¯ã¨æŠ˜è¿”ã— */
+.cute-article, .cute-article * {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+/* ğŸ’¡ ãƒ†ãƒ¼ãƒ–ãƒ«å°‚ç”¨ï¼šãƒ©ãƒƒãƒ‘ãƒ¼ã§ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«è¨±å¯ */
+.cute-article table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: normal;
+}
+
+/* ğŸ’¡ ãƒ†ãƒ¼ãƒ–ãƒ«ã‚»ãƒ«ã«æ”¹è¡Œè¨±å¯ */
+.cute-article td, .cute-article th {
+  white-space: normal;
   word-break: break-word;
 }
