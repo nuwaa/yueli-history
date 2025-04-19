@@ -81,7 +81,11 @@ mark {
   background-color: #fff7fa;
   border-radius: 16px;
   padding: 2rem;
-  max-width: 1200px;  /* ← お好みで調整（例：1000px, 1400pxなど） */
+  max-width: 1200px;
   margin: 2rem auto;
   box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+
+  box-sizing: border-box;         /* ← padding込みで幅を制御 */
+  overflow-x: hidden;             /* ← 水平方向にスクロールバー出さない */
+  width: 100%;                    /* ← 明示的に幅を制限 */
 }
