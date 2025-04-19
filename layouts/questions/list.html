@@ -1,15 +1,17 @@
 {{ define "main" }}
 <main class="page archive">
+
+  <!-- 🌸 ナビバー風リンク（上部） -->
+  <nav class="cute-nav">
+    <a href="/">🏠 ホーム</a>
+    <a href="/questions/">❓ 質問一覧</a>
+  </nav>
+
   <div class="page-header">
     <h1 class="page-title">質問一覧</h1>
   </div>
 
-  <!-- 上部リンク -->
-  <div style="text-align:center; margin-bottom: 1.5rem;">
-    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
-  </div>
-
-  <!-- カード一覧 -->
+  <!-- 質問カード一覧 -->
   <div class="question-cards">
     <div class="card-container">
       {{ range .Pages.ByDate.Reverse }}
@@ -23,17 +25,21 @@
     </div>
   </div>
 
-  <!-- 広告スペース -->
+  <!-- 🌸 ナビバー風リンク（下部） -->
+  <nav class="cute-nav">
+    <a href="/">🏠 ホーム</a>
+    <a href="/questions/">❓ 質問一覧</a>
+  </nav>
+
+  <!-- 📢 広告エリア -->
   <div style="margin: 2rem 0; text-align:center;">
-    <!-- Google AdSense予定エリア -->
+    <!-- 広告（準備中） -->
+    <div style="font-size: 0.85rem; color: #cc88aa;">
+      📢 広告エリア（準備中）
+    </div>
   </div>
 
-  <!-- 下部リンク -->
-  <div style="text-align:center; margin-top: 2rem;">
-    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
-  </div>
-
-  <!-- 著作権表示 -->
+  <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
     © 2025 月璃(Yueli)
   </footer>
