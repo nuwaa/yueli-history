@@ -1,34 +1,15 @@
 {{ define "main" }}
 <main class="page single cute-article">
+  <h1>デバッグ用 - 質問一覧</h1>
 
-  <!-- ナビバー -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+  <p>ページ数: {{ len .Pages }}</p>
 
-  <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">質問一覧</h1>
-  </div>
-
-  <!-- カード一覧 -->
-  <div class="question-cards">
-    <div class="card-container">
-      {{ range .Pages.ByDate.Reverse }}
-        <div class="card">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Plain | truncate 80 }}</p>
-          <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
-        </div>
-      {{ end }}
-    </div>
-  </div>
-
-  <!-- 著作権 -->
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
-    © 2025 月璃(Yueli) 🌙
-  </footer>
-
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ else }}
+      <li>データなし（.Pages が空）</li>
+    {{ end }}
+  </ul>
 </main>
 {{ end }}
