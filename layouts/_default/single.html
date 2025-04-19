@@ -1,21 +1,20 @@
 {{ define "main" }}
-<main class="post-card">
-  <nav class="post-nav">
-    <a class="nav-btn" href="/">🏠 ホーム</a>
-    <a class="nav-btn" href="/questions/">📋 質問一覧</a>
-  </nav>
+<main class="page single">
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </header>
 
-  <article>
-    <h1>{{ .Title }}</h1>
-    <p class="date">📅 {{ .Date.Format "2006年01月02日" }}</p>
-    <div class="content">
-      {{ .Content }}
-    </div>
-  </article>
+  <div class="page-content">
+    {{ .Content }}
+  </div>
 
-  <nav class="post-nav post-nav-bottom">
-    <a class="nav-btn" href="/">🏠 ホーム</a>
-    <a class="nav-btn" href="/questions/">📋 質問一覧</a>
-  </nav>
+  <!-- ここに追記 -->
+  <div style="margin: 2rem 0; text-align:center;">
+    <!-- Google AdSenseをここに貼る -->
+  </div>
+
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
+    © 2025 月璃(Yueli)
+  </footer>
 </main>
 {{ end }}
