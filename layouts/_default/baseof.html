@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZWFMY2RM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CYZWFMY2RM');
-</script>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>{{ .Title }}</title>
-    {{ partial "head.html" . }}
-    {{ range .Site.Params.customCSS }}
-    <link rel="stylesheet" href="{{ . | relURL }}">
-    {{ end }}
-    <!-- ✅ 強制追記：custom.cssを確実に読み込む -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   </head>
   <body>
