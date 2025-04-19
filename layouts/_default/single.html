@@ -4,6 +4,12 @@
     <h1 class="page-title">{{ .Title }}</h1>
   </header>
 
+  <!-- 🔗 上部リンク -->
+  <div style="text-align:center; margin: 1.5rem 0;">
+    <a href="/" style="margin-right: 1rem;">🏠 ホーム</a>
+    <a href="/questions/">❓ 質問一覧</a>
+  </div>
+
   {{ if .Params.Cover }}
     <figure class="page-cover">
       <img src="{{ .Params.Cover | relURL }}" alt="Cover image" />
@@ -14,16 +20,22 @@
     {{ .Content }}
   </div>
 
-  <!-- 広告エリア -->
+  <!-- 🔗 下部リンク（広告より上）-->
+  <div style="text-align:center; margin: 2rem 0 1rem 0;">
+    <a href="/" style="margin-right: 1rem;">🏠 ホーム</a>
+    <a href="/questions/">❓ 質問一覧</a>
+  </div>
+
+  <!-- 📢 広告エリア（仮）-->
   <div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
     <div style="font-size: 0.85rem; color: #cc88aa;">
       📢 広告エリア（準備中）
     </div>
   </div>
 
-  <!-- 著作権 -->
+  <!-- 🌙 著作権 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
-    © 2025 月璃(Yueli) 🍌
+    © 2025 月璃(Yueli) 🌙
   </footer>
 </main>
 {{ end }}
