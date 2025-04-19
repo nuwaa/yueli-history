@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   </head>
   <body>
-    {{ block "main" . }}{{ end }}
+    <main style="border: 2px dashed pink; padding: 1rem;">
+      {{ block "main" . }}{{ end }}
+    </main>
   </body>
 </html>
