@@ -16,6 +16,12 @@
     <input type="text" id="searchInput" placeholder="キーワードで検索" style="padding: 0.5rem; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
 
+  <!-- ✅ 質問件数表示 -->
+  {{ $questions := .Pages }}
+  <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
+    現在の質問件数：{{ len $questions }}件
+  </p>
+
   <!-- カード一覧 -->
   <div class="question-cards" style="width: 100%;">
     <div class="card-container" id="cardContainer">
