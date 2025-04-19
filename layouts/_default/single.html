@@ -1,24 +1,28 @@
 {{ define "main" }}
 <main class="page single">
-  <!-- ページヘッダー -->
   <header class="page-header">
     <h1 class="page-title">{{ .Title }}</h1>
   </header>
 
-  <!-- 本文表示 -->
+  {{ if .Params.Cover }}
+    <figure class="page-cover">
+      <img src="{{ .Params.Cover | relURL }}" alt="Cover image" />
+    </figure>
+  {{ end }}
+
   <div class="page-content">
     {{ .Content }}
   </div>
 
-  <!-- 💖 広告スペース（今は仮の表示） -->
-  <div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
+  <!-- 💖 広告スペース（今は仮） -->
+  <div style="margin: 3rem auto 1rem auto; text-align:center;">
     <div style="font-size: 0.85rem; color: #cc88aa;">
-      📢 広告エリア（準備中）
+      📢 広告エリア（将来的に表示予定）
     </div>
   </div>
 
   <!-- 🌙 著作権表示 -->
-  <footer class="cute-footer" style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
     © 2025 月璃(Yueli) 🌙
   </footer>
 </main>
