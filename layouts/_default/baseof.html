@@ -6,6 +6,17 @@
 
     {{ $style := resources.Get "css/custom.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYZWFMY2RM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYZWFMY2RM');
+</script>
+
   </head>
   <body>
     <main style="border: 2px dashed pink; padding: 1rem;">
