@@ -1,20 +1,25 @@
 {{ define "main" }}
 <main class="page single">
+  <!-- ページヘッダー -->
   <header class="page-header">
     <h1 class="page-title">{{ .Title }}</h1>
   </header>
 
+  <!-- 本文表示 -->
   <div class="page-content">
     {{ .Content }}
   </div>
 
-  <!-- ここに追記 -->
-  <div style="margin: 2rem 0; text-align:center;">
-    <!-- Google AdSenseをここに貼る -->
+  <!-- 💖 広告スペース（今は仮の表示） -->
+  <div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
+    <div style="font-size: 0.85rem; color: #cc88aa;">
+      📢 広告エリア（準備中）
+    </div>
   </div>
 
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
-    © 2025 月璃(Yueli)
+  <!-- 🌙 著作権表示 -->
+  <footer class="cute-footer" style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+    © 2025 月璃(Yueli) 🌙
   </footer>
 </main>
 {{ end }}
