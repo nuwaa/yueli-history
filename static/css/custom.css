@@ -44,3 +44,44 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+.question-cards .card {
+  background: #fff7fa; /* ’W‚¢ƒsƒ“ƒN”wŒi */
+  border: 2px solid #ff99cc; /* —D‚µ‚¢ƒsƒ“ƒN˜gü */
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(255, 153, 204, 0.3); /* ƒsƒ“ƒNŒnƒVƒƒƒhƒE */
+  transition: transform 0.2s ease;
+  max-width: 420px;
+}
+
+.question-cards .card:hover {
+  transform: translateY(-3px);
+  background-color: #fff0f6;
+}
+
+.question-cards .card h3 {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 1.3em;
+  color: #cc3366;
+}
+
+.question-cards .card p.date {
+  font-size: 0.85em;
+  color: #bb6688;
+}
+
+.question-cards .card p {
+  color: #444;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.question-cards .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #cc3366;
+  font-weight: bold;
+  text-decoration: underline;
+}
