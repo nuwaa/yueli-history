@@ -7,6 +7,8 @@
     {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
+    <!-- ✅ 強制追記：custom.cssを確実に読み込む -->
+    <link rel="stylesheet" href="/css/custom.css?v=0420">
   </head>
   <body>
     {{ block "main" . }}{{ end }}
