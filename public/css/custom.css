@@ -1,0 +1,121 @@
+/* カード一覧の表示（質問一覧用） */
+.question-cards .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.question-cards .card {
+  background: #fff7fa;
+  border: 2px solid #ff99cc;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px rgba(255, 153, 204, 0.3);
+  transition: transform 0.2s ease;
+  max-width: 420px;
+}
+
+.question-cards .card:hover {
+  transform: translateY(-3px);
+  background-color: #fff0f6;
+}
+
+.question-cards .card h3 {
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 1.3em;
+  color: #cc3366;
+}
+
+.question-cards .card p.date {
+  font-size: 0.85em;
+  color: #bb6688;
+}
+
+.question-cards .card p {
+  color: #444;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.question-cards .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #cc3366;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* 詳細ページ：かわいいカードスタイル */
+.cute-article {
+  background-color: #fff7fa;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+}
+
+.cute-article h1, .cute-content h2 {
+  color: #cc3366;
+  font-family: "Hiragino Maru Gothic ProN", "Rounded Mplus 1c", sans-serif;
+}
+
+.cute-content {
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* 可愛くて見やすいテーブル */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
+  background-color: #fff;
+  border: 2px solid #ffb6c1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+}
+
+table th, table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ffc0cb;
+  text-align: left;
+}
+
+table th {
+  background-color: #ffe4ec;
+  color: #cc3366;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #fff6fa;
+}
+
+/* ナビバー風リンク */
+.cute-nav {
+  background-color: #ffe4ec;
+  padding: 0.75rem;
+  text-align: center;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.3);
+}
+
+.cute-nav a {
+  color: #cc3366;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1rem;
+  font-size: 1.05em;
+  transition: color 0.2s ease;
+}
+
+.cute-nav a:hover {
+  color: #e60073;
+}
