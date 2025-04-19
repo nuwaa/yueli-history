@@ -144,3 +144,12 @@ mark, a {
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+.cute-article table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  box-sizing: border-box;
+  word-break: break-word;
+}
