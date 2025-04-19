@@ -1,51 +1,36 @@
 {{ define "main" }}
-<main class="page single special">
-  <div class="container">
-
-    <!-- 上部リンク -->
-    <div style="text-align:center; margin-bottom: 1.5rem;">
-      <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
-    </div>
-
-    <!-- タイトル -->
-    <header class="page-header">
-      <h1 class="page-title">質問一覧</h1>
-    </header>
-
-    <!-- カード一覧 -->
-    <div class="content">
-      <div class="row">
-        {{ range .Pages.ByDate.Reverse }}
-          <div class="col-12 col-md-6 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h2 class="card-title">
-                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </h2>
-                <p class="card-text"><small>{{ .Date.Format "2006年01月02日" }}</small></p>
-                <a href="{{ .RelPermalink }}">続きを読む →</a>
-              </div>
-            </div>
-          </div>
-        {{ end }}
-      </div>
-    </div>
-
-    <!-- 広告予定エリア -->
-    <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
-      <!-- Google AdSense用 -->
-    </div>
-
-    <!-- 下部リンク -->
-    <div style="text-align:center; margin-top: 2rem;">
-      <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
-    </div>
-
-    <!-- 著作権表示 -->
-    <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
-      © 2025 月璃(Yueli)
-    </footer>
-
+<main class="page archive">
+  <div class="page-header">
+    <h1 class="page-title">質問一覧</h1>
   </div>
+
+  <!-- 上部リンク -->
+  <div class="page-links" style="text-align:center; margin-bottom: 1.5rem;">
+    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+  </div>
+
+  <div class="archive-posts">
+    {{ range .Pages.ByDate.Reverse }}
+      <article class="archive-post">
+        <a class="archive-post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="archive-post-date">{{ .Date.Format "2006年01月02日" }}</span>
+      </article>
+    {{ end }}
+  </div>
+
+  <!-- 広告予定エリア -->
+  <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
+    <!-- Google AdSenseを将来的にここに -->
+  </div>
+
+  <!-- 下部リンク -->
+  <div class="page-links" style="text-align:center; margin-top: 2rem;">
+    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+  </div>
+
+  <!-- 著作権表示 -->
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
+    © 2025 月璃(Yueli)
+  </footer>
 </main>
 {{ end }}
