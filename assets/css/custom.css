@@ -218,3 +218,18 @@ html, body {
   white-space: normal;
   table-layout: auto !important; /* ← ハード指定打ち消し用 */
 }
+
+.page-content table {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: auto !important;
+  display: block;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.page-content td,
+.page-content th {
+  white-space: normal !important;
+  word-break: break-word !important;
+}
