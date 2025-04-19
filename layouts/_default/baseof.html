@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+    {{ $style := resources.Get "css/custom.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   </head>
   <body>
     <main style="border: 2px dashed pink; padding: 1rem;">
