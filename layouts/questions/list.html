@@ -1,6 +1,5 @@
-<!-- list.html 初期のカード表示スタイルに復元 -->
 {{ define "main" }}
-<main class="page single cute-article">
+<main class="page single cute-article" style="max-width: 100%; width: 100%">
 
   <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
@@ -10,8 +9,6 @@
 
   <div class="page-header" style="text-align: center;">
     <h1 class="page-title">質問一覧</h1>
-    <p style="text-align:center;">📄 ページ数: {{ len .Pages }}</p>
-
   </div>
 
   <!-- 🔍 検索バー -->
@@ -20,7 +17,7 @@
   </div>
 
   <!-- カード一覧 -->
-  <div class="question-cards">
+  <div class="question-cards" style="width: 100%;">
     <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
         <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
@@ -86,6 +83,7 @@
           card.style.display = "none";
         }
 
+        // ✅ タイトルのリンク保持したままテキストだけハイライト
         const originalTitle = titleLink.textContent;
         titleLink.innerHTML = highlight(originalTitle, keyword);
 
@@ -94,5 +92,6 @@
       });
     });
   </script>
+
 </main>
 {{ end }}
