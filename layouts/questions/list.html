@@ -16,7 +16,7 @@
         <div class="card">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Summary }}</p>
+          <p>{{ .Plain | truncate 80 }}</p>
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
       {{ end }}
@@ -25,7 +25,7 @@
 
   <!-- 広告スペース -->
   <div style="margin: 2rem 0; text-align:center;">
-    <!-- AdSenseエリア -->
+    <!-- Google AdSense予定エリア -->
   </div>
 
   <!-- 下部リンク -->
