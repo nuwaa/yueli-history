@@ -1,18 +1,17 @@
-<!-- list.html 初期のカード表示スタイルに復元 -->
 {{ define "main" }}
 <main class="page single cute-article">
-
-  <!-- 🌸 ナビバー（上部） -->
+  <!-- ナビバー -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
   </nav>
 
+  <!-- 見出し -->
   <div class="page-header" style="text-align: center;">
     <h1 class="page-title">質問一覧</h1>
   </div>
 
-  <!-- 🔍 検索バー -->
+  <!-- 検索バー -->
   <div style="text-align:center; margin: 1rem auto;">
     <input type="text" id="searchInput" placeholder="キーワードで検索" style="padding: 0.5rem; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
@@ -31,25 +30,18 @@
     </div>
   </div>
 
-  <!-- 🌸 ナビバー（下部） -->
+  <!-- フッターのナビゲーション -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
   </nav>
 
-  <!-- 📢 広告エリア -->
-  <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
-    <div style="font-size: 0.85rem; color: #cc88aa;">
-      📢 広告エリア（準備中）
-    </div>
-  </div>
-
-  <!-- 🌙 著作権表示 -->
+  <!-- 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
     © 2025 月璃(Yueli) 🌙
   </footer>
 
-  <!-- 🔍 JavaScript for 検索 -->
+  <!-- 検索JS -->
   <script>
     const searchInput = document.getElementById("searchInput");
     const cards = document.querySelectorAll(".card");
@@ -84,11 +76,8 @@
           card.style.display = "none";
         }
 
-        const originalTitle = titleLink.textContent;
-        titleLink.innerHTML = highlight(originalTitle, keyword);
-
-        const originalBody = bodyElem.textContent;
-        bodyElem.innerHTML = highlight(originalBody, keyword);
+        titleLink.innerHTML = highlight(titleLink.textContent, keyword);
+        bodyElem.innerHTML = highlight(bodyElem.textContent, keyword);
       });
     });
   </script>
