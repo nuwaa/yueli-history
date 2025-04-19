@@ -1,7 +1,41 @@
-
 baseURL = "https://yueli-note.yongfuhua.jp/"
 languageCode = "ja"
 title = "ユエリーの台日近現代史ノート"
-theme = ""
+theme = "LoveIt"
+canonifyURLs = true
+relativeURLs = false
+
 [params]
-  mainSections = ["questions"]
+  title = "ユエリーの台日近現代史ノート"
+  description = "台日近現代史に関する調査記録"
+  defaultTheme = "auto"
+  showCodeCopyButtons = true
+  dateFormat = "2006-01-02"
+  showReadingTime = true
+  showLastMod = true
+  enableHeadAddons = true
+
+[params.assets]
+  customCSS = ["css/custom.css"]
+
+[[menu.main]]
+  identifier = "home"
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "questions"
+  name = "質問一覧"
+  url = "/questions/"
+  weight = 2
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML"]
+
+[params.footer]
+copyright = "© 2025 月璃(Yueli)"
+
+[params.author]
+name = "月璃(Yueli)"

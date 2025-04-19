@@ -177,15 +177,16 @@ mark {
   transform: translateY(-4px);
 }
 
+/* 💡 優先的に適用されるよう !important をつけます */
 .question-cards .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.2rem;
-  padding: 1rem;
-  justify-content: center;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 1.5rem !important;
+  padding: 1rem !important;
+  justify-content: center !important;
 }
 
 .card {
-  padding: 0.8rem;
-  font-size: 0.9em;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
