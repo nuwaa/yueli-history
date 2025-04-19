@@ -130,3 +130,35 @@ html, body {
 .page, .single {
   overflow-x: hidden !important;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+/* 最上位のコンテナも確認用 */
+main, .page, .single, .cute-article {
+  box-sizing: border-box;
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* 画像・表・動画などの拡張要素も対策 */
+.cute-article img,
+.cute-article table,
+.cute-article iframe,
+.cute-article pre {
+  max-width: 100%;
+  display: block;
+  overflow-x: auto;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+/* mark やリンクが暴れないように */
+mark, a {
+  word-break: break-word;
+}
