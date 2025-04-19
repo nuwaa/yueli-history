@@ -81,11 +81,23 @@ mark {
   background-color: #fff7fa;
   border-radius: 16px;
   padding: 2rem;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 95vw;       /* ← 画面幅の95%まで広がる */
   margin: 2rem auto;
   box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
-  box-sizing: border-box;         /* ← padding込みで幅を制御 */
-  overflow-x: hidden;             /* ← 水平方向にスクロールバー出さない */
-  width: 100%;                    /* ← 明示的に幅を制限 */
+/* レスポンシブにカード幅を調整 */
+@media (min-width: 768px) {
+  .cute-article {
+    max-width: 90vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cute-article {
+    max-width: 1100px;
+  }
 }
