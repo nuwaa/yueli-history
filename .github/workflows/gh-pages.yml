@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.125.3'
 
       - name: Build
-        run: echo "skipping hugo build, using prebuilt docs"
+        run: hugo --minify
 
       - name: Create CNAME
         run: echo "yueli-note.yongfuhua.jp" > ./public/CNAME
