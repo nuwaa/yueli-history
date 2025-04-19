@@ -1,7 +1,7 @@
 {{ define "main" }}
-<main class="page archive">
+<main class="page single cute-article">
 
-  <!-- 🌸 ナビバー風リンク（上部） -->
+  <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
@@ -11,7 +11,7 @@
     <h1 class="page-title">質問一覧</h1>
   </div>
 
-  <!-- 質問カード一覧 -->
+  <!-- カード一覧 -->
   <div class="question-cards">
     <div class="card-container">
       {{ range .Pages.ByDate.Reverse }}
@@ -25,23 +25,22 @@
     </div>
   </div>
 
-  <!-- 🌸 ナビバー風リンク（下部） -->
+  <!-- 🌸 ナビバー（下部） -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
   </nav>
 
   <!-- 📢 広告エリア -->
-  <div style="margin: 2rem 0; text-align:center;">
-    <!-- 広告（準備中） -->
+  <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
     <div style="font-size: 0.85rem; color: #cc88aa;">
       📢 広告エリア（準備中）
     </div>
   </div>
 
   <!-- 🌙 著作権表示 -->
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
-    © 2025 月璃(Yueli)
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+    © 2025 月璃(Yueli) 🌙
   </footer>
 </main>
 {{ end }}
