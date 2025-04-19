@@ -137,3 +137,10 @@ mark, a {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* 全コンテンツの横はみ出し対策（文字列の強制改行） */
+.cute-article, .cute-article * {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
