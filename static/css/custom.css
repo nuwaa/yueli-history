@@ -134,3 +134,13 @@ table th {
 table tr:nth-child(even) {
   background-color: #fff6fa;
 }
+
+/* 詳細ページ全体のカード幅拡大 */
+.cute-article {
+  background-color: #fff7fa;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 900px; /* ← ここ拡大！ */
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+}
