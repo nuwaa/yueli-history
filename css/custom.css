@@ -1,3 +1,4 @@
+/* カード一覧の表示（質問一覧用） */
 .question-cards .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -6,52 +7,12 @@
 }
 
 .question-cards .card {
-  background: #fefefe;
-  border: 2px solid #007acc;
+  background: #fff7fa;
+  border: 2px solid #ff99cc;
   border-radius: 16px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease;
-  max-width: 420px;
-}
-
-.question-cards .card:hover {
-  transform: scale(1.02);
-  background-color: #f0faff;
-}
-
-.question-cards .card h3 {
-  margin-top: 0;
-  font-size: 1.3em;
-  color: #007acc;
-}
-
-.question-cards .card p.date {
-  font-size: 0.9em;
-  color: #777;
-}
-
-.question-cards .card p {
-  color: #333;
-  font-size: 0.95em;
-}
-
-.question-cards .read-more {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0055aa;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.question-cards .card {
-  background: #fff7fa; /* 淡いピンク背景 */
-  border: 2px solid #ff99cc; /* 優しいピンク枠線 */
-  border-radius: 16px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 6px 12px rgba(255, 153, 204, 0.3); /* ピンク系シャドウ */
+  box-shadow: 0 6px 12px rgba(255, 153, 204, 0.3);
   transition: transform 0.2s ease;
   max-width: 420px;
 }
@@ -86,11 +47,12 @@
   text-decoration: underline;
 }
 
+/* 詳細ページ：かわいいカードスタイル */
 .cute-article {
   background-color: #fff7fa;
   border-radius: 16px;
   padding: 2rem;
-  max-width: 720px;
+  max-width: 1000px;
   margin: 2rem auto;
   box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
 }
@@ -135,12 +97,25 @@ table tr:nth-child(even) {
   background-color: #fff6fa;
 }
 
-/* 詳細ページ全体のカード幅拡大 */
-.cute-article {
-  background-color: #fff7fa;
-  border-radius: 16px;
-  padding: 2rem;
-  max-width: 1000px; /* ← ここ拡大！ */
-  margin: 2rem auto;
-  box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+/* ナビバー風リンク */
+.cute-nav {
+  background-color: #ffe4ec;
+  padding: 0.75rem;
+  text-align: center;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 182, 193, 0.3);
+}
+
+.cute-nav a {
+  color: #cc3366;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1rem;
+  font-size: 1.05em;
+  transition: color 0.2s ease;
+}
+
+.cute-nav a:hover {
+  color: #e60073;
 }
