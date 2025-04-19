@@ -183,3 +183,27 @@ html, body {
   white-space: normal;
   word-break: break-word;
 }
+
+/* 🧱 .page-content 内のテーブルが横にはみ出さないようにする */
+.page-content table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  white-space: normal;
+}
+
+/* テーブルセルも改行可能にする */
+.page-content td,
+.page-content th {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* 本文中の画像もはみ出しを防ぐ */
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
