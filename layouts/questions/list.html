@@ -1,31 +1,51 @@
 {{ define "main" }}
-<main>
-  <div class="home-button-top" style="text-align:center; margin-bottom:1rem;">
-    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+<main class="page single special">
+  <div class="container">
+
+    <!-- 上部リンク -->
+    <div style="text-align:center; margin-bottom: 1.5rem;">
+      <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+    </div>
+
+    <!-- タイトル -->
+    <header class="page-header">
+      <h1 class="page-title">質問一覧</h1>
+    </header>
+
+    <!-- カード一覧 -->
+    <div class="content">
+      <div class="row">
+        {{ range .Pages.ByDate.Reverse }}
+          <div class="col-12 col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+                <p class="card-text"><small>{{ .Date.Format "2006年01月02日" }}</small></p>
+                <a href="{{ .RelPermalink }}">続きを読む →</a>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- 広告予定エリア -->
+    <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
+      <!-- Google AdSense用 -->
+    </div>
+
+    <!-- 下部リンク -->
+    <div style="text-align:center; margin-top: 2rem;">
+      <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
+    </div>
+
+    <!-- 著作権表示 -->
+    <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
+      © 2025 月璃(Yueli)
+    </footer>
+
   </div>
-
-  <h1>質問一覧</h1>
-
-  {{ range .Pages.ByDate.Reverse }}
-    <article style="margin-bottom: 2rem;">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p><small>{{ .Date.Format "2006年01月02日" }}</small></p>
-      <p><a href="{{ .RelPermalink }}">続きを読む →</a></p>
-    </article>
-  {{ end }}
-
-  <!-- 広告予定スペース -->
-  <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
-    <!-- Google AdSenseのコードを将来的にここに -->
-    <!-- 例: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" ...></ins> -->
-  </div>
-
-  <div class="home-button-bottom" style="text-align:center; margin-top:1rem;">
-    <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
-  </div>
-
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.9rem; color: #888;">
-    © 2025 月璃(Yueli)
-  </footer>
 </main>
 {{ end }}
