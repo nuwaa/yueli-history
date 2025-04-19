@@ -1,6 +1,6 @@
-<!-- list.html 修正済み（質問一覧専用の cute-list クラス使用） -->
+<!-- list.html 初期のカード表示スタイルに復元 -->
 {{ define "main" }}
-<main class="page list cute-list">
+<main class="page single cute-article">
 
   <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
@@ -84,7 +84,6 @@
           card.style.display = "none";
         }
 
-        // ✅ タイトルリンクを維持しつつハイライト
         const originalTitle = titleLink.textContent;
         titleLink.innerHTML = highlight(originalTitle, keyword);
 
