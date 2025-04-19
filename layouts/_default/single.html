@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="page single cute-article" style="max-width: 100%; width: 100%;">
+<main class="page single cute-article">
 
   <!-- 🌸 ナビバー風リンク（上部） -->
   <nav class="cute-nav">
@@ -11,17 +11,11 @@
     <h1 class="page-title">{{ .Title }}</h1>
   </header>
 
-  {{ if .Params.Cover }}
-    <figure class="page-cover">
-      <img src="{{ .Params.Cover | relURL }}" alt="Cover image" />
-    </figure>
-  {{ end }}
-
   <div class="page-content cute-content">
     {{ .Content }}
   </div>
 
-  <!-- 🌸 ナビバー風リンク（下部／広告より上） -->
+  <!-- 🌸 ナビバー風リンク（下部） -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
@@ -34,9 +28,10 @@
     </div>
   </div>
 
-  <!-- 🌙 著作権 -->
+  <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
     © 2025 月璃(Yueli) 🌙
   </footer>
+
 </main>
 {{ end }}

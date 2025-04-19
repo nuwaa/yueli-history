@@ -155,3 +155,24 @@ mark {
   font-weight: bold;
   text-decoration: none;
 }
+
+.question-cards .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background: #fff0f5;
+  border: 2px solid #f8c8dc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(200, 150, 180, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
