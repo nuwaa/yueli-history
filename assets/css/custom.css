@@ -76,3 +76,12 @@ mark {
 .card {
   transition: opacity 0.3s ease;
 }
+
+.cute-article {
+  background-color: #fff7fa;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 1200px;  /* ← お好みで調整（例：1000px, 1400pxなど） */
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
+}
