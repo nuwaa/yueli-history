@@ -1,96 +1,37 @@
-<!-- list.html 初期のカード表示スタイルに復元 -->
 {{ define "main" }}
 <main class="page single cute-article">
-
-  <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
     <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
   </nav>
 
-  <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">質問一覧</h1>
-    <p style="text-align:center;">📄 ページ数: {{ len .Pages }}</p>
+  <h1 class="page-title">質問一覧</h1>
 
+  <div style="text-align:center;">
+    <input type="text" id="searchInput" placeholder="キーワードで検索">
   </div>
 
-  <!-- 🔍 検索バー -->
-  <div style="text-align:center; margin: 1rem auto;">
-    <input type="text" id="searchInput" placeholder="キーワードで検索" style="padding: 0.5rem; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
-  </div>
-
-  <!-- カード一覧 -->
   <div class="question-cards">
-    <div class="card-container" id="cardContainer">
-      {{ range .Pages.ByDate.Reverse }}
-        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Plain | truncate 80 }}</p>
-          <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
-        </div>
-      {{ end }}
-    </div>
+    {{ range .Pages.ByDate.Reverse }}
+      <div class="card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
+        <p>{{ .Plain | truncate 80 }}</p>
+        <a href="{{ .RelPermalink }}">続きを読む →</a>
+      </div>
+    {{ end }}
   </div>
 
-  <!-- 🌸 ナビバー（下部） -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+  <footer style="text-align:center;">© 2025 月璃(Yueli) 🌙</footer>
 
-  <!-- 📢 広告エリア -->
-  <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
-    <div style="font-size: 0.85rem; color: #cc88aa;">
-      📢 広告エリア（準備中）
-    </div>
-  </div>
-
-  <!-- 🌙 著作権表示 -->
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
-    © 2025 月璃(Yueli) 🌙
-  </footer>
-
-  <!-- 🔍 JavaScript for 検索 -->
   <script>
     const searchInput = document.getElementById("searchInput");
     const cards = document.querySelectorAll(".card");
-
-    function highlight(text, keyword) {
-      if (!keyword) return text;
-      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const re = new RegExp(escaped, "gi");
-      return text.replace(re, match => `<mark>${match}</mark>`);
-    }
-
     searchInput.addEventListener("input", function () {
       const keyword = this.value.toLowerCase();
-
       cards.forEach(card => {
-        const titleElem = card.querySelector("h3");
-        const titleLink = titleElem.querySelector("a");
-        const bodyElem = card.querySelector("p:not(.date)");
-
-        const rawTitle = card.getAttribute("data-title");
-        const rawBody = card.getAttribute("data-body");
-
-        const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
-
-        if (match || keyword === "") {
-          card.style.display = "block";
-          card.style.opacity = 0;
-          setTimeout(() => {
-            card.style.opacity = 1;
-          }, 50);
-        } else {
-          card.style.display = "none";
-        }
-
-        const originalTitle = titleLink.textContent;
-        titleLink.innerHTML = highlight(originalTitle, keyword);
-
-        const originalBody = bodyElem.textContent;
-        bodyElem.innerHTML = highlight(originalBody, keyword);
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(keyword) ? "block" : "none";
       });
     });
   </script>
