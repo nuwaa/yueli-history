@@ -1,5 +1,6 @@
+<!-- list.html 修正済み（質問一覧専用の cute-list クラス使用） -->
 {{ define "main" }}
-<main class="page single cute-article" style="max-width: 100%; width: 100%">
+<main class="page list cute-list">
 
   <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
@@ -17,7 +18,7 @@
   </div>
 
   <!-- カード一覧 -->
-  <div class="question-cards" style="width: 100%;">
+  <div class="question-cards">
     <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
         <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
@@ -83,7 +84,7 @@
           card.style.display = "none";
         }
 
-        // ✅ タイトルのリンク保持したままテキストだけハイライト
+        // ✅ タイトルリンクを維持しつつハイライト
         const originalTitle = titleLink.textContent;
         titleLink.innerHTML = highlight(originalTitle, keyword);
 
@@ -92,6 +93,5 @@
       });
     });
   </script>
-
 </main>
 {{ end }}
