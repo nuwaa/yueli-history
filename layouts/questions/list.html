@@ -49,47 +49,49 @@
   </footer>
 
   <!-- 🔍 JavaScript for 検索 -->
-<script>
-  const searchInput = document.getElementById("searchInput");
-  const cards = document.querySelectorAll(".card");
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const cards = document.querySelectorAll(".card");
 
-  function highlight(text, keyword) {
-    if (!keyword) return text;
-    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = new RegExp(escaped, "gi");
-    return text.replace(re, match => `<mark>${match}</mark>`);
-  }
+    function highlight(text, keyword) {
+      if (!keyword) return text;
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(escaped, "gi");
+      return text.replace(re, match => `<mark>${match}</mark>`);
+    }
 
-  searchInput.addEventListener("input", function () {
-    const keyword = this.value.toLowerCase();
+    searchInput.addEventListener("input", function () {
+      const keyword = this.value.toLowerCase();
 
-    cards.forEach(card => {
-      const titleElem = card.querySelector("h3");
-      const bodyElem = card.querySelector("p:not(.date)");
+      cards.forEach(card => {
+        const titleElem = card.querySelector("h3");
+        const titleLink = titleElem.querySelector("a");
+        const bodyElem = card.querySelector("p:not(.date)");
 
-      const rawTitle = card.getAttribute("data-title");
-      const rawBody = card.getAttribute("data-body");
+        const rawTitle = card.getAttribute("data-title");
+        const rawBody = card.getAttribute("data-body");
 
-      const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
+        const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
 
-      if (match || keyword === "") {
-        card.style.display = "block";
-        card.style.opacity = 0;
-        setTimeout(() => {
-          card.style.opacity = 1;
-        }, 50);
-      } else {
-        card.style.display = "none";
-      }
+        if (match || keyword === "") {
+          card.style.display = "block";
+          card.style.opacity = 0;
+          setTimeout(() => {
+            card.style.opacity = 1;
+          }, 50);
+        } else {
+          card.style.display = "none";
+        }
 
-      // ハイライト処理
-      const origTitle = titleElem.textContent;
-      const origBody = bodyElem.textContent;
-      titleElem.innerHTML = highlight(origTitle, keyword);
-      bodyElem.innerHTML = highlight(origBody, keyword);
+        // ✅ タイトルのリンク保持したままテキストだけハイライト
+        const originalTitle = titleLink.textContent;
+        titleLink.innerHTML = highlight(originalTitle, keyword);
+
+        const originalBody = bodyElem.textContent;
+        bodyElem.innerHTML = highlight(originalBody, keyword);
+      });
     });
-  });
-</script>
+  </script>
 
 </main>
 {{ end }}
