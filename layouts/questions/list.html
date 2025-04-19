@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="page single cute-article">
+<main class="page single cute-article" style="max-width: 100%; width: 100%">
 
   <!-- 🌸 ナビバー（上部） -->
   <nav class="cute-nav">
@@ -7,12 +7,12 @@
     <a href="/questions/">❓ 質問一覧</a>
   </nav>
 
-  <div class="page-header">
+  <div class="page-header" style="text-align: center;">
     <h1 class="page-title">質問一覧</h1>
   </div>
 
   <!-- カード一覧 -->
-  <div class="question-cards">
+  <div class="question-cards" style="width: 100%;">
     <div class="card-container">
       {{ range .Pages.ByDate.Reverse }}
         <div class="card">
