@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main class="page single cute-article">
 
-  <!-- 🔗 上部リンク（タイトルの上に移動） -->
-  <div style="text-align:center; margin: 1.5rem 0;">
-    <a href="/" style="margin-right: 1rem;">🏠 ホーム</a>
+  <!-- 🌸 ナビバー風リンク（上部） -->
+  <nav class="cute-nav">
+    <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
-  </div>
+  </nav>
 
   <header class="page-header">
     <h1 class="page-title">{{ .Title }}</h1>
@@ -21,11 +21,11 @@
     {{ .Content }}
   </div>
 
-  <!-- 🔗 下部リンク（広告より上）-->
-  <div style="text-align:center; margin: 2rem 0 1rem 0;">
-    <a href="/" style="margin-right: 1rem;">🏠 ホーム</a>
+  <!-- 🌸 ナビバー風リンク（下部／広告より上） -->
+  <nav class="cute-nav">
+    <a href="/">🏠 ホーム</a>
     <a href="/questions/">❓ 質問一覧</a>
-  </div>
+  </nav>
 
   <!-- 📢 広告エリア -->
   <div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
