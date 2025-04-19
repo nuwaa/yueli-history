@@ -9,18 +9,20 @@
     <a href="{{ "/" | relLangURL }}">🏠 ホームに戻る</a>
   </div>
 
-  <div class="archive-posts">
-    {{ range .Pages.ByDate.Reverse }}
-      <article class="archive-post">
-        <a class="archive-post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <span class="archive-post-date">{{ .Date.Format "2006年01月02日" }}</span>
-      </article>
-    {{ end }}
+  <div class="page-content">
+    <ul class="list-with-title">
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="date">{{ .Date.Format "2006年01月02日" }}</span>
+        </li>
+      {{ end }}
+    </ul>
   </div>
 
   <!-- 広告予定エリア -->
   <div class="adsense-placeholder" style="margin: 2rem 0; text-align:center;">
-    <!-- Google AdSenseを将来的にここに -->
+    <!-- Google AdSense設置予定 -->
   </div>
 
   <!-- 下部リンク -->
