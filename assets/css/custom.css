@@ -7,18 +7,18 @@ html, body {
   box-sizing: border-box;
 }
 
-/* --- 可愛いカード風の本文表示 --- */
+/* --- 可愛いカード風の本文表示（詳細ページ） --- */
 .cute-article {
   background-color: #fff7fa;
   border-radius: 16px;
-  padding: 2rem;
-  max-width: 1000px;
+  padding: 2.5rem;
+  max-width: 1200px;
   margin: 2rem auto;
   box-shadow: 0 8px 24px rgba(255, 192, 203, 0.2);
   box-sizing: border-box;
 }
 
-/* --- 本文中の画像や表も自然に表示 --- */
+/* --- 詳細ページ内の画像・テーブル共通スタイル --- */
 .cute-article img,
 .cute-article table {
   max-width: 100%;
@@ -27,19 +27,25 @@ html, body {
   box-sizing: border-box;
 }
 
-/* テーブルセルの改行対策 */
+/* --- テーブルの表示改善（罫線追加） --- */
 .cute-article table {
   border-collapse: collapse;
   width: 100%;
   table-layout: auto;
 }
 
-.cute-article td,
-.cute-article th {
+.cute-article th,
+.cute-article td {
+  border: 1px solid #ccc;
   padding: 0.5rem;
   font-size: 0.95rem;
   word-break: break-word;
   white-space: normal;
+}
+
+.cute-article th {
+  background-color: #fdf0f5;
+  font-weight: bold;
 }
 
 /* --- ナビバー風リンク --- */
@@ -56,34 +62,35 @@ html, body {
   font-weight: bold;
 }
 
-/* --- 検索結果ハイライト（質問一覧用） --- */
+/* --- 検索結果ハイライト --- */
 mark {
   background-color: yellow;
   padding: 0 2px;
   border-radius: 3px;
 }
 
-/* --- 質問一覧カード --- */
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  max-width: 100%;
-  margin: 0 auto;
+/* --- 質問一覧ページのカードレイアウト --- */
+.question-cards .card-container {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 1.5rem !important;
+  padding: 1rem !important;
+  justify-content: center !important;
 }
 
 .card {
-  background-color: #fffafc;
-  border: 1px dashed #e68ac1;
-  border-radius: 1rem;
+  background: #fff0f5;
+  border: 2px solid #f8c8dc;
+  border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(200, 150, 180, 0.15);
+  width: 100% !important;
+  box-sizing: border-box !important;
   transition: transform 0.2s ease, opacity 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: translateY(-4px);
 }
 
 .card h3 {
@@ -108,85 +115,4 @@ mark {
   color: #aa3388;
   font-weight: bold;
   text-decoration: none;
-}
-
-.cute-list .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.cute-list .card {
-  background-color: #fffafc;
-  border: 1px dashed #e68ac1;
-  border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, opacity 0.3s ease;
-}
-
-.cute-list .card:hover {
-  transform: scale(1.02);
-}
-
-.cute-list .card h3 {
-  margin-top: 0;
-  font-size: 1.3em;
-  color: #cc3388;
-}
-
-.cute-list .card p.date {
-  font-size: 0.9em;
-  color: #777;
-}
-
-.cute-list .card p {
-  color: #333;
-  font-size: 0.95em;
-}
-
-.cute-list .read-more {
-  display: inline-block;
-  margin-top: 10px;
-  color: #aa3388;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.question-cards .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  justify-content: center;
-}
-
-.card {
-  background: #fff0f5;
-  border: 2px solid #f8c8dc;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 4px 10px rgba(200, 150, 180, 0.15);
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
-}
-
-/* 💡 優先的に適用されるよう !important をつけます */
-.question-cards .card-container {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
-  gap: 1.5rem !important;
-  padding: 1rem !important;
-  justify-content: center !important;
-}
-
-.card {
-  width: 100% !important;
-  box-sizing: border-box !important;
 }
