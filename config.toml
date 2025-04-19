@@ -3,3 +3,5 @@ baseURL = "https://yueli-note.yongfuhua.jp/"
 languageCode = "ja"
 title = "ユエリーの台日近現代史ノート"
 theme = ""
+[params]
+  mainSections = ["questions"]
