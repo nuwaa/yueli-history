@@ -116,3 +116,14 @@ mark {
   font-weight: bold;
   text-decoration: none;
 }
+
+.cute-nav {
+  background-color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin: 1rem auto;
+  width: fit-content;
+  display: inline-flex;
+  gap: 1rem;
+}
