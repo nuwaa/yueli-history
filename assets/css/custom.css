@@ -122,8 +122,9 @@ mark {
   padding: 0.6rem 1rem;
   border-radius: 0.6rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-  margin: 1rem auto;
-  width: fit-content;
-  display: inline-flex;
+  margin: 1rem auto;         /* 中央寄せにするための margin */
+  display: flex;             /* フレックスボックス */
+  justify-content: center;   /* 中身を中央揃え */
   gap: 1rem;
+  max-width: fit-content;    /* 幅を中身に合わせて調整 */
 }
