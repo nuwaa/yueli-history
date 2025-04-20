@@ -1,0 +1,13 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const targets = document.querySelectorAll(".fade-in-on-scroll");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    });
+    targets.forEach(el => observer.observe(el));
+  });
+</script>
