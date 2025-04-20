@@ -14,8 +14,6 @@ relativeURLs = false
   showReadingTime = true
   showLastMod = true
   enableHeadAddons = true
-  googleAnalytics = "G-PRE357541Z"
-
 
 [params.assets]
   customCSS = ["css/custom.css"]
