@@ -7,7 +7,8 @@ relativeURLs = false
 
 [params]
   title = "ユエリーの台日近現代史ノート"
-  description = "台日近現代史に関する調査記録"
+  description = "台湾と日本の歴史を優しく深く紹介するノート"
+  images = ["/images/ogp-default.jpg"]
   defaultTheme = "auto"
   showCodeCopyButtons = true
   dateFormat = "2006-01-02"
