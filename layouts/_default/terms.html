@@ -1,7 +1,7 @@
 {{ define "main" }}
-  <h1>タグ一覧</h1>
+  <h1>タグ一覧（件数順）</h1>
   <ul>
-    {{ range .Data.Terms.Alphabetical }}
+    {{ range .Data.Terms.ByCount }}
       <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
     {{ end }}
   </ul>
