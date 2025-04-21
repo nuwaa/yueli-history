@@ -40,3 +40,8 @@ copyright = "© 2025 月璃(Yueli)"
 
 [params.author]
 name = "月璃(Yueli)"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
