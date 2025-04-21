@@ -1,11 +1,9 @@
 {{ define "main" }}
 <main class="page single cute-article">
 
-  <!-- 🌸 ナビバー（上部） -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+<!-- 🌸 ナビバー（上部） -->
+{{ partial "nav.html" . }}
+
 
   <center>
     <div class="animated-title">🌸 ユエリーです！ 🌸</div>
@@ -43,11 +41,9 @@
     }
   </style>
 
-  <!-- 🌸 ナビバー（下部） -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+<!-- 🌸 ナビバー（下部） -->
+{{ partial "nav.html" . }}
+
 
   <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">

@@ -1,11 +1,9 @@
 {{ define "main" }}
 <main class="page single cute-article" style="max-width: 100%; width: 100%">
 
-  <!-- 🌸 ナビバー（上部） -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+<!-- 🌸 ナビバー（上部） -->
+{{ partial "nav.html" . }}
+
 
   <div class="page-header" style="text-align: center;">
     <h1 class="page-title">質問一覧</h1>
@@ -36,11 +34,8 @@
     </div>
   </div>
 
-  <!-- 🌸 ナビバー（下部） -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/questions/">❓ 質問一覧</a>
-  </nav>
+<!-- 🌸 ナビバー（下部） -->
+{{ partial "nav.html" . }}
 
   <!-- 📢 広告エリア -->
   <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
