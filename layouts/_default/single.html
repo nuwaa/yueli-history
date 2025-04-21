@@ -37,6 +37,15 @@
     </a>
   </div>
 
+{{ if .Params.tags }}
+  <div style="margin: 2rem 0; text-align: center;">
+    <strong style="color:#cc3388;">🏷 タグ:</strong>
+    {{ range $index, $tag := .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag-badge">#{{ $tag }}</a>
+    {{ end }}
+  </div>
+{{ end }}
+
 <!-- 🌸 ナビバー風リンク（下部） -->
 {{ partial "nav.html" . }}
 
