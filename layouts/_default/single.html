@@ -46,6 +46,37 @@
   </div>
 {{ end }}
 
+
+{{ $current := . }}
+{{ $related := slice }}
+
+{{ range .Site.RegularPages }}
+  {{ if and (ne .Permalink $current.Permalink) (intersect .Params.tags $current.Params.tags) }}
+    {{ $related = $related | append . }}
+  {{ end }}
+{{ end }}
+
+{{ $related = first 5 $related }}
+
+{{ if gt (len $related) 0 }}
+  <div style="margin-top: 3rem;">
+    <h3 style="text-align: center; color: #cc3388;">📚 関連記事</h3>
+    <ul style="list-style: none; padding: 0; text-align: center;">
+      {{ range $related }}
+        <li style="margin: 0.5rem 0;">
+          <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #aa336a; font-weight: bold;">
+            {{ .Title }}
+          </a>
+          <span style="color: #888; font-size: 0.85rem;">
+            （{{ .Date.Format "2006年1月" }}）
+          </span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+
+
 <!-- 🌸 ナビバー風リンク（下部） -->
 {{ partial "nav.html" . }}
 
