@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="page single cute-article">
 
-  <!-- 🌸 ナビバー -->
+  <!-- 🌸 ナビバー（上部） -->
   {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
@@ -15,6 +15,9 @@
       </a>
     {{ end }}
   </div>
+
+  <!-- 🌸 ナビバー（下部） -->
+  {{ partial "nav.html" . }}
 
   <!-- 🌙 著作権 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
