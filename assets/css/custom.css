@@ -55,11 +55,9 @@ html, body {
   padding: 0.6rem 1rem;
   border-radius: 0.6rem;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
@@ -172,7 +170,7 @@ mark {
   font-size: 0.8em;
 }
 
-/* --- タグ一覧（ピンク系アニメ調バブル） --- */
+/* --- タグ一覧（ピンク系アニメ調バブル + 魔法きらきら） --- */
 .tag-bubble-container {
   display: flex;
   flex-wrap: wrap;
@@ -182,25 +180,80 @@ mark {
 }
 
 .tag-bubble {
+  position: relative;
   display: inline-block;
-  background-color: #ffe4f0;
-  color: #cc3366;
+  background: linear-gradient(145deg, #ffe4f0, #ffd1eb);
+  color: #c2185b;
   border: 2px solid #ff99bb;
   border-radius: 9999px;
   padding: 10px 20px;
   font-size: 1.05rem;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 0 4px 8px rgba(255, 153, 187, 0.3);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 153, 187, 0.4);
+  overflow: hidden;
+  z-index: 0;
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
   animation: float-bounce 3s ease-in-out infinite;
 }
 
 .tag-bubble:hover {
-  transform: scale(1.07);
-  background-color: #ffd6ea;
-  box-shadow: 0 6px 12px rgba(255, 153, 187, 0.45);
-  color: #b0205c;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 153, 187, 0.6), 0 0 40px rgba(255, 153, 187, 0.3);
+  color: #880e4f;
+}
+
+.tag-bubble::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,182,193,0.4) 0%, transparent 60%);
+  animation: pulse-glow 3s infinite;
+  z-index: -1;
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+@keyframes pulse-glow {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+}
+
+.tag-bubble::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 120%;
+  background-image: radial-gradient(#ffffff 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.1;
+  animation: sparkle 2.5s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes sparkle {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
 }
 
 .tag-bubble .count {
@@ -209,7 +262,6 @@ mark {
   color: #884455;
 }
 
-/* --- アニメ：ふわふわ上下する泡の動き --- */
 @keyframes float-bounce {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-3px); }
