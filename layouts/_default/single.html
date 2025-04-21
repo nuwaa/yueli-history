@@ -50,8 +50,8 @@
 {{ $current := . }}
 {{ $alltags := .Params.tags }}
 
-{{ if gt (len $alltags) 1 }}
-  {{ $mainTag := index $alltags 1 }} <!-- 2番目のタグを選択 -->
+{{ if and $alltags (gt (len $alltags) 1) }}
+  {{ $mainTag := index $alltags 1 }}
 
   {{ $related := slice }}
   {{ range .Site.RegularPages }}
