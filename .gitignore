@@ -1,0 +1,16 @@
+# Hugo build output
+public/
+resources/_gen/
+hugo_stats.json
+
+# Build lock file
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.swp
+*.bak
+*~
