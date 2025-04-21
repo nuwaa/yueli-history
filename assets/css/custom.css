@@ -237,24 +237,17 @@ mark {
   position: absolute;
   top: 0;
   left: 0;
-  width: 120%;
-  height: 120%;
-  background-image: radial-gradient(#ffffff 1px, transparent 1px);
-  background-size: 8px 8px;
-  opacity: 0.1;
-  animation: sparkle 2.5s linear infinite;
+  width: 150%;
+  height: 150%;
+  background-image: radial-gradient(#ffffff 2px, transparent 2px);
+  background-size: 12px 12px;
+  opacity: 0.4;
+  animation: sparkle 3s linear infinite;
   pointer-events: none;
   z-index: 1;
+  filter: drop-shadow(0 0 4px #fff);
 }
 
-@keyframes sparkle {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 100% 100%;
-  }
-}
 
 .tag-bubble .count {
   font-size: 0.8em;
