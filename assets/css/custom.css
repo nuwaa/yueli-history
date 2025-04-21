@@ -143,3 +143,34 @@ mark {
   opacity: 1;
   transform: translateY(0);
 }
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.tag-badge {
+  display: inline-block;
+  background-color: #fff0f8;
+  color: #d63384;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(255, 192, 203, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tag-badge:hover {
+  background-color: #ffe4ee;
+  transform: translateY(-2px);
+}
+
+.tag-badge .count {
+  color: #999;
+  margin-left: 4px;
+  font-size: 0.8em;
+}
