@@ -2,7 +2,21 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
+<title>
+{{- if .IsHome -}}
+  {{ .Site.Title }} - 台湾と日本の近現代史ノート
+{{- else if .IsSection -}}
+  {{ .Title }} 一覧 | {{ .Site.Title }}
+{{- else if .IsTaxonomy -}}
+  タグ: {{ .Title }} | {{ .Site.Title }}
+{{- else if .IsTaxonomyTerm -}}
+  タグ一覧 | {{ .Site.Title }}
+{{- else if and (.IsPage) (eq .Title .File.BaseFileName) -}}
+  無題の記事 | {{ .Site.Title }}
+{{- else -}}
+  {{ .Title }} | {{ .Site.Title }}
+{{- end -}}
+</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/cute.css">
   </head>
