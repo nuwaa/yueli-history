@@ -50,9 +50,14 @@
 {{ $current := . }}
 {{ $alltags := .Params.tags }}
 
+{{ $mainTag := "" }}
 {{ if and $alltags (gt (len $alltags) 1) }}
-  {{ $mainTag := index $alltags 1 }}
+  {{ $mainTag = index $alltags 1 }}
+{{ else if and $alltags (gt (len $alltags) 0) }}
+  {{ $mainTag = index $alltags 0 }}
+{{ end }}
 
+{{ if ne $mainTag "" }}
   {{ $related := slice }}
   {{ range .Site.RegularPages }}
     {{ if and (ne .Permalink $current.Permalink) (in .Params.tags $mainTag) }}
