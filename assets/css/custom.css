@@ -140,7 +140,7 @@ mark {
   transform: translateY(0);
 }
 
-/* --- タグ一覧の表示（旧: バッジスタイル） --- */
+/* --- タグ一覧のバッジ（旧スタイルも維持） --- */
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -172,34 +172,46 @@ mark {
   font-size: 0.8em;
 }
 
-/* --- タグ一覧（バブル表示） --- */
+/* --- タグ一覧（ピンク系アニメ調バブル） --- */
 .tag-bubble-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 14px;
+  margin-top: 24px;
 }
 
 .tag-bubble {
   display: inline-block;
-  background-color: #f0f8ff;
-  color: #333;
-  border: 1px solid #add8e6;
+  background-color: #ffe4f0;
+  color: #cc3366;
+  border: 2px solid #ff99bb;
   border-radius: 9999px;
-  padding: 8px 16px;
-  font-size: 0.95rem;
+  padding: 10px 20px;
+  font-size: 1.05rem;
+  font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  box-shadow: 0 4px 8px rgba(255, 153, 187, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+  animation: float-bounce 3s ease-in-out infinite;
 }
 
 .tag-bubble:hover {
-  background-color: #add8e6;
-  color: white;
+  transform: scale(1.07);
+  background-color: #ffd6ea;
+  box-shadow: 0 6px 12px rgba(255, 153, 187, 0.45);
+  color: #b0205c;
 }
 
 .tag-bubble .count {
   font-size: 0.8em;
-  margin-left: 4px;
-  color: #777;
+  margin-left: 6px;
+  color: #884455;
+}
+
+/* --- アニメ：ふわふわ上下する泡の動き --- */
+@keyframes float-bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
 }
