@@ -1,0 +1,39 @@
+{{ define "main" }}
+<main class="page single cute-article" style="max-width: 100%; width: 100%">
+
+  <!-- 🌸 ナビバー -->
+  {{ partial "nav.html" . }}
+
+  <div class="page-header" style="text-align: center;">
+    <h1 class="page-title">タグ「{{ .Title }}」の記事一覧</h1>
+  </div>
+
+  {{ $pages := .Pages }}
+  <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
+    該当記事数：{{ len $pages }}件
+  </p>
+
+  <!-- カード一覧 -->
+  <div class="question-cards" style="width: 100%;">
+    <div class="card-container">
+      {{ range .Pages.ByDate.Reverse }}
+        <div class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
+          <p>{{ .Plain | truncate 80 }}</p>
+          <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- 🌸 ナビバー（下部） -->
+  {{ partial "nav.html" . }}
+
+  <!-- 🌙 著作権表示 -->
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+    © 2025 月璃(Yueli) 🌙
+  </footer>
+
+</main>
+{{ end }}
