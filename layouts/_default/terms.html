@@ -1,4 +1,5 @@
 {{ define "main" }}
+
 <main class="page single cute-article">
 
   <!-- 🌸 ナビバー（上部） -->
@@ -8,9 +9,9 @@
     <h1 class="page-title">タグ一覧（件数順）</h1>
   </div>
 
-  <div class="tag-list">
+  <div class="tag-bubble-container">
     {{ range .Data.Terms.ByCount }}
-      <a href="{{ .Page.Permalink }}" class="tag-badge">
+      <a href="{{ .Page.Permalink }}" class="tag-bubble">
         #{{ .Page.Title }} <span class="count">({{ .Count }})</span>
       </a>
     {{ end }}
@@ -25,4 +26,5 @@
   </footer>
 
 </main>
+
 {{ end }}
