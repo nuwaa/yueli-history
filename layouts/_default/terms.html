@@ -1,5 +1,13 @@
 {{ define "main" }}
-  <h1>タグ一覧（件数順）</h1>
+<main class="page single cute-article">
+
+  <!-- 🌸 ナビバー -->
+  {{ partial "nav.html" . }}
+
+  <div class="page-header" style="text-align: center;">
+    <h1 class="page-title">タグ一覧（件数順）</h1>
+  </div>
+
   <div class="tag-list">
     {{ range .Data.Terms.ByCount }}
       <a href="{{ .Page.Permalink }}" class="tag-badge">
@@ -7,4 +15,11 @@
       </a>
     {{ end }}
   </div>
+
+  <!-- 🌙 著作権 -->
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+    © 2025 月璃(Yueli) 🌙
+  </footer>
+
+</main>
 {{ end }}
