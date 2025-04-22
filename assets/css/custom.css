@@ -297,11 +297,12 @@ mark {
   border-left: 6px solid #f59ac5;
   border-radius: 12px;
   padding: 1rem 1.2rem 1.2rem 1.2rem;
-  margin: 2.5rem 0 2rem 0;
+  margin: 3.5rem 0 2rem 0;  /* 👈 ここを調整しました！ */
   font-style: italic;
   color: #444;
   box-shadow: 2px 2px 8px rgba(245, 154, 197, 0.2);
 }
+
 
 .page-content blockquote::before {
   content: "ユエリーのひとこと";
