@@ -289,3 +289,35 @@ mark {
   font-style: italic;
   margin: 1.5rem 0;
 }
+
+.page-content blockquote {
+  position: relative;
+  background: #fff0f8;
+  border-left: 6px solid #f59ac5;
+  border-radius: 12px;
+  padding: 1rem 1.2rem 1.2rem 1.2rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #444;
+  box-shadow: 2px 2px 8px rgba(245, 154, 197, 0.2);
+}
+
+.page-content blockquote::before {
+  content: "🧝‍♀️ ユエリーのひとこと";
+  display: block;
+  font-weight: bold;
+  color: #cc3388;
+  margin-bottom: 0.6rem;
+  font-style: normal;
+}
+
+.page-content blockquote::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: #fff0f8;
+}
