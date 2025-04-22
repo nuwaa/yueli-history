@@ -109,5 +109,16 @@
     © 2025 月璃(Yueli) 🌙
   </footer>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const paras = document.querySelectorAll(".cute-article p");
+    paras.forEach(p => {
+      if (p.textContent.includes("【6. メタ情報")) {
+        p.style.display = "none";
+      }
+    });
+  });
+</script>
+
 </main>
 {{ end }}
