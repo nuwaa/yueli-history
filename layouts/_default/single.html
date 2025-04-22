@@ -59,8 +59,11 @@
 
 {{ if $alltags }}
   {{ range .Site.RegularPages }}
-    {{ if and (ne .Permalink $current.Permalink) (intersect .Params.tags $alltags | len | gt 0) }}
-      {{ $related = $related | append . }}
+    {{ if ne .Permalink $current.Permalink }}
+      {{ $match := intersect .Params.tags $alltags }}
+      {{ if gt (len $match) 0 }}
+        {{ $related = $related | append . }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
