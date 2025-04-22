@@ -302,36 +302,19 @@ mark {
   box-shadow: 2px 2px 8px rgba(245, 154, 197, 0.2);
 }
 
-.page-content blockquote::before {
-  content: "🧝‍♀️ ユエリーのひとこと";
-  display: block;
-  font-weight: bold;
-  color: #cc3388;
-  margin-bottom: 0.6rem;
-  font-style: normal;
-}
-
-.page-content blockquote::after {
-  content: "";
-  position: absolute;
-  bottom: -16px;
-  left: 40px;
-  width: 0;
-  height: 0;
-  border: 8px solid transparent;
-  border-top-color: #fff0f8;
-}
 
 .page-content blockquote::before {
-  content: "";
+  content: "ユエリーのひとこと";
   display: inline-block;
+  padding-left: 32px;
   background: url('/images/yueli-icon.png') no-repeat left center;
   background-size: 24px 24px;
-  width: 28px;
   height: 24px;
-  margin-right: 0.5rem;
-  vertical-align: middle;
+  line-height: 24px;
+  color: #cc3388;
+  font-weight: bold;
 }
+
 
 .page-content blockquote::after {
   content: "";
