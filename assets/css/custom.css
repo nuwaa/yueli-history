@@ -307,12 +307,16 @@ mark {
   content: "ユエリーのひとこと";
   display: inline-block;
   padding-left: 32px;
-  background: url('/images/yueli-icon.png') no-repeat left center;
+  background: url('/images/Yueli.png') no-repeat left center;
   background-size: 24px 24px;
   height: 24px;
   line-height: 24px;
   color: #cc3388;
   font-weight: bold;
+
+  /* 🆕 ここで上に余白を追加 */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 
