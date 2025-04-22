@@ -222,3 +222,11 @@ mark {
     opacity: 0.1 !important;
   }
 }
+
+.page-title {
+  color: #cc3388; /* おすすめ：明るめのユエリーピンク */
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
