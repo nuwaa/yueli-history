@@ -117,21 +117,21 @@ document.addEventListener("DOMContentLoaded", function () {
   children.forEach(el => {
     if (el.tagName === "H2" && el.textContent.includes("6. メタ情報")) {
       inMetaSection = true;
-      el.remove(); // メタ情報の見出しも消す
+      el.remove(); // メタ情報の見出しを削除
       return;
     }
 
     if (inMetaSection) {
+      // 🌟 blockquote（ユエリーの一言）は削除しない！
       if (el.tagName === "H2") {
-        inMetaSection = false; // 次のセクションに来たら解除
-      } else {
-        el.remove(); // メタ情報内の段落などを削除
+        inMetaSection = false;
+      } else if (el.tagName !== "BLOCKQUOTE") {
+        el.remove();
       }
     }
   });
 });
 </script>
-
 
 
 </main>
