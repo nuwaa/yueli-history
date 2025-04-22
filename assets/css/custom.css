@@ -321,3 +321,26 @@ mark {
   border: 8px solid transparent;
   border-top-color: #fff0f8;
 }
+
+.page-content blockquote::before {
+  content: "";
+  display: inline-block;
+  background: url('/images/yueli-icon.png') no-repeat left center;
+  background-size: 24px 24px;
+  width: 28px;
+  height: 24px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.page-content blockquote::after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: #fff0f8;
+}
+
