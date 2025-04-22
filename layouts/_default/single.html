@@ -37,6 +37,12 @@
     </a>
   </div>
 
+<!-- ✅ 質問回答件数の表示 -->
+{{ $questions := where site.RegularPages "Section" "questions" }}
+<p style="text-align: center; font-weight: bold; color: #cc3388; margin-top: 2rem;">
+  現在の質問回答件数：{{ len $questions }}件
+</p>
+
 {{ if .Params.tags }}
   <div style="margin: 2rem 0; text-align: center;">
     <strong style="color:#cc3388;">🏷 タグ:</strong>
