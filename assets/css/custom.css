@@ -230,3 +230,7 @@ mark {
   margin-bottom: 1.2rem;
   text-align: center;
 }
+
+.cute-article p:has(> strong:contains("【6. メタ情報")) {
+  display: none;
+}
