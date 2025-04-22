@@ -9,6 +9,12 @@
     <h1 class="page-title">タグ一覧（件数順）</h1>
   </div>
 
+  <!-- ✅ 質問回答件数の表示 -->
+  {{ $questions := where site.RegularPages "Section" "questions" }}
+  <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
+    現在の質問回答件数：{{ len $questions }}件
+  </p>
+
   <div class="tag-bubble-container">
     {{ range .Data.Terms.ByCount }}
       <a href="{{ .Page.Permalink }}" class="tag-bubble">
