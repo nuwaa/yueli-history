@@ -255,3 +255,37 @@ mark {
   font-weight: bold;
   margin-top: 1.5rem;
 }
+
+.page-content p {
+  color: #444;  /* ←本文テキストを柔らかい濃いグレーに */
+}
+
+.page-content h2 {
+  color: #cc3388;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  border-bottom: 2px solid #f8c8dc;
+  padding-bottom: 0.3rem;
+}
+
+.page-content h3 {
+  color: #aa336a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.page-content ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.page-content blockquote {
+  border-left: 4px solid #f3b4c8;
+  background-color: #fff0f5;
+  padding: 0.6rem 1rem;
+  color: #555;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
