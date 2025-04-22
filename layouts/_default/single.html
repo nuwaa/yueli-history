@@ -108,19 +108,30 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const headings = document.querySelectorAll(".page-content h2");
-  headings.forEach(h => {
-    if (h.textContent.includes("6. メタ情報")) {
-      let node = h;
-      while (node && node.classList?.contains("page-content") === false) {
-        const next = node.nextElementSibling;
-        node.remove();
-        node = next;
+  const content = document.querySelector(".page-content");
+  if (!content) return;
+
+  const children = Array.from(content.children);
+  let inMetaSection = false;
+
+  children.forEach(el => {
+    if (el.tagName === "H2" && el.textContent.includes("6. メタ情報")) {
+      inMetaSection = true;
+      el.remove(); // メタ情報の見出しも消す
+      return;
+    }
+
+    if (inMetaSection) {
+      if (el.tagName === "H2") {
+        inMetaSection = false; // 次のセクションに来たら解除
+      } else {
+        el.remove(); // メタ情報内の段落などを削除
       }
     }
   });
 });
 </script>
+
 
 
 </main>
