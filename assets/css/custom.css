@@ -330,3 +330,26 @@ mark {
   border: 8px solid transparent;
   border-top-color: #fff0f8;
 }
+
+h1 {
+  color: #aa336a; /* ユエリーのテーマカラー */
+  font-family: "Kosugi Maru", sans-serif; /* 丸ゴ系フォントで柔らかく */
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px dashed #ff99cc;
+  padding-bottom: 0.5rem;
+}
+
+h1::after {
+  content: "✨";
+  margin-left: 0.5rem;
+  color: #ffccff;
+  animation: sparkle 2s infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
