@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8">
 
-<title>{{ .Title }} - {{ .Site.Title }}</title>
+<title>
+  {{ if .IsHome }}
+    ユエリーの台日近現代史ノート - 台湾と日本の間にある物語
+  {{ else }}
+    {{ .Title }} - {{ .Site.Title }}
+  {{ end }}
+</title>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PRE357541Z"></script>
 <script>
