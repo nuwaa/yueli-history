@@ -47,4 +47,5 @@ name = "月璃(Yueli)"
   filename = "sitemap.xml"
 
 [taxonomies]
+  category = "categories"
   tag = "tags"
