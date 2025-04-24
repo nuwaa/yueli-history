@@ -5,9 +5,13 @@
   <!-- 🌸 ナビバー（上部） -->
   {{ partial "nav.html" . }}
 
-  <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">タグ一覧（件数順）</h1>
-  </div>
+<div class="page-header" style="text-align: center;">
+  <h1 class="page-title">
+    {{ if eq .Title "tags" }}タグ一覧（件数順）
+    {{ else if eq .Title "categories" }}カテゴリ一覧（件数順）
+    {{ else }}{{ .Title }}（件数順）{{ end }}
+  </h1>
+</div>
 
   <!-- ✅ 質問回答件数の表示 -->
   {{ $questions := where site.RegularPages "Section" "questions" }}
