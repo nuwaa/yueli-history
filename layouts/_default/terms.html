@@ -7,9 +7,9 @@
 
 <div class="page-header" style="text-align: center;">
   <h1 class="page-title">
-    {{ if eq .Title "tags" }}タグ一覧（件数順）
-    {{ else if eq .Title "categories" }}カテゴリ一覧（件数順）
-    {{ else }}{{ .Title }}（件数順）{{ end }}
+    {{ if eq .Data.Plural "tags" }}タグ一覧（件数順）
+    {{ else if eq .Data.Plural "categories" }}カテゴリ一覧（件数順）
+    {{ else }}{{ .Data.Plural }}（件数順）{{ end }}
   </h1>
 </div>
 
