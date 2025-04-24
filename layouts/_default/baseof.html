@@ -6,6 +6,10 @@
 <title>
   {{ if .IsHome }}
     ユエリーの台日近現代史ノート - 台湾と日本の間にある物語
+  {{ else if eq .Data.Plural "tags" }}
+    タグ一覧（件数順） - {{ .Site.Title }}
+  {{ else if eq .Data.Plural "categories" }}
+    カテゴリ一覧（件数順） - {{ .Site.Title }}
   {{ else }}
     {{ .Title }} - {{ .Site.Title }}
   {{ end }}
