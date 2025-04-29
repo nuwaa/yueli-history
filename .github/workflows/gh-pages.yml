@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # © main ƒuƒ‰ƒ“ƒ`‚ªXV‚³‚ê‚½‚ç”­‰Î
+      - main  # â† main ãƒ–ãƒ©ãƒ³ãƒãŒæ›´æ–°ã•ã‚ŒãŸã‚‰ç™ºç«
 
 jobs:
   deploy:
@@ -17,6 +17,8 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.125.3'
+      - name: Clean public folder
+        run: rm -rf public
 
       - name: Build
         run: hugo --minify
