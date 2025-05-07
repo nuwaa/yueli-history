@@ -107,5 +107,27 @@
   © 2025 月璃(Yueli) 🌙
 </footer>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const content = document.querySelector(".page-content");
+  if (!content) return;
+
+  const children = Array.from(content.children);
+  children.forEach(el => {
+    const text = el.textContent.trim();
+    if (
+      text.match(/^description:/i) ||
+      text.match(/^keywords:/i) ||
+      text.match(/^tags:/i) ||
+      text.match(/^categories:/i) ||
+      text.match(/^slug:/i) ||
+      text.match(/^draft:/i)
+    ) {
+      el.style.display = "none";  // ユーザーには非表示に
+    }
+  });
+});
+</script>
+
 </main>
 {{ end }}
