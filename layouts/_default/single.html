@@ -4,38 +4,41 @@
 <!-- 🌸 ナビバー風リンク（上部） -->
 {{ partial "nav.html" . }}
 
+<header class="page-header">
+  <h1 class="page-title">{{ .Title }}</h1>
+</header>
 
-  <header class="page-header">
-    <h1 class="page-title">{{ .Title }}</h1>
-  </header>
+<!-- 🔍 メタ説明（.Description）を表示 -->
+{{ if .Description }}
+  <p class="subtitle" style="text-align:center; color:#888; font-size: 1rem; margin-top: -0.5rem;">
+    {{ .Description }}
+  </p>
+{{ end }}
 
-  <div class="page-content cute-content">
-    {{ .Content }}
-  </div>
+<div class="page-content cute-content">
+  {{ .Content }}
+</div>
 
-  <!-- 🔗 シェアボタン（X・Facebook・LINE） -->
-  <div style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-    <!-- 🐦 X -->
-    <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&hashtags=台日近現代史,ユエリー,日台交流"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #1DA1F2; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
-      🐦 Xでシェア
-    </a>
+<!-- 🔗 シェアボタン（X・Facebook・LINE） -->
+<div style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+  <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}&hashtags=台日近現代史,ユエリー,日台交流"
+     target="_blank" rel="noopener noreferrer"
+     style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #1DA1F2; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
+    🐦 Xでシェア
+  </a>
 
-    <!-- 📘 Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #4267B2; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
-      📘 Facebookでシェア
-    </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+     target="_blank" rel="noopener noreferrer"
+     style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #4267B2; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
+    📘 Facebookでシェア
+  </a>
 
-    <!-- 💬 LINE -->
-    <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}"
-       target="_blank" rel="noopener noreferrer"
-       style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #00C300; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
-      💬 LINEで送る
-    </a>
-  </div>
+  <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}"
+     target="_blank" rel="noopener noreferrer"
+     style="display:inline-flex; align-items:center; gap:0.4rem; padding: 0.4rem 0.8rem; background: #00C300; color: white; border-radius: 999px; text-decoration: none; font-size: 0.9rem;">
+    💬 LINEで送る
+  </a>
+</div>
 
 <!-- ✅ 質問回答件数の表示 -->
 {{ $questions := where site.RegularPages "Section" "questions" }}
@@ -43,6 +46,7 @@
   現在の質問回答件数：{{ len $questions }}件
 </p>
 
+<!-- 🏷 タグ表示 -->
 {{ if .Params.tags }}
   <div style="margin: 2rem 0; text-align: center;">
     <strong style="color:#cc3388;">🏷 タグ:</strong>
@@ -52,7 +56,7 @@
   </div>
 {{ end }}
 
-
+<!-- 📚 関連記事 -->
 {{ $current := . }}
 {{ $alltags := .Params.tags }}
 {{ $related := slice }}
@@ -88,51 +92,20 @@
   </div>
 {{ end }}
 
-
-
 <!-- 🌸 ナビバー風リンク（下部） -->
 {{ partial "nav.html" . }}
 
-
-  <!-- 📢 広告エリア -->
-  <div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
-    <div style="font-size: 0.85rem; color: #cc88aa;">
-      📢 広告エリア（準備中）
-    </div>
+<!-- 📢 広告エリア -->
+<div class="cute-adsense" style="margin: 3rem auto 1.5rem auto; text-align:center;">
+  <div style="font-size: 0.85rem; color: #cc88aa;">
+    📢 広告エリア（準備中）
   </div>
+</div>
 
-  <!-- 🌙 著作権表示 -->
-  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
-    © 2025 月璃(Yueli) 🌙
-  </footer>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const content = document.querySelector(".page-content");
-  if (!content) return;
-
-  const children = Array.from(content.children);
-  let inMetaSection = false;
-
-  children.forEach(el => {
-    if (el.tagName === "H2" && el.textContent.includes("6. メタ情報")) {
-      inMetaSection = true;
-      el.remove(); // メタ情報の見出しを削除
-      return;
-    }
-
-    if (inMetaSection) {
-      // 🌟 blockquote（ユエリーの一言）は削除しない！
-      if (el.tagName === "H2") {
-        inMetaSection = false;
-      } else if (el.tagName !== "BLOCKQUOTE") {
-        el.remove();
-      }
-    }
-  });
-});
-</script>
-
+<!-- 🌙 著作権表示 -->
+<footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+  © 2025 月璃(Yueli) 🌙
+</footer>
 
 </main>
 {{ end }}
