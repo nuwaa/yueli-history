@@ -4,6 +4,8 @@ title = "ユエリーの台日近現代史ノート"
 theme = "LoveIt"
 canonifyURLs = true
 relativeURLs = false
+enableRobotsTXT = true
+enableGitInfo   = true
 
 [params]
   title = "ユエリーの台日近現代史ノート"
@@ -32,7 +34,7 @@ relativeURLs = false
   weight = 2
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
 section = ["HTML"]
 
 [params.footer]
