@@ -51,3 +51,16 @@ name = "月璃(Yueli)"
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[params.giscus]
+  repo = "nuwaa/yueli-history"
+  repo_id = "R_kgDOOaUmQA"
+  category = "General"
+  category_id = "DIC_kwDOOaUmQM4CqCve"
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "ja"
+
