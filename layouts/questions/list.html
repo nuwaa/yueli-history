@@ -30,7 +30,7 @@
 
           {{ $lines := split .Plain "\n" }}
           {{ range $i, $line := $lines }}
-            {{ if and (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) (not (hasPrefix $line "tags:")) (not (hasPrefix $line "categolies:"))}}
+            {{ if and (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) (not (hasPrefix $line "tags:")) (not (hasPrefix $line "categories:"))}}
               <p>{{ $line | truncate 80 }}</p>
               {{ break }}
             {{ end }}
