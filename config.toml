@@ -33,6 +33,23 @@ enableGitInfo   = true
   url = "/questions/"
   weight = 2
 
+[[menu.main]]
+  name = "プライバシー"
+  url = "/privacy-policy/"
+  weight = 50
+
+[[menu.main]]
+  name = "お問い合わせ"
+  url = "/contact/"
+  weight = 60
+
+[[menu.main]]
+  name = "運営者情報"
+  url = "/about/"
+  weight = 70
+
+  
+
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 section = ["HTML"]
