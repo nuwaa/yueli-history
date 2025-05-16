@@ -27,7 +27,15 @@
         <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Plain | truncate 80 }}</p>
+
+          {{ $lines := split .Plain "\n" }}
+          {{ range $i, $line := $lines }}
+            {{ if and (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) }}
+              <p>{{ $line | truncate 80 }}</p>
+              {{ break }}
+            {{ end }}
+          {{ end }}
+         
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
       {{ end }}
@@ -40,7 +48,7 @@
   <!-- 📢 広告エリア -->
   <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
     <div style="font-size: 0.85rem; color: #cc88aa;">
-      📢 広告エリア（準備中）
+  <!-- 📢 広告エリア（準備中）-->
     </div>
   </div>
 
