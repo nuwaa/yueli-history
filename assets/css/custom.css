@@ -353,3 +353,16 @@ h1::after {
   0%, 100% { opacity: 0.2; transform: scale(1); }
   50% { opacity: 1; transform: scale(1.2); }
 }
+
+.footer__links {
+  font-size: 0.9rem;
+  a {
+    color: #999;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    &:hover {
+      color: #666;
+      text-decoration: underline;
+    }
+  }
+}
