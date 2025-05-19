@@ -9,6 +9,8 @@ draft: false
 slug: taiwan-semiconductor-history
 ---
 
+{{< center-img src="/images/taiwan-semiconductor-history.jpg" >}}
+
 ## 1. 日本語の解説
 
 みなさん、こんにちは。今日は、台湾の半導体開発の歴史について一緒に学んでいきましょう。なぜこのテーマを学ぶ意味があるかって？それは、私たちが普段使っているスマートフォンやパソコン、ゲーム機など、あらゆる電子機器に欠かせない「半導体」が、どのようにして台湾で作られるようになったのかを知ることで、世界の技術や経済のつながりが見えてくるからです。
@@ -71,7 +73,7 @@ TSMC的成功，有幾個原因。 一個是台灣政府積極支援半導體產
 
 ## 5. 関連リンク
 
-*   日本語：経済産業省「半導体・デジタル産業戦略」[https://www.meti.go.jp/policy/mono_info_service/digital/company/index.html](https://www.meti.go.jp/policy/mono_info_service/digital/company/index.html)
-*   台湾華語：DIGITIMES 台湾半導体産業ニュース [https://www.digitimes.com.tw/](https://www.digitimes.com.tw/)
+*   日本語：台湾の半導体メーカー、なぜ日本で次々と工場を建てるのか | nippon.com [https://www.nippon.com/ja/in-depth/d00988/](https://www.nippon.com/ja/in-depth/d00988/)
+*   台湾華語：TSIA台灣半導體協會 [https://www.tsia.org.tw/](https://www.tsia.org.tw/)
 
 > 今回は台湾の半導体開発の歴史について学びました。台湾が世界の半導体産業で重要な役割を果たしていることを改めて知り、とても驚きました。技術の進歩だけでなく、人々の努力や政府の政策が組み合わさって、今の台湾の半導体産業があることを知ることができて、とても勉強になりました。これからも一緒に色々なことを学んでいきましょうね！
