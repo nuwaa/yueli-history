@@ -9,6 +9,8 @@ draft: false
 slug: taiwan-japanese-generation
 ---
 
+{{< center-img src="/images/taiwan-japanese-generation.jpg" >}}
+
 ## 1. 日本語の解説
 
 みなさん、こんにちは。今日は「台湾の日本語世代」というテーマを一緒に学んでいきましょう。なぜこのテーマを学ぶと良いのでしょうか？それは、台湾と日本の深い繋がりを知ることができるからです。昔、台湾は日本の統治下にあり、その時代に日本語を学んだ人々がいました。彼らがどんな経験をしたのか、それが今の台湾にどんな影響を与えているのかを知ることは、台湾をより深く理解することに繋がります。
@@ -79,7 +81,7 @@ slug: taiwan-japanese-generation
 
 ## 5. 関連リンク
 
-*   **日本語**: 台湾の声 - 日本語世代の証言: [https://www.taiwan-voice.com/doc/185.html](https://www.taiwan-voice.com/doc/185.html)
-*   **台湾華語**: 國家文化記憶庫 - 臺籍日本兵：[https://memory.culture.tw/Home/Detail?Id=205237&IndexCode=CultureTopic](https://memory.culture.tw/Home/Detail?Id=205237&IndexCode=CultureTopic)
+*   **日本語**: 日本語世代 - Wikipedia: [https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E4%B8%96%E4%BB%A3](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E4%B8%96%E4%BB%A3)
+*   **台湾華語**: 日語世代 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E4%B8%96%E4%BB%A3](https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E4%B8%96%E4%BB%A3)
 
 > 私も一緒に「台湾の日本語世代」について学ぶことができて、とても嬉しいです。日本語世代の人々の経験は、台湾と日本の歴史を深く理解するための貴重な手がかりとなりますね。彼らが言葉や文化を通して築いてきた繋がりは、今の私たちにも受け継がれているのだと感じました。今回の学びを通して、私も両国の文化交流に貢献できるような存在になりたいと思いました。応援しています！
