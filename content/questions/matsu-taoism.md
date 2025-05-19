@@ -9,6 +9,8 @@ draft: false
 slug: matsu-taoism
 ---
 
+{{< center-img src="/images/{{< center-img src="/images/lee-tenghui.jpg" >}}.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜこのテーマを学ぶ意味があるかというと、台湾でとても人気のある媽祖様（まそさま）が、どんな神様なのか、そして道教（どうきょう）という宗教とどう関係しているのかを知ることで、台湾の文化や人々の信仰について深く理解できるからです。
@@ -75,7 +77,7 @@ slug: matsu-taoism
 
 ## 5. 関連リンク
 
-*   **日本語**: 文化庁 - 無形文化遺産の保護: [https://www.bunka.go.jp/seisaku/bunkazai/shokai/mu形_遺産/](https://www.bunka.go.jp/seisaku/bunkazai/shokai/mu%E5%BD%A2_%E9%81%BA%E7%94%A3/)
-*   **台湾華語**: 國家文化資產網 - 媽祖信仰: [https://nchdb.boch.gov.tw/assets/overview/important/19991231000001](https://nchdb.boch.gov.tw/assets/overview/important/19991231000001)
+*   **日本語**: 媽祖 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%AA%BD%E7%A5%96](https://ja.wikipedia.org/wiki/%E5%AA%BD%E7%A5%96)
+*   **台湾華語**: 媽祖 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E5%AA%BD%E7%A5%96](https://zh.wikipedia.org/wiki/%E5%AA%BD%E7%A5%96)
 
 > 私も一緒に勉強できて、とっても嬉しいです！今回のテーマを通じて、媽祖様が道教の神様であるだけでなく、台湾の人々の生活や文化に深く根ざした存在だということがよくわかりました。特に、媽祖信仰がユネスコの無形文化遺産に登録されていることを知って、その重要性に改めて驚きました。これからも、色々なことを一緒に学んでいきましょうね！
