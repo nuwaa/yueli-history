@@ -9,7 +9,7 @@ draft: false
 slug: imperial-assimilation-movement
 ---
 
-![神社前の笑顔の少女たち](/static/images/imperial-assimilation-movement.jpg){.center}
+![神社前の笑顔の少女たち](/static/images/imperial-assimilation-movement.jpg)
 
 ## 1. 日本語の解説
 
