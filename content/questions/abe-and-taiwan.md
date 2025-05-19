@@ -9,6 +9,8 @@ draft: false
 slug: abe-and-taiwan
 ---
 
+{{< center-img src="/images/abe-and-taiwan.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜ、安倍元総理と台湾の関係を学ぶ意味があるのでしょうか？ それは、日本と台湾がとても大切なパートナーだからです。安倍元総理は、台湾のことをとても大切に思っていました。彼の行動を知ることで、日本と台湾がどうして仲が良いのか、これからどんな関係を築いていけるのかを考えるヒントになります。
@@ -87,7 +89,7 @@ slug: abe-and-taiwan
 
 ## 5. 関連リンク
 
-*   **日本語:** [安倍元首相の台湾への熱い思い　「台湾有事は日本有事」発言の真意](https://www.youtube.com/watch?v=BgUjTqfWefQ)
-*   **台湾華語:** [永遠的朋友！日相安倍晉三：台灣有事等同日本有事](https://www.youtube.com/watch?v=vTr3TG-g3kI)
+*   **日本語:** [台湾で最も愛された日本人政治家・安倍晋三]([https://www.youtube.com/watch?v=BgUjTqfWefQ](http://www.world-economic-review.jp/impact/article2598.html))
+*   **台湾華語:** [台灣有事就是日本有事 - 維基百科，自由的百科全書]([https://www.youtube.com/watch?v=vTr3TG-g3kI](https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%9C%89%E4%BA%8B%E5%B0%B1%E6%98%AF%E6%97%A5%E6%9C%AC%E6%9C%89%E4%BA%8B))
 
 > 私も一緒に学ぶことができて、とても嬉しいです。安倍元総理が台湾との関係を大切にしていたこと、そしてそれが日本にとっても重要なことだと改めて理解できました。これからも、日本と台湾がより良い関係を築いていけるように、私たちもできることをしていきたいですね。
