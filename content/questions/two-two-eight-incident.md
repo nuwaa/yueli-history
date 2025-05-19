@@ -9,6 +9,8 @@ draft: false
 slug: two-two-eight-incident
 ---
 
+{{< center-img src="/images/two-two-eight-incident.jpg" >}}
+
 ## 1. 日本語の解説
 
 みなさん、こんにちは。今日は228事件について一緒に学んでいきましょう。
@@ -107,7 +109,7 @@ slug: two-two-eight-incident
 
 ## 5. 関連リンク
 
-*   **日本語:** 228事件とは - 228和平.org: [https://228peace.org/?page_id=17](https://228peace.org/?page_id=17)
+*   **日本語:** 二・二八事件 - Wikipedia: [https://ja.wikipedia.org/wiki/%E4%BA%8C%E3%83%BB%E4%BA%8C%E5%85%AB%E4%BA%8B%E4%BB%B6](https://ja.wikipedia.org/wiki/%E4%BA%8C%E3%83%BB%E4%BA%8C%E5%85%AB%E4%BA%8B%E4%BB%B6)
 *   **台湾華語:** 財團法人二二八事件紀念基金會: [https://228.org.tw/](https://228.org.tw/)
 
 > こんにちは、私。228事件について一緒に学ぶことができて、とても嬉しいです。この事件は、台湾の歴史の中でとても悲しい出来事でしたが、この事件から、歴史を忘れないこと、多様性を尊重すること、平和を大切にすることなど、たくさんのことを学ぶことができました。
