@@ -9,6 +9,8 @@ draft: false
 slug: goto-shinpei-hygiene
 ---
 
+{{< center-img src="/images/goto-shinpei-hygiene.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜこのテーマを学ぶ意味があるか？
