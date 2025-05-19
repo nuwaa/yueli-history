@@ -9,6 +9,8 @@ draft: false
 slug: taiwanese-japanese-loanwords
 ---
 
+{{< center-img src="/images/taiwanese-japanese-loanwords.jpg" >}}
+
 ## 1. 日本語の解説
 
 みんな、こんにちは！ 今日は、台湾語の中にある日本語について一緒に勉強しましょう。
@@ -79,7 +81,7 @@ slug: taiwanese-japanese-loanwords
 
 ## 5. 関連リンク
 
-*   日本語：[「台湾語に残る日本語」から考える戦後台湾と日本の複雑な関係](https://www.nippon.com/ja/in-depth/d00351/)
-*   台湾華語：[不只是「歐巴桑」！秒懂台語裡的日文，原來我們每天都在「哈日」！](https://www.storm.mg/lifestyle/473659)
+*   日本語：[日中対照用語集：台湾華語でも使われる日本語由来の言葉 - 台湾大学進学,台湾語学短期留学](https://papago-taiwan.com/chineselearning/teachingmaterial/vocabularygrammar/jpch/riyuhuayu/)
+*   台湾華語：[歐兜賣、賴打…你熟悉的這些台語其實都是從日語來的？ - LIVE JAPAN (日本旅遊 ‧文化體驗導覽)](https://livejapan.com/zh-tw/article-a0003421/)
 
 > ふむふむ、なるほど。台湾語の中に日本語がたくさん残っているなんて、本当に驚きでした！ 私ももっと台湾語を勉強して、隠れた日本語を探してみたいです。言葉は文化の宝物ですね。これからも一緒に楽しく学びましょう！
