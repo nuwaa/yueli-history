@@ -9,14 +9,7 @@ draft: false
 slug: hakka-people
 ---
 
-```
-description: 客家とは何か？台湾と日本の近現代史における客家の役割をやさしい日本語と台湾華語で解説します。小学生にもわかりやすく、年表や用語集も掲載。
-keywords: 客家, 台湾, 歴史, 文化, 移民, 台湾史, 日本史
-tags: 客家, ハッカ, 台湾, 移民, 歴史, 文化, 台湾史, 日本史
-categories: 台湾, 歴史, 文化
-slug: hakka-people
-draft: False
-```
+{{< center-img src="/images/hakka-people.jpg" >}}
 
 ## 1. 日本語の解説
 
