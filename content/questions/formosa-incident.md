@@ -9,6 +9,8 @@ draft: false
 slug: formosa-incident
 ---
 
+{{< center-img src="/images/formosa-incident.jpg" >}}
+
 ## 1. 日本語の解説
 
 みなさん、こんにちは。今日は「美麗島事件」について一緒に学びましょう。
@@ -95,7 +97,7 @@ slug: formosa-incident
 
 ## 5. 関連リンク
 
-*   日本語: 台湾を知る - 美麗島事件とは - Taiwan Today：[https://taiwantoday.tw/news.php?unit=146,147,149,150,151,152&post=170667](https://taiwantoday.tw/news.php?unit=146,147,149,150,151,152&post=170667)
-*   台湾華語: 國家人權博物館 - 美麗島事件：[https://www.nhrm.gov.tw/home/zh-tw/06HistoricalPerspective/0305Formosa](https://www.nhrm.gov.tw/home/zh-tw/06HistoricalPerspective/0305Formosa)
+*   日本語: 美麗島事件 - Wikipedia：[https://ja.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6](https://ja.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
+*   台湾華語: 美麗島事件 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6](https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
 
 > みなさん、今日は一緒に美麗島事件について学ぶことができて、私もうれしかったです。この事件は、台湾の民主化のために戦った人々の勇気と犠牲を私たちに教えてくれます。今の台湾があるのは、彼らのおかげなのですね。私も、彼らのように、自分の信じる道を強く歩んでいきたいと思いました。
