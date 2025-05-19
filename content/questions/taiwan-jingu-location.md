@@ -9,6 +9,8 @@ draft: false
 slug: taiwan-jingu-location
 ---
 
+{{< center-img src="/images/taiwan-jingu-location.jpg" >}}
+
 ## 1. 日本語の解説
 
 こんにちは、皆さん。今日は、台湾神宮という場所について一緒に学んでいきましょう。
