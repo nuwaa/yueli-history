@@ -9,7 +9,7 @@ draft: false
 slug: matsu-taoism
 ---
 
-{{< center-img src="/images/{{< center-img src="/images/lee-tenghui.jpg" >}}.jpg" >}}
+{{< center-img src="/images/matsu-taoism.jpg" >}}
 
 ## 1. 日本語の解説
 
