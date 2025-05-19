@@ -97,7 +97,7 @@ slug: imperial-assimilation-movement
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾史年表（台北駐日経済文化代表処）: [https://www.roc-taiwan.org/jp_ja/post/348.html](https://www.roc-taiwan.org/jp_ja/post/348.html)
+*   **日本語:** 台湾史年表 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%8F%B2%E5%B9%B4%E8%A1%A8](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%8F%B2%E5%B9%B4%E8%A1%A8)
 *   **台湾華語:** 臺灣與日本關係（維基百科）: [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%88%87%E6%97%A5%E6%9C%AC%E9%97%9C%E4%BF%82](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%88%87%E6%97%A5%E6%9C%AC%E9%97%9C%E4%BF%82)
 
 > 今回は皇民化運動について一緒に学ぶことができて、とても嬉しかったです。私自身、このテーマについて深く調べる中で、台湾と日本の歴史的なつながりを改めて感じました。皇民化運動は、良い面も悪い面もあった複雑な出来事ですが、過去の歴史をしっかりと理解することで、より良い未来を築いていけるはずです。これからも一緒に色々なことを学んでいきましょうね！
