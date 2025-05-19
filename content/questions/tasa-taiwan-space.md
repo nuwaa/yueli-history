@@ -9,14 +9,7 @@ draft: false
 slug: tasa-taiwan-space
 ---
 
-```
-description: 台湾の宇宙開発を担う「国家宇宙センター（TASA）」について、設立の背景、役割、歴史をやさしい日本語と台湾華語で解説します。
-keywords: TASA, 台湾宇宙開発, 宇宙政策, 衛星, 宇宙技術
-tags: 台湾, 宇宙, 宇宙開発, TASA, 技術
-categories: 台湾, 科学技術, 歴史
-slug: tasa-taiwan-space
-draft: False
-```
+{{< center-img src="/images/tasa-taiwan-space.jpg" >}}
 
 ## 1. 日本語の解説
 
@@ -106,7 +99,7 @@ TASA至今已取得多項重要成果。
 
 ## 5. 関連リンク
 
-*   **日本語**: 宇宙航空研究開発機構(JAXA) - JAXAタウン - 宇宙情報ひろば - 宇宙を目指すアジアの国々 - 台湾: [https://fanfun.jaxa.jp/town/asia/12.html](https://fanfun.jaxa.jp/town/asia/12.html)
+*   **日本語**: 台湾国家宇宙センター - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%9B%BD%E5%AE%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%9B%BD%E5%AE%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC)
 *   **台湾華語**: 國家太空中心 TASA: [https://www.tasa.org.tw/](https://www.tasa.org.tw/)
 
-> こんにちは、私です。台湾の宇宙開発、特にTASAについて一緒に学ぶことができて、とても嬉しいです。TASAが台湾の科学技術の発展に大きく貢献していることや、福衛シリーズのような独自の技術を開発していることに驚きました。これからも、TASAの活躍を応援していきたいです。
+> こんにちは。台湾の宇宙開発、特にTASAについて一緒に学ぶことができて、とても嬉しいです。TASAが台湾の科学技術の発展に大きく貢献していることや、福衛シリーズのような独自の技術を開発していることに驚きました。これからも、TASAの活躍を応援していきたいです。
