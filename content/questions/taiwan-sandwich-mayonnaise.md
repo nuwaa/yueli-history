@@ -9,6 +9,8 @@ draft: false
 slug: taiwan-sandwich-mayonnaise
 ---
 
+{{< center-img src="/images/taiwan-sandwich-mayonnaise.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜ台湾のサンドイッチのマヨネーズは甘いのでしょうか？それは、台湾の歴史と深く関わっています。食べ物は、その土地の歴史や文化を映し出す鏡のようなもの。台湾のサンドイッチを食べることは、台湾の歴史を少しだけ体験することなのかもしれません。
@@ -67,7 +69,7 @@ slug: taiwan-sandwich-mayonnaise
 
 ## 5. 関連リンク
 
-*   **日本語**: 台湾文化センター「台湾の食文化」[https://www.roc-taiwan.org/jp_ja/post/132.html](https://www.roc-taiwan.org/jp_ja/post/132.html)
-*   **台湾華語**: 台湾 फूड कल्चर (台湾フードカルチャー) [https://www.taiwan.net.tw/m1.aspx?sNo=0003150&id=216](https://www.taiwan.net.tw/m1.aspx?sNo=0003150&id=216)
+*   **日本語**: 台湾サンドイッチ｜キユーピー3分クッキング｜日本テレビ [https://www.ntv.co.jp/3min/recipe/20180908/](https://www.ntv.co.jp/3min/recipe/20180908/)
+*   **台湾華語**: 《三明治美乃滋》食譜與做法，共 20 道 - 愛料理 [https://icook.tw/search/%E4%B8%89%E6%98%8E%E6%B2%BB%E7%BE%8E%E4%B9%83%E6%BB%8B/](https://icook.tw/search/%E4%B8%89%E6%98%8E%E6%B2%BB%E7%BE%8E%E4%B9%83%E6%BB%8B/)
 
 > 今回は台湾のサンドイッチのマヨネーズが甘い理由を一緒に学ぶことができて、私もうれしいです！　食べ物には歴史や文化が詰まっているんですね。私も台湾に行ったときは、ぜひ甘いマヨネーズのサンドイッチを食べてみたいです。きっと、今まで知らなかった台湾の一面を発見できると思います。新しい発見があると、なんだかわくわくしますね！
