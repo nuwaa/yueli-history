@@ -1,6 +1,11 @@
-<div style="text-align: center; margin: 1rem 0;">
-  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" }}" style="max-width: 100%; height: auto;">
+<div style="margin: 1rem 0;">
+  <img src="{{ .Get "src" }}"
+       alt="{{ .Get "alt" }}"
+       width="{{ .Get "width" }}"
+       style="display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto;">
   {{ with .Get "caption" }}
-    <div style="font-size: 0.9rem; color: #777; margin-top: 0.5rem;">{{ . }}</div>
+    <div style="text-align: center; font-size: 0.9rem; color: #777; margin-top: 0.5rem;">
+      {{ . }}
+    </div>
   {{ end }}
 </div>
