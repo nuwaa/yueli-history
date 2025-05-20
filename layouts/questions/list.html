@@ -29,7 +29,7 @@
 
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ $found := false }}
+          {{- $found = true -}}
           {{ range $i, $line := $lines }}
             {{ if not $found }}
               {{ $trimmed := trim $line " " }}
