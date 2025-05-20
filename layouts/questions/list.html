@@ -33,7 +33,7 @@
           {{ $found := false }}
           {{ range $i, $line := $lines }}
             {{ if not $found }}
-              {{ $trimmed := trim $line }}
+              {{ $trimmed := trim $line " " }}
               {{ if and 
                   (ne $trimmed "") 
                   (not (hasPrefix $trimmed "description:")) 
