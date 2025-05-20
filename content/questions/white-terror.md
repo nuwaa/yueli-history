@@ -7,6 +7,7 @@ categories: [歴史, 台湾, 日本, 政治]
 date: 2025-05-19T01:52:27.319Z
 draft: false
 slug: white-terror
+thumbnail: "/images/white-terror.jpg"
 ---
 
 {{< center-img src="/images/white-terror.jpg" >}}
