@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化]
 date: 2025-05-20T00:50:39.961Z
 draft: false
 slug: ikekami-ichiro-library
+thumbnail: "/images/ikekami-ichiro-library.jpg"
 ---
 
 {{< center-img src="/images/ikekami-ichiro-library.jpg" >}}
