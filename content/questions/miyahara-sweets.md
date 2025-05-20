@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化, グルメ]
 date: 2025-05-20T01:16:06.409Z
 draft: false
 slug: miyahara-sweets
+thumbnail: "/images/miyahara-sweets.jpg"
 ---
 
 {{< center-img src="/images/miyahara-sweets.jpg" >}}
