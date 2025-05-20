@@ -7,6 +7,7 @@ categories: [台湾史, 日本史, 比較史]
 date: 2025-05-20T00:02:20.632Z
 draft: false
 slug: taipei-station-presidential-office
+thumbnail: "/images/taipei-station-presidential-office.jpg"
 ---
 
 {{< center-img src="/images/taipei-station-presidential-office.jpg" >}}
