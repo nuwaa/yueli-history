@@ -7,6 +7,7 @@ categories: [歴史, 台湾, 日本]
 date: 2025-05-19T02:18:42.119Z
 draft: false
 slug: taiwan-jingu-location
+thumbnail: "/images/taiwan-jingu-location.jpg"
 ---
 
 {{< center-img src="/images/taiwan-jingu-location.jpg" >}}
