@@ -27,9 +27,10 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
+          {{/* 本文処理：改行→スペース、最初の意味ある行のみ抽出 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{- $found = true -}}
+          {{ $found := false }}
           {{ range $i, $line := $lines }}
             {{ if not $found }}
               {{ $trimmed := trim $line " " }}
@@ -41,7 +42,7 @@
                   (not (hasPrefix $trimmed "#")) 
                 }}
                 <p>{{ $trimmed | truncate 80 }}</p>
-                {{ $found = true }}
+                {{- $found = true -}}
               {{ end }}
             {{ end }}
           {{ end }}
