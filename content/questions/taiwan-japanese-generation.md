@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化]
 date: 2025-05-19T08:04:45.496Z
 draft: false
 slug: taiwan-japanese-generation
+thumbnail: "/images/taiwan-japanese-generation.jpg"
 ---
 
 {{< center-img src="/images/taiwan-japanese-generation.jpg" >}}
