@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化, 食]
 date: 2025-05-19T03:26:30.564Z
 draft: false
 slug: kinmen-beef
+thumbnail: "/images/kinmen-beef.jpg"
 ---
 
 {{< center-img src="/images/kinmen-beef.jpg" >}}
