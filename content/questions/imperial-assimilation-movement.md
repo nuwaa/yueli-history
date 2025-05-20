@@ -7,6 +7,7 @@ categories: [歴史, 台湾, 日本]
 date: 2025-05-19T01:23:45.484Z
 draft: false
 slug: imperial-assimilation-movement
+thumbnail: "/images/imperial-assimilation-movement.jpg"
 ---
 
 {{< center-img src="/images/imperial-assimilation-movement.jpg" >}}
