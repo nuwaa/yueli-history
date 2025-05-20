@@ -62,7 +62,7 @@ copyright = "© 2025 月璃(Yueli)"
 name = "月璃(Yueli)"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "daily"
   priority = 0.5
   filename = "sitemap.xml"
 
