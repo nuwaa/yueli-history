@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 教育]
 date: 2025-05-19T06:01:16.974Z
 draft: false
 slug: two-two-eight-incident
+thumbnail: "/images/two-two-eight-incident.jpg"
 ---
 
 {{< center-img src="/images/two-two-eight-incident.jpg" >}}
