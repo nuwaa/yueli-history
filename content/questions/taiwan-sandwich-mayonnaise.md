@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 食文化]
 date: 2025-05-19T23:49:46.802Z
 draft: false
 slug: taiwan-sandwich-mayonnaise
+thumbnail: "/images/taiwan-sandwich-mayonnaise.jpg"
 ---
 
 {{< center-img src="/images/taiwan-sandwich-mayonnaise.jpg" >}}
