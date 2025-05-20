@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化]
 date: 2025-05-19T06:33:48.707Z
 draft: false
 slug: xiaoyao-garden
+thumbnail: "/images/xiaoyao-garden.jpg"
 ---
 
 {{< center-img src="/images/xiaoyao-garden.jpg" >}}
