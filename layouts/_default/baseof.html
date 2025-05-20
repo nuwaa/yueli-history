@@ -56,7 +56,17 @@
     <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ $desc }}">
     <meta name="twitter:image" content="{{ $img }}">
+
+    {{ with .Params.thumbnail }}
+      <meta property="og:image" content="{{ . | absURL }}">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="630">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ end }}
+
   </head>
+
   <body>
     <main style="border: 2px dashed pink; padding: 1rem;">
       {{ block "main" . }}{{ end }}
