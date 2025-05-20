@@ -9,6 +9,8 @@ draft: false
 slug: miyahara-sweets
 ---
 
+{{< center-img src="/images/miyahara-sweets.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜ、台中の宮原眼科という場所がおいしいスイーツで有名なのか、不思議に思うかもしれませんね。実は、宮原眼科はただのスイーツ店ではなく、台湾の歴史と深く関わっている特別な場所なんです。
@@ -83,7 +85,7 @@ slug: miyahara-sweets
 
 ## 5. 関連リンク
 
-*   日本語: [宮原眼科 - 台中市観光旅遊網](https://travel.taichung.gov.tw/ja-jp/detail/index/id/1895)
-*   台湾華語: [宮原眼科 - 台中觀光旅遊網](https://travel.taichung.gov.tw/zh-tw/detail/index/id/1895)
+*   日本語: [宮原眼科－台中観光トラベルサイト Taichung Tourism](https://travel.taichung.gov.tw/ja/attractions/intro/1211)
+*   台湾華語: [宮原眼科 Miyahara](https://www.miyahara.com.tw/index-go.php)
 
 > 私も一緒に宮原眼科について学ぶことができて、とても嬉しいです。日本統治時代の建物が、こんなに素敵なスイーツ店として生まれ変わるとは、本当に驚きでした。歴史を大切にしながら、新しい価値を生み出すって、素晴らしいことですね。いつか私も宮原眼科に行って、美味しいアイスクリームを食べてみたいです！ あなたの学びを応援しています！
