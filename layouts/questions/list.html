@@ -5,7 +5,7 @@
 {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">質問一覧【Scratchなし + with対応版】</h1>
+    <h1 class="page-title">質問一覧【1行目フィルタ対応版】</h1>
   </div>
 
   <!-- 🔍 検索バー -->
@@ -27,7 +27,7 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 本文から最初のまともな一文を抽出（副作用出力ゼロ） */}}
+          {{/* 要約の生成：最初のまともな一文を抽出（"1" や {{< を除外） */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
           {{ $summary := "" }}
@@ -37,9 +37,10 @@
             {{ if and 
                 (eq $summary "") 
                 (ne $line "") 
+                (ne $line "1") 
                 (not (hasPrefix $line "description:")) 
                 (not (hasPrefix $line "keywords:")) 
-                (not (hasPrefix $line "1.")) 
+                (not (hasPrefix $line "{{<")) 
                 (not (hasPrefix $line "#")) 
               }}
               {{ with $line }}
