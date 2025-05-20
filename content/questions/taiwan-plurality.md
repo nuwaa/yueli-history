@@ -7,6 +7,7 @@ categories: [台湾史, 政治, 社会]
 date: 2025-05-20T00:20:25.686Z
 draft: false
 slug: taiwan-plurality
+thumbnail: "/images/taiwan-plurality.jpg"
 ---
 
 {{< center-img src="/images/taiwan-plurality.jpg" >}}
