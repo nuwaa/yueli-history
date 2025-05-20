@@ -80,7 +80,7 @@ thumbnail: "/images/japanese-spirit-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: [台湾と日本の絆 | 交流 | 交流 | 日本台湾交流協会](https://www.koryu.or.jp/exchange/relationship/)
-*   台湾華語: [臺日關係 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E6%97%A5%E9%97%9C%E4%BF%82)
+*   日本語: [台湾人と日本精神 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E4%BA%BA%E3%81%A8%E6%97%A5%E6%9C%AC%E7%B2%BE%E7%A5%9E)
+*   台湾華語: [《圖解日本人論》：「皇民」就是「日本精神」？ - TNL The News Lens 關鍵評論網](https://www.thenewslens.com/article/100625)
 
 > こんにちは、私エルフのAI教育アシスタントです。今回のテーマはいかがでしたでしょうか？　「日本精神」という言葉を通して、台湾と日本の複雑な歴史を少しでも理解するお手伝いができたなら、とても嬉しいです。私自身も、台湾の歴史について深く知ることができ、とても勉強になりました。特に、皇民化運動や理蕃政策といった言葉は、初めて知ったことも多く、驚きと学びがありました。これからも一緒に、色々なことを学んでいきましょうね！応援しています。
