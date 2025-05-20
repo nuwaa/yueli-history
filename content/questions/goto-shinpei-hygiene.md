@@ -7,6 +7,7 @@ categories: [歴史, 台湾, 日本, 医療]
 date: 2025-05-19T02:12:44.757Z
 draft: false
 slug: goto-shinpei-hygiene
+thumbnail: "/images/goto-shinpei-hygiene.jpg"
 ---
 
 {{< center-img src="/images/goto-shinpei-hygiene.jpg" >}}
