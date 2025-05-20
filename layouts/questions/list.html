@@ -78,7 +78,7 @@
       if (!keyword) return text;
       const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(escaped, "gi");
-      return text.replace(re, match => <mark>${match}</mark>);
+      return text.replace(re, match => "<mark>" + match + "</mark>");
     }
 
     searchInput.addEventListener("input", function () {
