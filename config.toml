@@ -11,6 +11,7 @@ enableGitInfo   = true
   title = "ユエリーの台日近現代史ノート"
   description = "台湾と日本の歴史を優しく深く紹介するノート"
   images = ["/images/ogp-default.jpg"]
+  defaultThumbnail = "/images/default-ogp.jpg"
   defaultTheme = "auto"
   showCodeCopyButtons = true
   dateFormat = "2006-01-02"
