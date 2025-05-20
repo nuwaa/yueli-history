@@ -27,26 +27,25 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 本文から改行をスペースに変換し、先頭の意味ある文を抽出 */}}
+          {{/* 改行除去 → 文分割 → 条件フィルタ → 最初の1文を表示 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ $.Scratch.Set "summary" "" }}
-
-          {{ range $i, $line := $lines }}
-            {{ $trimmed := trim $line " " }}
+          {{ $valid := slice }}
+          {{ range $lines }}
+            {{ $line := trim . " " }}
             {{ if and 
-                (ne $trimmed "") 
-                (not (hasPrefix $trimmed "description:")) 
-                (not (hasPrefix $trimmed "keywords:")) 
-                (not (hasPrefix $trimmed "1.")) 
-                (not (hasPrefix $trimmed "#")) 
+                (ne $line "") 
+                (not (hasPrefix $line "description:")) 
+                (not (hasPrefix $line "keywords:")) 
+                (not (hasPrefix $line "1.")) 
+                (not (hasPrefix $line "#")) 
               }}
-              {{ $.Scratch.Set "summary" $trimmed }}
-              {{ break }}
+              {{ $valid = $valid | append $line }}
             {{ end }}
           {{ end }}
+          {{ $summary := index $valid 0 | default "" | truncate 80 }}
 
-          <p>{{ $.Scratch.Get "summary" | truncate 80 }}</p>
+          <p>{{ $summary }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
