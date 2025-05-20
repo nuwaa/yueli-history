@@ -7,6 +7,7 @@ categories: [日本史, 台湾史, 国際関係]
 date: 2025-05-19T14:54:27.584Z
 draft: false
 slug: abe-and-taiwan
+thumbnail: "/images/abe-and-taiwan.jpg"
 ---
 
 {{< center-img src="/images/abe-and-taiwan.jpg" >}}
