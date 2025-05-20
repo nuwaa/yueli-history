@@ -7,6 +7,7 @@ categories: [台湾, 科学技術, 歴史]
 date: 2025-05-19T23:34:09.558Z
 draft: false
 slug: tasa-taiwan-space
+thumbnail: "/images/tasa-taiwan-space.jpg"
 ---
 
 {{< center-img src="/images/tasa-taiwan-space.jpg" >}}
