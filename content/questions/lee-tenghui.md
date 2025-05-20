@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 政治]
 date: 2025-05-19T01:48:50.441Z
 draft: false
 slug: lee-tenghui
+thumbnail: "/images/lee-tenghui.jpg"
 ---
 
 {{< center-img src="/images/lee-tenghui.jpg" >}}
