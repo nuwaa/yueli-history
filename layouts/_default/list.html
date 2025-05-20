@@ -1,40 +1,117 @@
 {{ define "main" }}
 <main class="page single cute-article" style="max-width: 100%; width: 100%">
 
-  <!-- 🌸 ナビバー -->
-  <nav class="cute-nav">
-    <a href="/">🏠 ホーム</a>
-    <a href="/tags/">🏷 タグ一覧</a>
-  </nav>
+<!-- 🌸 ナビバー（上部） -->
+{{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">「{{ .Title }}」に関する記事</h1>
+    <h1 class="page-title">質問一覧（_default 使用）</h1>
   </div>
 
-  <!-- 件数表示 -->
-  {{ $pages := .Pages }}
+  <!-- 🔍 検索バー -->
+  <div style="text-align:center; margin: 1rem auto;">
+    <input type="text" id="searchInput" placeholder="キーワードで検索" style="padding: 0.5rem; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
+  </div>
+
+  <!-- ✅ 質問回答件数表示 -->
+  {{ $questions := .Pages }}
   <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
-    該当記事数：{{ len $pages }}件
+    現在の質問回答件数：{{ len $questions }}件
   </p>
 
-  <!-- カード表示 -->
+  <!-- カード一覧 -->
   <div class="question-cards" style="width: 100%;">
-    <div class="card-container">
+    <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
-        <div class="card">
+        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Plain | truncate 80 }}</p>
+
+          {{/* 改行をスペースにし、不要行除外し、有効文のみ抽出 */}}
+          {{ $plain := replace .Plain "\n" " " }}
+          {{ $lines := split $plain "." }}
+          {{ $valid := slice }}
+          {{ range $lines }}
+            {{ $line := trim . " " }}
+            {{ if and 
+                (ne $line "") 
+                (not (hasPrefix $line "description:")) 
+                (not (hasPrefix $line "keywords:")) 
+                (not (hasPrefix $line "1.")) 
+                (not (hasPrefix $line "#")) 
+              }}
+              {{ $valid = $valid | append $line }}
+            {{ end }}
+          {{ end }}
+          {{ $summary := index $valid 0 | default "" | truncate 80 }}
+
+          <p class="summary">{{ $summary }}</p>
+
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
       {{ end }}
     </div>
   </div>
 
-  <!-- 🌙 著作権 -->
+<!-- 🌸 ナビバー（下部） -->
+{{ partial "nav.html" . }}
+
+  <!-- 📢 広告エリア -->
+  <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
+    <div style="font-size: 0.85rem; color: #cc88aa;">
+    <!-- 📢 広告エリア（準備中）-->
+    </div>
+  </div>
+
+  <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
     © 2025 月璃(Yueli) 🌙
   </footer>
+
+  <!-- 🔍 JavaScript for 検索 -->
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const cards = document.querySelectorAll(".card");
+
+    function highlight(text, keyword) {
+      if (!keyword) return text;
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(escaped, "gi");
+      return text.replace(re, match => "<mark>" + match + "</mark>");
+    }
+
+    searchInput.addEventListener("input", function () {
+      const keyword = this.value.toLowerCase();
+
+      cards.forEach(card => {
+        const titleElem = card.querySelector("h3");
+        const titleLink = titleElem.querySelector("a");
+        const bodyElem = card.querySelector("p.summary");
+
+        const rawTitle = card.getAttribute("data-title");
+        const rawBody = card.getAttribute("data-body");
+
+        const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
+
+        if (match || keyword === "") {
+          card.style.display = "block";
+          card.style.opacity = 0;
+          setTimeout(() => {
+            card.style.opacity = 1;
+          }, 50);
+        } else {
+          card.style.display = "none";
+        }
+
+        // ✅ タイトルと本文のハイライト
+        const originalTitle = titleLink.textContent;
+        titleLink.innerHTML = highlight(originalTitle, keyword);
+
+        const originalBody = bodyElem.textContent;
+        bodyElem.innerHTML = highlight(originalBody, keyword);
+      });
+    });
+  </script>
 
 </main>
 {{ end }}
