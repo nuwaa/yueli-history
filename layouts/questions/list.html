@@ -46,7 +46,7 @@
             {{ end }}
           {{ end }}
 
-          <p>{{ $.Scratch.Get "summary" | truncate 80 }}</p>
+          <p>{{ .Scratch.Get "summary" | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
