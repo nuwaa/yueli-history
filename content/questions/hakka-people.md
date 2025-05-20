@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化]
 date: 2025-05-19T05:40:27.584Z
 draft: false
 slug: hakka-people
+thumbnail: "/images/hakka-people.jpg"
 ---
 
 {{< center-img src="/images/hakka-people.jpg" >}}
