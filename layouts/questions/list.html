@@ -5,7 +5,7 @@
 {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">質問一覧【Scratch反映済】</h1>
+    <h1 class="page-title">質問一覧【Scratchなし版】</h1>
   </div>
 
   <!-- 🔍 検索バー -->
@@ -27,27 +27,27 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 改行→スペースに置換して文分割、最初の意味ある一文だけ抽出 */}}
-          {{ $page := . }}
+          {{/* 要約の生成：最初の意味ある一文を表示 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ $page.Scratch.Set "summary" "" }}
+          {{ $summary := "" }}
 
           {{ range $lines }}
             {{ $line := trim . " " }}
             {{ if and 
-                (eq ($page.Scratch.Get "summary") "") 
+                (eq $summary "") 
                 (ne $line "") 
                 (not (hasPrefix $line "description:")) 
                 (not (hasPrefix $line "keywords:")) 
                 (not (hasPrefix $line "1.")) 
                 (not (hasPrefix $line "#")) 
               }}
-              {{- $page.Scratch.Set "summary" $line -}}
+              {{- $summary = $line -}}
+              {{- break -}}
             {{ end }}
           {{ end }}
 
-          <p>{{ $page.Scratch.Get "summary" | truncate 80 }}</p>
+          <p>{{ $summary | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
