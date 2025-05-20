@@ -27,22 +27,26 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 改行除去 → 文分割 → 最初の有効文のみ抽出 */}}
+          {{/* Scratchを使って最初の有効文だけ抽出 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
+          {{ $.Scratch.Set "summary" "" }}
+
           {{ range $lines }}
             {{ $line := trim . " " }}
             {{ if and 
+                (eq ($.Scratch.Get "summary") "") 
                 (ne $line "") 
                 (not (hasPrefix $line "description:")) 
                 (not (hasPrefix $line "keywords:")) 
                 (not (hasPrefix $line "1.")) 
                 (not (hasPrefix $line "#")) 
               }}
-              <p>{{ $line | truncate 80 }}</p>
-              {{ break }}
+              {{ $.Scratch.Set "summary" $line }}
             {{ end }}
           {{ end }}
+
+          <p>{{ $.Scratch.Get "summary" | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
