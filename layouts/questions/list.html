@@ -34,6 +34,8 @@
 
           {{ range $lines }}
             {{ $line := trim . " " }}
+            {{ $line = replace $line "日本語の解説" "" }}
+
             {{ if and 
                 (eq $summary "") 
                 (ne $line "") 
@@ -42,7 +44,6 @@
                 (not (hasPrefix $line "keywords:")) 
                 (not (hasPrefix $line "{{<")) 
                 (not (hasPrefix $line "#")) 
-                (not (hasPrefix $line "日本語の解説"))
               }}
               {{ with $line }}
                 {{ $summary = . }}
