@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 政治]
 date: 2025-05-19T06:15:20.714Z
 draft: false
 slug: formosa-incident
+thumbnail: "/images/formosa-incident.jpg"
 ---
 
 {{< center-img src="/images/formosa-incident.jpg" >}}
