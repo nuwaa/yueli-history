@@ -30,18 +30,12 @@
 
           {{ $lines := split .Plain "\n" }}
           {{ range $i, $line := $lines }}
-            {{ $trimmed := trim $line }}
-            {{ if and 
-                (not (hasPrefix $trimmed "description:")) 
-                (not (hasPrefix $trimmed "keywords:")) 
-                (not (hasPrefix $trimmed "1.")) 
-                (not (hasPrefix $trimmed "#")) 
-              }}
-              <p>{{ $trimmed | truncate 80 }}</p>
+            {{ if and (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) }}
+              <p>{{ $line | truncate 80 }}</p>
               {{ break }}
             {{ end }}
           {{ end }}
-
+         
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
       {{ end }}
@@ -72,7 +66,7 @@
       if (!keyword) return text;
       const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(escaped, "gi");
-      return text.replace(re, match => `<mark>${match}</mark>`);
+      return text.replace(re, match => <mark>${match}</mark>);
     }
 
     searchInput.addEventListener("input", function () {
