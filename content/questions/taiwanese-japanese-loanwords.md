@@ -7,6 +7,7 @@ categories: [歴史, 言語学]
 date: 2025-05-19T06:48:18.048Z
 draft: false
 slug: taiwanese-japanese-loanwords
+thumbnail: "/images/taiwanese-japanese-loanwords.jpg"
 ---
 
 {{< center-img src="/images/taiwanese-japanese-loanwords.jpg" >}}
