@@ -27,25 +27,23 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 改行除去 → 文分割 → 条件フィルタ → 最初の1文を表示 */}}
-          {{ $plain := replace .Plain "\n" " " }}
-          {{ $lines := split $plain "." }}
-          {{ $valid := slice }}
-          {{ range $lines }}
-            {{ $line := trim . " " }}
-            {{ if and 
-                (ne $line "") 
-                (not (hasPrefix $line "description:")) 
-                (not (hasPrefix $line "keywords:")) 
-                (not (hasPrefix $line "1.")) 
-                (not (hasPrefix $line "#")) 
-              }}
-              {{ $valid = $valid | append $line }}
+          {{ $lines := split .Plain "\n" }}
+          {{ $found := false }}
+          {{ range $i, $line := $lines }}
+            {{ if not $found }}
+              {{ $trimmed := trim $line " " }}
+              {{ if and 
+                  (ne $trimmed "") 
+                  (not (hasPrefix $trimmed "description:")) 
+                  (not (hasPrefix $trimmed "keywords:")) 
+                  (not (hasPrefix $trimmed "1.")) 
+                  (not (hasPrefix $trimmed "#")) 
+                }}
+                <p>{{ $trimmed | truncate 80 }}</p>
+                {{ $found = true }}
+              {{ end }}
             {{ end }}
           {{ end }}
-          {{ $summary := index $valid 0 | default "" | truncate 80 }}
-
-          <p>{{ $summary }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
