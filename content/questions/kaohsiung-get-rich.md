@@ -7,6 +7,7 @@ categories: [台湾, 政治]
 date: 2025-05-19T02:02:40.196Z
 draft: false
 slug: kaohsiung-get-rich
+thumbnail: "/images/kaohsiung-get-rich.jpg"
 ---
 
 {{< center-img src="/images/kaohsiung-get-rich.jpg" >}}
