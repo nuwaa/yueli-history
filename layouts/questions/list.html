@@ -42,7 +42,7 @@
                 (not (hasPrefix $line "1.")) 
                 (not (hasPrefix $line "#")) 
               }}
-              {{ $.Scratch.Set "summary" $line }}
+              {{- $.Scratch.Set "summary" $line -}}
             {{ end }}
           {{ end }}
 
