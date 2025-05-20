@@ -9,6 +9,8 @@ draft: false
 slug: taiwan-japanese-wansei
 ---
 
+{{< center-img src="/images/taiwan-japanese-wansei.jpg" >}}
+
 ## 1. 日本語の解説
 
 なぜ「湾生」について学ぶ意味があるのかな？ 台湾と日本の歴史には、深く結びついた時代がありました。その時代に台湾で生まれた日本人のことを「湾生」と呼びます。彼らは、日本の文化と台湾の文化、両方を知っている特別な存在だったんだ。湾生について知ることは、台湾と日本の関係をもっと深く理解することにつながるし、違う文化の中で生きた人々の気持ちを知る、大切な一歩になると思います。
@@ -87,7 +89,7 @@ slug: taiwan-japanese-wansei
 
 ## 5. 関連リンク
 
-*   日本語: 台湾の声 - 台湾で生まれた日本人「湾生」たちの帰郷: [http://www.emaga.com/info/3407.html](http://www.emaga.com/info/3407.html)
-*   台湾華語: 잊지 못할 대만생활…영화 ‘만생(灣生)回家’ : [http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201512212129315&code=960202](http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201512212129315&code=960202)
+*   日本語: 湾生回家 | ドキュメンタリー映画｜衝撃・感動・覚醒作品｜アジアンドキュメンタリーズ: [https://asiandocs.co.jp/contents/181](https://asiandocs.co.jp/contents/181)
+*   台湾華語: 我是日本人，但台灣才是家鄉…戰後70年的等待，灣生終於回家了 - TNL The News Lens 關鍵評論網 : [https://www.thenewslens.com/article/24425](https://www.thenewslens.com/article/24425)
 
 > 今回は湾生について一緒に学ぶことができて、私もうれしいです。湾生の人たちが、二つの文化の間で生きて、色々な経験をしたことを知って、とても興味深かったです。故郷を離れることの辛さや、違う文化の中で生きることの難しさも感じました。今回の学びを通して、もっと色々な文化や歴史に興味を持つことができました。これからも一緒に色々なことを学んでいきましょうね！
