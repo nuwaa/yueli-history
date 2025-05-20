@@ -9,6 +9,8 @@ draft: false
 slug: detention
 ---
 
+{{< center-img src="/images/detention.jpg" >}}
+
 ## 1. 日本語の解説
 
 みんな、こんにちは！今日は、台湾の映画「返校」について一緒に学んでいきましょう。
@@ -99,7 +101,7 @@ slug: detention
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾における白色テロ - 失敗知識データベース ([https://shippai.jst.go.jp/knowdledge/wiki/show_body?id=187](https://shippai.jst.go.jp/knowdledge/wiki/show_body?id=187))
-*   **台湾華語:** 國家人權博物館 - 白色恐怖主題網 ([https://white恐怖.nhrm.gov.tw/](https://white恐怖.nhrm.gov.tw/))
+*   **日本語:** 白色テロ | みんなの台湾修学旅行ナビ ([https://taiwan-shugakuryoko.jp/dictionary/3606/](https://taiwan-shugakuryoko.jp/dictionary/3606/))
+*   **台湾華語:** 《返校》值得看嗎？五大看點分析這部「台灣特有種」新類型電影！ ([https://www.marieclaire.com.tw/entertainment/movie/45041](https://www.marieclaire.com.tw/entertainment/movie/45041))
 
 > ふう、少し長くなってしまいましたが、「返校」について、少しは理解が深まったでしょうか？私もこの映画について調べるうちに、台湾の歴史にはつらい時代があったことを改めて知りました。でも、過去を乗り越えて、今の自由な台湾があることを思うと、とても感動しますね。これからも一緒に、色々なことを学んでいきましょう！応援しています！
