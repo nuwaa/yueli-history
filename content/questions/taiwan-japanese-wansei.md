@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 文化]
 date: 2025-05-20T01:39:20.598Z
 draft: false
 slug: taiwan-japanese-wansei
+thumbnail: "/images/taiwan-japanese-wansei.jpg"
 ---
 
 {{< center-img src="/images/taiwan-japanese-wansei.jpg" >}}
