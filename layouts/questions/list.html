@@ -27,7 +27,8 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{ $lines := split .Plain "\n" }}
+          {{ $plain := replace .Plain "\n" " " }}
+          {{ $lines := split $plain "." }}
           {{ $found := false }}
           {{ range $i, $line := $lines }}
             {{ if not $found }}
