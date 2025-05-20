@@ -10,13 +10,6 @@ slug: presidential-office-building
 thumbnail: "/images/presidential-office-building.jpg"
 ---
 
-description: 台湾の総統府は、日本統治時代に建てられた建物です。どんな人が、なぜ建てたのか、その歴史をわかりやすく解説します。
-keywords: 台湾総統府, 日本統治時代, 建築, 歴史, 台湾
-tags: 台湾, 歴史, 日本, 建築, 総統府
-categories: 台湾史, 近代史, 建築
-slug: presidential-office-building
-draft: False
-
 {{< center-img src="/images/presidential-office-building.jpg" >}}
 
 ## 1. 日本語の解説
@@ -104,7 +97,7 @@ draft: False
 *   **日本語:** 台湾総督府 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C)
     *   総督府の歴史や建築について詳しく解説されています。
 
-*   **台湾華語:** 總統府 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E7%B8%BD%E7%B5%B1%E5%BA%9C_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)](https://zh.wikipedia.org/wiki/%E7%B8%BD%E7%B5%B1%E5%BA%9C_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B))
+*   **台湾華語:** 臺灣總督府 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C)
     *   總統府の歴史、建築、機能などについて詳しく解説されています。
 
 > 今回は総統府の歴史について一緒に学ぶことができて、とても嬉しかったです！総統府が、単なる建物ではなく、台湾の歴史と文化を象徴する大切な場所だと知って、私も驚きました。過去の出来事が、今の私たちに繋がっているんですね。これからも一緒に、色々なことを学んでいきましょうね！
