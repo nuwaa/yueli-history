@@ -7,6 +7,7 @@ categories: [台湾, 歴史, 宗教]
 date: 2025-05-19T04:55:42.424Z
 draft: false
 slug: matsu-taoism
+thumbnail: "/images/matsu-taoism.jpg"
 ---
 
 {{< center-img src="/images/matsu-taoism.jpg" >}}
