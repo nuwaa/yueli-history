@@ -7,6 +7,7 @@ categories: [台湾史, 日本史, 近代史]
 date: 2025-05-19T05:09:45.243Z
 draft: false
 slug: shih-ming-ikebukuro
+thumbnail: "/images/shih-ming-ikebukuro.jpg"
 ---
 
 {{< center-img src="/images/shih-ming-ikebukuro.jpg" >}}
