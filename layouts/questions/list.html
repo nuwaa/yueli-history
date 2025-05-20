@@ -5,8 +5,7 @@
 {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">質問一覧</h1>
-<h1 class="page-title">質問一覧【TEST表示】</h1>
+    <h1 class="page-title">質問一覧【Scratch反映済】</h1>
   </div>
 
   <!-- 🔍 検索バー -->
@@ -28,7 +27,7 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* Scratchを使って最初の有効文だけ抽出 */}}
+          {{/* 改行→スペースに置換して文分割、最初の意味ある一文だけ抽出 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
           {{ $.Scratch.Set "summary" "" }}
