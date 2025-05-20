@@ -1,34 +1,53 @@
 {{ define "main" }}
-<main class="page single cute-article" style="max-width: 100%; width: 100%">
+<main class="page single cute-article" style="max-width: 100%; width: 100%;">
 
   <!-- 🌸 ナビバー -->
   {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">タグ「{{ .Title }}」の記事一覧</h1>
+    <h1 class="page-title">{{ .Title }} の投稿一覧</h1>
   </div>
-
-  {{ $pages := .Pages }}
-  <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
-    該当記事数：{{ len $pages }}件
-  </p>
 
   <!-- カード一覧 -->
   <div class="question-cards" style="width: 100%;">
-    <div class="card-container">
+    <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
-        <div class="card">
+        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
-          <p>{{ .Plain | truncate 80 }}</p>
+
+          {{/* 要約抽出処理（質問一覧と同様） */}}
+          {{ $plain := replace .Plain "\n" " " }}
+          {{ $lines := split $plain "." }}
+          {{ $summary := "" }}
+
+          {{ range $lines }}
+            {{ $line := trim . " " }}
+            {{ $line = replace $line "日本語の解説" "" }}
+
+            {{ if and 
+                (eq $summary "") 
+                (ne $line "") 
+                (ne $line "1") 
+                (not (hasPrefix $line "description:")) 
+                (not (hasPrefix $line "keywords:")) 
+                (not (hasPrefix $line "{{<")) 
+                (not (hasPrefix $line "#")) 
+              }}
+              {{ with $line }}
+                {{ $summary = . }}
+              {{ end }}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+
+          <p>{{ $summary | truncate 80 }}</p>
+
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
       {{ end }}
     </div>
   </div>
-
-  <!-- 🌸 ナビバー（下部） -->
-  {{ partial "nav.html" . }}
 
   <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
