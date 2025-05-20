@@ -7,6 +7,7 @@ categories: [歴史, 台湾, 産業]
 date: 2025-05-19T23:23:18.971Z
 draft: false
 slug: taiwan-semiconductor-history
+thumbnail: "/images/taiwan-semiconductor-history.jpg"
 ---
 
 {{< center-img src="/images/taiwan-semiconductor-history.jpg" >}}
