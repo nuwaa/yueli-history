@@ -7,6 +7,7 @@ categories: [映画, 台湾, 歴史]
 date: 2025-05-20T02:19:43.158Z
 draft: false
 slug: detention
+thumbnail: "/images/detention.jpg"
 ---
 
 {{< center-img src="/images/detention.jpg" >}}
