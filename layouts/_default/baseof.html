@@ -3,38 +3,47 @@
   <head>
     <meta charset="UTF-8">
 
-<title>
-  {{ if .IsHome }}
-    ユエリーの台日近現代史ノート - 台湾と日本の間にある物語
-  {{ else if eq .Data.Plural "tags" }}
-    タグ一覧（件数順） - {{ .Site.Title }}
-  {{ else if eq .Data.Plural "categories" }}
-    カテゴリ一覧（件数順） - {{ .Site.Title }}
-  {{ else }}
-    {{ .Title }} - {{ .Site.Title }}
-  {{ end }}
-</title>
+    <title>
+      {{ if .IsHome }}
+        ユエリーの台日近現代史ノート - 台湾と日本の間にある物語
+      {{ else if eq .Data.Plural "tags" }}
+        タグ一覧（件数順） - {{ .Site.Title }}
+      {{ else if eq .Data.Plural "categories" }}
+        カテゴリ一覧（件数順） - {{ .Site.Title }}
+      {{ else }}
+        {{ .Title }} - {{ .Site.Title }}
+      {{ end }}
+    </title>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRE357541Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PRE357541Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PRE357541Z');
+    </script>
 
-  gtag('config', 'G-PRE357541Z');
-</script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3038508396340778"
-     crossorigin="anonymous"></script>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3038508396340778"
+        crossorigin="anonymous"></script>
 
     {{ $style := resources.Get "css/custom.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
     <!-- ✅ OGP / Twitterカード / SEOメタ情報 -->
     {{ $desc := .Params.description | default "台湾と日本の近現代史をやさしく解説する、ユエリーのノート。" }}
     {{ $title := .Title | default "ユエリーの台日近現代史ノート" }}
-    {{ $img := .Params.image | default "https://c1i.net/images/ogp-default.jpg" }}
     {{ $url := .Permalink }}
+
+    {{ $img := "" }}
+    {{ if .Params.images }}
+      {{ $img = index .Params.images 0 | absURL }}
+    {{ else if .Params.image }}
+      {{ $img = .Params.image | absURL }}
+    {{ else }}
+      {{ $img = "https://c1i.net/images/ogp-default.jpg" }}
+    {{ end }}
 
     <meta name="description" content="{{ $desc }}">
     <meta property="og:title" content="{{ $title }}">
@@ -52,6 +61,6 @@
     <main style="border: 2px dashed pink; padding: 1rem;">
       {{ block "main" . }}{{ end }}
     </main>
-{{ partial "footer/custom.html" . }}
+    {{ partial "footer/custom.html" . }}
   </body>
 </html>
