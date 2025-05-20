@@ -27,25 +27,25 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          {{/* 本文処理：改行→スペース、最初の意味ある行のみ抽出 */}}
+          {{/* 本文処理：改行→スペース、意味のある1文のみ抽出 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ $found := false }}
+          {{ $summary := "" }}
           {{ range $i, $line := $lines }}
-            {{ if not $found }}
-              {{ $trimmed := trim $line " " }}
-              {{ if and 
-                  (ne $trimmed "") 
-                  (not (hasPrefix $trimmed "description:")) 
-                  (not (hasPrefix $trimmed "keywords:")) 
-                  (not (hasPrefix $trimmed "1.")) 
-                  (not (hasPrefix $trimmed "#")) 
-                }}
-                <p>{{ $trimmed | truncate 80 }}</p>
-                {{- $found = true -}}
-              {{ end }}
+            {{ $trimmed := trim $line " " }}
+            {{ if and 
+                (eq $summary "") 
+                (ne $trimmed "") 
+                (not (hasPrefix $trimmed "description:")) 
+                (not (hasPrefix $trimmed "keywords:")) 
+                (not (hasPrefix $trimmed "1.")) 
+                (not (hasPrefix $trimmed "#")) 
+              }}
+              {{ $summary = $trimmed }}
             {{ end }}
           {{ end }}
+
+          <p>{{ $summary | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
@@ -103,7 +103,6 @@
           card.style.display = "none";
         }
 
-        // ✅ タイトルのリンク保持したままテキストだけハイライト
         const originalTitle = titleLink.textContent;
         titleLink.innerHTML = highlight(originalTitle, keyword);
 
