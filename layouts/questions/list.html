@@ -28,25 +28,26 @@
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
           {{/* 改行→スペースに置換して文分割、最初の意味ある一文だけ抽出 */}}
+          {{ $page := . }}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ .Scratch.Set "summary" "" }}
+          {{ $page.Scratch.Set "summary" "" }}
 
           {{ range $lines }}
             {{ $line := trim . " " }}
             {{ if and 
-                (eq (.Scratch.Get "summary") "") 
+                (eq ($page.Scratch.Get "summary") "") 
                 (ne $line "") 
                 (not (hasPrefix $line "description:")) 
                 (not (hasPrefix $line "keywords:")) 
                 (not (hasPrefix $line "1.")) 
                 (not (hasPrefix $line "#")) 
               }}
-              {{- .Scratch.Set "summary" $line -}}
+              {{- $page.Scratch.Set "summary" $line -}}
             {{ end }}
           {{ end }}
 
-          <p>{{ .Scratch.Get "summary" | truncate 80 }}</p>
+          <p>{{ $page.Scratch.Get "summary" | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
