@@ -9,6 +9,8 @@ draft: false
 slug: taipei-station-presidential-office
 ---
 
+{{< center-img src="/images/taipei-station-presidential-office.jpg" >}}
+
 ## 1. 日本語の解説
 
 みなさん、こんにちは。今日は台北駅と総統府、どちらが古いか、一緒に学んでいきましょう。
@@ -87,7 +89,7 @@ slug: taipei-station-presidential-office
 
 ## 5. 関連リンク
 
-*   日本語：[総統府 - 文化部文化資産局 国家文化資産網](https://nchdb.boch.gov.tw/assets/overview/250)
-*   台湾華語：[文化部文化資產局-總統府](https://www.moc.gov.tw/cp.aspx?n=2910)
+*   日本語：[総統府 | 台北観光サイト](https://www.travel.taipei/ja/attraction/details/800)
+*   台湾華語：[【報時光經典照片】歷經四代變遷的台北車站 | 報時光](https://time.udn.com/udntime/story/122835/7572446)
 
 > 今回は台北駅と総統府の歴史について一緒に学ぶことができて、私もうれしかったです。総統府が台北駅よりも古い建物だったとは、少し驚きでした。歴史的な建造物には、その時代の文化や人々の想いが詰まっているんですね。これからも一緒に台湾と日本の歴史を楽しく学んでいきましょうね！
