@@ -7,6 +7,7 @@ categories: [歴史, 台湾, メディア]
 date: 2025-05-19T23:15:35.033Z
 draft: false
 slug: radio-taiwan-international
+thumbnail: "/images/radio-taiwan-international.jpg"
 ---
 
 {{< center-img src="/images/radio-taiwan-international.jpg" >}}
