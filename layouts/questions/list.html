@@ -4,7 +4,6 @@
 <!-- 🌸 ナビバー（上部） -->
 {{ partial "nav.html" . }}
 
-
   <div class="page-header" style="text-align: center;">
     <h1 class="page-title">質問一覧</h1>
   </div>
@@ -28,26 +27,25 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-
+          {{/* 本文から改行を除去し、先頭の適切な1文を表示 */}}
           {{ $plain := replace .Plain "\n" " " }}
           {{ $lines := split $plain "." }}
-          {{ $found := false }}
+          {{ $summary := "" }}
           {{ range $i, $line := $lines }}
-            {{ if not $found }}
-              {{ $trimmed := trim $line " " }}
-              {{ if and 
-                  (ne $trimmed "") 
-                  (not (hasPrefix $trimmed "description:")) 
-                  (not (hasPrefix $trimmed "keywords:")) 
-                  (not (hasPrefix $trimmed "1.")) 
-                  (not (hasPrefix $trimmed "#")) 
-                }}
-                <p>{{ $trimmed | truncate 80 }}</p>
-                {{ $found = true }}
-              {{ end }}
+            {{ $trimmed := trim $line " " }}
+            {{ if and 
+                (ne $trimmed "") 
+                (not (hasPrefix $trimmed "description:")) 
+                (not (hasPrefix $trimmed "keywords:")) 
+                (not (hasPrefix $trimmed "1.")) 
+                (not (hasPrefix $trimmed "#")) 
+              }}
+              {{ $summary = $trimmed }}
+              {{ break }}
             {{ end }}
           {{ end }}
 
+          <p>{{ $summary | truncate 80 }}</p>
 
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
@@ -61,7 +59,7 @@
   <!-- 📢 広告エリア -->
   <div class="cute-adsense" style="margin: 2rem 0; text-align:center;">
     <div style="font-size: 0.85rem; color: #cc88aa;">
-  <!-- 📢 広告エリア（準備中）-->
+    <!-- 📢 広告エリア（準備中）-->
     </div>
   </div>
 
