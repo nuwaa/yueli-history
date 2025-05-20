@@ -27,14 +27,22 @@
         <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
+          
 
           {{ $lines := split .Plain "\n" }}
           {{ range $i, $line := $lines }}
-            {{ if and (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) }}
-              <p>{{ $line | truncate 80 }}</p>
+            {{ $trimmed := trim $line }}
+            {{ if and 
+                (not (hasPrefix $trimmed "description:")) 
+                (not (hasPrefix $trimmed "keywords:")) 
+                (not (hasPrefix $trimmed "1.")) 
+                (not (hasPrefix $trimmed "#")) 
+              }}
+              <p>{{ $trimmed | truncate 80 }}</p>
               {{ break }}
             {{ end }}
           {{ end }}
+
          
           <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
         </div>
