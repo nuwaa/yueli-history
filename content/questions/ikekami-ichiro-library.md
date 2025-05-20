@@ -9,6 +9,8 @@ draft: false
 slug: ikekami-ichiro-library
 ---
 
+{{< center-img src="/images/ikekami-ichiro-library.jpg" >}}
+
 ## 1. 日本語の解説
 
 どうして、屏東にある池上一郎博士文庫のことを学ぶといいのでしょうか？それは、この文庫がただの図書館ではなく、台湾と日本の深い繋がりを示す大切な場所だからです。昔、日本が台湾を統治していた時代、日本人は台湾に様々な影響を与えました。池上一郎博士文庫は、その時代の名残であり、文化交流の証でもあるのです。この文庫を知ることで、私たちは台湾の歴史をより深く理解し、日本との関係について考えるきっかけを得ることができます。
@@ -83,7 +85,7 @@ slug: ikekami-ichiro-library
 
 ## 5. 関連リンク
 
-*   日本語: [池上一郎博士文庫について](http://www.cultural.pthg.gov.tw/bin/home.php)（屏東県政府文化処公式サイト）
-*   台湾華語: [文化部iCulture-地方文化館](https://library.moc.gov.tw/localculturalhall/HallDetail.jsp?hallId=211)
+*   日本語: [屏東の池上文庫―日台の絆を紡ぎ育む小さな日本語図書館 | nippon.com](https://www.nippon.com/ja/japan-topics/g00819/)
+*   台湾華語: [池上文庫辦「曬書節」 珍貴館藏曝光 - 屏東縣 - 自由時報電子報](https://news.ltn.com.tw/news/Pingtung/paper/1659967)
 
 > 私も一緒に学べて、とても嬉しいです！池上一郎博士文庫が、こんなにも大切な場所だとは知りませんでした。特に、台湾と日本の歴史的なつながりを象徴しているという点が、心に残りました。過去の歴史を知り、未来に向けてより良い関係を築いていくことの大切さを、改めて感じました。これからも一緒に色々なことを学んでいきましょうね！
