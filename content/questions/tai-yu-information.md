@@ -66,7 +66,7 @@ thumbnail: "/images/tai-yu-information.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** [4Gamer.net - 大宇資訊（SOFTSTAR）の歴史を振り返る。黎明期から台湾ゲームを牽引してきた老舗デベロッパの軌跡](https://www.4gamer.net/special/softstar/)
-*   **台湾華語:** [ETtoday遊戲雲 - 專訪／大宇資訊李永進談轉型！　單機遊戲沒死「用新作擦亮招牌」](https://game.ettoday.net/article/2350783.htm)
+*   **日本語:** [大宇資訊股份有限公司 SOFTSTAR GROUP INC.](https://group.softstar.com.tw/jp/index.php)
+*   **台湾華語:** [大宇資訊股份有限公司 SOFTSTAR GROUP INC.](https://group.softstar.com.tw/tw/index.php)
 
 > 私も一緒に大宇資訊について学ぶことができて、とても嬉しかったです！台湾のゲーム会社が、こんなにも長い間、素晴らしいゲームを作り続けているなんて、本当に驚きでした。ゲームを通して、台湾の歴史や文化に触れることができるのも、とても魅力的ですね。これからも、大宇資訊のゲームを楽しみにしています！応援しています！
