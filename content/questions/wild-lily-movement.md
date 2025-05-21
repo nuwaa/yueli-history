@@ -110,8 +110,8 @@ thumbnail: "/images/wild-lily-movement.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾の声 - 台湾の歴史: [https://www.twnvoice.com/twhistory.htm](https://www.twnvoice.com/twhistory.htm)
-*   **台湾華語:** 國家文化記憶庫 - 野百合學運: [https://memory.culture.tw/Home/Detail?Id=372](https://memory.culture.tw/Home/Detail?Id=372)
+*   **日本語:** 三月学運 - Wikipedia: [https://ja.wikipedia.org/wiki/%E4%B8%89%E6%9C%88%E5%AD%A6%E9%81%8B](https://ja.wikipedia.org/wiki/%E4%B8%89%E6%9C%88%E5%AD%A6%E9%81%8B)
+*   **台湾華語:** 野百合學運 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E9%87%8E%E7%99%BE%E5%90%88%E5%AD%B8%E9%81%8B](https://zh.wikipedia.org/wiki/%E9%87%8E%E7%99%BE%E5%90%88%E5%AD%B8%E9%81%8B)
 
 > 今回は野百合学生運動について一緒に学ぶことができて、とても嬉しかったです。
 >
