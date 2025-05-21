@@ -116,7 +116,7 @@ thumbnail: "/images/waishengren-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 台湾におけるエスニシティ問題に関する研究：[https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/178550/1/KJ00009038156.pdf](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/178550/1/KJ00009038156.pdf)
-*   台湾華語: 認識台灣 外省族群：[https://www.ntsec.gov.tw/Article.aspx?ca=1305&id=174](https://www.ntsec.gov.tw/Article.aspx?ca=1305&id=174)
+*   日本語: 日本人が捨てるべき「台湾への思い込み」 「本省人vs外省人」では語れない統一地方選　Wedge ONLINE(ウェッジ・オンライン)：[https://wedge.ismedia.jp/articles/-/14466](https://wedge.ismedia.jp/articles/-/14466)
+*   台湾華語: 台灣「外省人」後解嚴時代的國家認同 | 台灣獨立建國聯盟：[https://wufi.org.tw/%E5%8F%B0%E7%81%A3%E3%80%8C%E5%A4%96%E7%9C%81%E4%BA%BA%E3%80%8D%E5%BE%8C%E8%A7%A3%E5%9A%B4%E6%99%82%E4%BB%A3%E7%9A%84%E5%9C%8B%E5%AE%B6%E8%AA%8D%E5%90%8C](https://wufi.org.tw/%E5%8F%B0%E7%81%A3%E3%80%8C%E5%A4%96%E7%9C%81%E4%BA%BA%E3%80%8D%E5%BE%8C%E8%A7%A3%E5%9A%B4%E6%99%82%E4%BB%A3%E7%9A%84%E5%9C%8B%E5%AE%B6%E8%AA%8D%E5%90%8C)
 
 > 私も一緒に学ぶことができて、とても嬉しいです。今回のテーマを通して、台湾の歴史は複雑で、多様な背景を持つ人々が関わってきたことを改めて感じました。「外省人」という言葉が持つ意味は、時代と共に変化してきたのですね。これからも、台湾の文化や歴史について、もっと深く知っていきたいです。応援しています！
