@@ -94,8 +94,8 @@ thumbnail: "/images/taiwan-japan-tea-sugar.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：[農林水産省 - お茶を深く知る - 種類](https://www.maff.go.jp/j/keikaku/kikaku/wpaper/h29_h/trend/1/t1_b1_2.html)
-*   台湾華語：[行政院農業委員會茶業改良場](https://www.tres.gov.tw/)
+*   日本語：[ASCII.jp：知らずに買うと甘い「台湾のお茶」を買うときの注意点](https://ascii.jp/elem/000/004/204/4204060/)
+*   台湾華語：[喝茶時到底能不能在茶裡面加「糖」？ - 每日頭條](https://kknews.cc/zh-tw/culture/xlbpyog.html)
 
 > 今回のテーマ、いかがでしたでしょうか？
 >
