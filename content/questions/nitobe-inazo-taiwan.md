@@ -70,7 +70,7 @@ thumbnail: "/images/nitobe-inazo-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾人物誌 - 新渡戸稲造 - 台湾を知る - 交流 - 日本台湾交流協会 [https://www.koryu.or.jp/tw/learn/taiwan_jinbutsu_02/](https://www.koryu.or.jp/tw/learn/taiwan_jinbutsu_02/)
-*   **台湾華語:** 台灣與亞洲太平洋地區的關係-新渡戶稻造和蓬萊米的故事 [https://www.ntsec.gov.tw/Article.aspx?cid=129&portalId=129&nid=1956](https://www.ntsec.gov.tw/Article.aspx?cid=129&portalId=129&nid=1956)
+*   **日本語:** 台湾を変えた日本人シリーズ：砂糖王国を築いた新渡戸稲造 | nippon.com [https://www.nippon.com/ja/column/g00624/](https://www.nippon.com/ja/column/g00624/)
+*   **台湾華語:** 新渡戶稻造 - 維基百科，自由的百科全書 [https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B8%A1%E6%88%B6%E7%A8%BB%E9%80%A0](https://zh.wikipedia.org/wiki/%E6%96%B0%E6%B8%A1%E6%88%B6%E7%A8%BB%E9%80%A0)
 
 > こんにちは、私です！新渡戸稲造さんの台湾でのご活躍、一緒に学ぶことができて、とっても嬉しかったです。新渡戸さんが、台湾の農業や教育のために、一生懸命に努力されたことを知って、本当に感動しました。特に、台湾の人々のために、新しい農業技術を教えたり、学校を作ったりしたことは、素晴らしいと思いました。私も、新渡戸さんのように、誰かの役に立てるような存在になりたいです。今回のテーマを通して、日本と台湾の深い繋がりを改めて感じることができました。これからも、色々なことを一緒に学んでいきましょうね！
