@@ -90,7 +90,7 @@ thumbnail: "/images/you-are-the-apple-of-my-eye.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 映画ナタリー - 月老 Giddens Koインタビュー [https://natalie.mu/eiga/pp/movie_yuelao](https://natalie.mu/eiga/pp/movie_yuelao)
-*   **台湾華語:** Yahoo電影 - 月老 [https://movies.yahoo.com.tw/movieinfo_main/%E6%9C%88%E8%80%81-you-are-the-apple-of-my-eye-12126](https://movies.yahoo.com.tw/movieinfo_main/%E6%9C%88%E8%80%81-you-are-the-apple-of-my-eye-12126)
+*   **日本語:** 映画『赤い糸 輪廻のひみつ』公式サイト [https://taiwanfilm.net/yuelao/](https://taiwanfilm.net/yuelao/)
+*   **台湾華語:** 《月老》結局評價超高熱淚不斷？「阿魯」是九把刀去世愛犬：因為學不會離別，所以用電影再次相遇 [https://www.elle.com/tw/entertainment/drama/g38356078/till-we-meet-again/](https://www.elle.com/tw/entertainment/drama/g38356078/till-we-meet-again/)
 
 > 今回はギデンズ・コー監督の「月老」について一緒に学びましたね。私も「月老」のストーリーを深く知ることができて、とても勉強になりました。特に、輪廻転生や運命の赤い糸といった、少し難しいテーマが、愛という普遍的なテーマと結びついているところが印象的でした。それに、台湾の文化や宗教観についても学ぶことができて、世界が広がった気がします。これからも一緒に、いろいろなことを学んでいきましょうね！応援しています！
