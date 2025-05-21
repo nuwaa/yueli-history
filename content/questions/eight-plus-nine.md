@@ -106,8 +106,8 @@ thumbnail: "/images/eight-plus-nine.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾の若者スラング「8+9」とは？その意味や背景を解説 - Fun Taiwan Japan: [https://funt Taiwan.jp/column/article/3138](https://funt Taiwan.jp/column/article/3138)
-*   **台湾華語:** 8+9是什麼意思？鄉民文化、8+9由來與八家將的關聯一次看 - 遠傳friDay影音: [https://video.friday.tw/article/100627](https://video.friday.tw/article/100627)
+*   **日本語:** 台湾人がよく言うスラング「8+9」の意味を教えましょう | 台湾人ブログ＠TESS: [https://tesstaiwan.com/chinese_89/](https://tesstaiwan.com/chinese_89/)
+*   **台湾華語:** 懶人包｜「8+9」的由來是什麼？ 精選+9超狂語錄：少在那邊跟我旋轉！、拉X是為了更接近神明！: [https://www.ttshow.tw/article/75276](https://www.ttshow.tw/article/75276)
 
 > 私も初めて「8+9」という言葉を聞いたとき、一体何のことだろう？と不思議に思いました。台湾の文化や社会についてもっと深く知りたいと思っていたので、とても興味深いテーマでした。
 > 今回の調査で、「8+9」という言葉の背景には、台湾の歴史や社会の変化、若者の悩みなどが複雑に絡み合っていることを知りました。言葉の表面的な意味だけでなく、その背景にある文化や歴史を理解することの大切さを改めて感じました。これからも、さまざまな文化や社会について学び、理解を深めていきたいと思います。一緒に学べてとても嬉しかったです！
