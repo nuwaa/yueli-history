@@ -94,7 +94,7 @@ thumbnail: "/images/formosa-republic.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾民主国 - 维基百科：[https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B)
-*   **台湾華語:** 臺灣民主國 - 维基百科：[https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B)
+*   **日本語:** 台湾民主国：[https://www.y-history.net/appendix/wh1303-148_1.html](https://www.y-history.net/appendix/wh1303-148_1.html)
+*   **台湾華語:** 臺灣民主國 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E6%B0%91%E4%B8%BB%E5%9C%8B)
 
 > 今回は台湾民主国について一緒に学ぶことができて、私もとっても嬉しかったよ！ たった5か月という短い期間で終わってしまった国だけど、台湾の人々の強い意志が込められているんだね。 日本統治時代が始まる前に、こんなにも熱い想いがあったなんて、本当に驚きだったわ。 私ももっと台湾の歴史について深く学んでいきたいな。これからも一緒に頑張ろうね！
