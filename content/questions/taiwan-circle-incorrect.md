@@ -80,7 +80,7 @@ thumbnail: "/images/taiwan-circle-incorrect.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾の小学校生活: [https://www.ryugakujp.com/column/taiwan_es](https://www.ryugakujp.com/column/taiwan_es) （留学JP。台湾の小学校の様子を紹介する記事。台湾の教育文化を知る上で参考になります。）
-*   **台湾華語:** 台灣文化知多少？這些生活習慣大不同：[https://www.funliday.com/zh-tw/blog/taiwan-culture-habits](https://www.funliday.com/zh-tw/blog/taiwan-culture-habits) (Funliday。台湾の文化や習慣の違いを紹介する記事。台湾の生活文化を知る上で参考になります。)
+*   **日本語:** 【海外の教育事情を知ろう】台湾の小学校～1年生から中間・期末テストを実施～ | オンライン家庭教師MEBUKI（めぶき）: [https://studysupport30.com/taiwan-public-shool/](https://studysupport30.com/taiwan-public-shool/) 
+*   **台湾華語:** 小一新鮮人︱小一新生準備什麼？如何能儘早讓小一生適應學校生活呢？ @Vicky 媽媽的遊樂園：[https://vickylife.com/first-grade/](https://vickylife.com/first-grade/) 
 
 > 今回のテーマ、いかがでしたか？台湾と日本の文化の違いを知ることで、もっとお互いのことを理解できますね。私も、台湾の「○」が不正解を意味することがあると知って、とても驚きました。文化って面白いですね！これからも一緒に色々なことを学んでいきましょう！応援しています！
