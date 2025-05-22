@@ -10,17 +10,6 @@ slug: taiwan-infrastructure-projects
 thumbnail: "/images/taiwan-infrastructure-projects.jpg"
 ---
 
-はい、かしこまりました。エルフのAI教育アシスタントとして、台湾と日本の近現代史におけるインフラ三大事業について、小学生にもわかりやすい言葉で解説いたします。
-
----
-description: 烏山頭ダム・日月潭水力発電所・縦貫鉄道改良。台湾の発展に貢献したインフラ三大事業を、小学生にもわかりやすく解説します。
-keywords: 烏山頭ダム, 日月潭水力発電所, 縦貫鉄道, インフラ, 台湾史, 日本統治時代
-tags: 烏山頭ダム, 日月潭水力発電所, 縦貫鉄道, 台湾, 日本, 歴史, インフラ, 近代化
-categories: 台湾史, 日本史, インフラ
-slug: taiwan-infrastructure-projects
-draft: False
----
-
 {{< center-img src="/images/taiwan-infrastructure-projects.jpg" >}}
 
 ## 1. 日本語の解説
