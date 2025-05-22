@@ -23,38 +23,48 @@
   <div class="question-cards" style="width: 100%;">
     <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
-        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
+        {{/* サムネイル候補の取得 */}}
+        {{ $thumb := "" }}
+        {{ with .Params.cover }}{{ $thumb = . }}{{ end }}
+        {{ if eq $thumb "" }}{{ with .Params.images }}{{ $thumb = index . 0 }}{{ end }}{{ end }}
+        {{ if eq $thumb "" }}{{ with .Resources.GetMatch "*featured*" }}{{ $thumb = .RelPermalink }}{{ end }}{{ end }}
 
-          {{/* 要約の生成：最初のまともな一文を抽出（"1" や {{< を除外） */}}
-          {{ $plain := replace .Plain "\n" " " }}
-          {{ $lines := split $plain "." }}
-          {{ $summary := "" }}
-
-          {{ range $lines }}
-            {{ $line := trim . " " }}
-            {{ $line = replace $line "日本語の解説" "" }}
-
-            {{ if and 
-                (eq $summary "") 
-                (ne $line "") 
-                (ne $line "1") 
-                (not (hasPrefix $line "description:")) 
-                (not (hasPrefix $line "keywords:")) 
-                (not (hasPrefix $line "{{<")) 
-                (not (hasPrefix $line "#")) 
-              }}
-              {{ with $line }}
-                {{ $summary = . }}
-              {{ end }}
-              {{ break }}
-            {{ end }}
+        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}" style="display: flex; align-items: flex-start; gap: 1rem;">
+          {{ if $thumb }}
+            <img src="{{ $thumb }}" alt="thumbnail" style="width: 5rem; height: 5rem; object-fit: cover; border-radius: 0.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.15); flex-shrink: 0;">
           {{ end }}
 
-          <p>{{ $summary | truncate 80 }}</p>
+          <div style="flex: 1;">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
 
-          <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
+            {{/* 要約の生成 */}}
+            {{ $plain := replace .Plain "\n" " " }}
+            {{ $lines := split $plain "." }}
+            {{ $summary := "" }}
+            {{ range $lines }}
+              {{ $line := trim . " " }}
+              {{ $line = replace $line "日本語の解説" "" }}
+              {{ if and 
+                  (eq $summary "") 
+                  (ne $line "") 
+                  (ne $line "1") 
+                  (not (hasPrefix $line "description:")) 
+                  (not (hasPrefix $line "keywords:")) 
+                  (not (hasPrefix $line "{{<")) 
+                  (not (hasPrefix $line "#")) 
+                }}
+                {{ with $line }}
+                  {{ $summary = . }}
+                {{ end }}
+                {{ break }}
+              {{ end }}
+            {{ end }}
+
+            <p>{{ $summary | truncate 80 }}</p>
+
+            <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
+          </div>
         </div>
       {{ end }}
     </div>
@@ -82,7 +92,7 @@
 
     function highlight(text, keyword) {
       if (!keyword) return text;
-      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const escaped = keyword.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
       const re = new RegExp(escaped, "gi");
       return text.replace(re, match => "<mark>" + match + "</mark>");
     }
@@ -101,7 +111,7 @@
         const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
 
         if (match || keyword === "") {
-          card.style.display = "block";
+          card.style.display = "flex";
           card.style.opacity = 0;
           setTimeout(() => {
             card.style.opacity = 1;
