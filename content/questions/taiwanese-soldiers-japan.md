@@ -107,8 +107,8 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語**: 台湾人元日本兵の補償問題：[https://www.ritsumei.ac.jp/file.jsp?id=494247](https://www.ritsumei.ac.jp/file.jsp?id=494247)
-*   **台湾華語**: 台灣老兵口述歷史：[https://www.culture.ntpc.gov.tw/exhibition?ForeShowData_QryStr=8YyTRM3A2QhO8w0g8z6Mug%3d%3d](https://www.culture.ntpc.gov.tw/exhibition?ForeShowData_QryStr=8YyTRM3A2QhO8w0g8z6Mug%3d%3d)
+*   **日本語**: 台湾人元日本兵の戦後補償問題――積み残された人々の願いに真の「解決」を | nippon.com：[https://www.nippon.com/ja/japan-topics/g00972/](https://www.nippon.com/ja/japan-topics/g00972/)
+*   **台湾華語**: 臺灣兵口述歷史訪談｜高雄市關懷台籍老兵文化協會｜國藝會補助成果檔案庫：[https://archive.ncafroc.org.tw/result?id=cb1a7443ef1a44d7849c94250192cb0d](https://archive.ncafroc.org.tw/result?id=cb1a7443ef1a44d7849c94250192cb0d)
 
 > ふう、少し難しいお話でしたが、最後まで一緒に学んでくれてありがとう。台湾人日本兵、軍属、挺身隊の動員というテーマを通じて、当時の台湾の人々の複雑な立場や感情を知ることができました。特に、皇民化政策という言葉は初めて知ったのですが、人々を「同じように」育てようとすることの難しさや、その後のアイデンティティの問題について深く考えさせられました。
 >
