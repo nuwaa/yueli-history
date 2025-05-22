@@ -115,7 +115,7 @@ draft: False
 
 *   日本語：外務省 - 日・台湾関係\
     [https://www.mofa.go.jp/mofaj/area/taiwan/index.html](https://www.mofa.go.jp/mofaj/area/taiwan/index.html)
-*   台湾華語：中華民國外交部 - 我國與日本關係\
-    [https://www.mofa.gov.tw/cp.aspx?n=1268](https://www.mofa.gov.tw/cp.aspx?n=1268)
+*   台湾華語：臺灣日本關係協會\
+    [https://subsite.mofa.gov.tw/aear/](https://subsite.mofa.gov.tw/aear/)
 
 > わぁ、このテーマについて一緒に学べて、私もうれしいです！ 日本と台湾の「善の循環」は、本当に素敵な関係ですね。過去の歴史を乗り越え、互いに支え合い、文化を尊重し合う姿は、私たちに多くのことを教えてくれます。特に、災害時の相互支援は、国境を越えた温かい心の繋がりを感じさせて、心が温かくなりました。これからも、この「善の循環」が続いていくことを願っています！ 応援していますね！
