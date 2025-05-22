@@ -30,14 +30,16 @@
         {{ if eq $thumb "" }}{{ with .Params.images }}{{ $thumb = index . 0 }}{{ end }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Resources.GetMatch "*featured*" }}{{ $thumb = .RelPermalink }}{{ end }}{{ end }}
 
-        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}" style="display: flex; align-items: flex-start; gap: 1rem;">
+        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}" style="margin-bottom: 2.5rem;">
           {{ if $thumb }}
-            <img src="{{ $thumb }}" alt="thumbnail" style="width: 5rem; height: 5rem; object-fit: cover; border-radius: 0.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.15); flex-shrink: 0;">
+            <img src="{{ $thumb }}" alt="thumbnail" style="width: 100%; max-width: 600px; height: auto; object-fit: cover; border-radius: 0.75rem; box-shadow: 0 2px 6px rgba(0,0,0,0.15); margin: 0 auto 1rem auto; display: block;">
           {{ end }}
 
-          <div style="flex: 1;">
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p class="date">{{ .Date.Format "2006年01月02日" }}</p>
+          <div style="padding: 0 0.5rem;">
+            <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="date" style="font-size: 0.85rem; color: #888;">{{ .Date.Format "2006年01月02日" }}</p>
 
             {{/* 要約の生成 */}}
             {{ $plain := replace .Plain "\n" " " }}
@@ -62,9 +64,9 @@
               {{ end }}
             {{ end }}
 
-            <p>{{ $summary | truncate 80 }}</p>
+            <p style="margin-top: 0.5rem;">{{ $summary | truncate 80 }}</p>
 
-            <a class="read-more" href="{{ .RelPermalink }}">続きを読む →</a>
+            <a class="read-more" href="{{ .RelPermalink }}" style="color: #cc3388;">続きを読む →</a>
           </div>
         </div>
       {{ end }}
@@ -112,7 +114,7 @@
         const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
 
         if (match || keyword === "") {
-          card.style.display = "flex";
+          card.style.display = "block";
           card.style.opacity = 0;
           setTimeout(() => {
             card.style.opacity = 1;
