@@ -51,8 +51,7 @@
             </h3>
             <p class="date" style="font-size: 0.85rem; color: #888;">{{ .Date.Format "2006年01月02日" }}</p>
 
-            {{ $plain := replace .Plain "
-" " " }}
+            {{ $plain := replace .Plain "\n" " " }}
             {{ $lines := split $plain "." }}
             {{ $summary := "" }}
             {{ range $lines }}
