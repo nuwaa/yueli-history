@@ -114,7 +114,7 @@ thumbnail: "/images/musha-incident.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：[NHKアーカイブス　台湾原住民の抗日蜂起　～「霧社事件」から～](https://www.nhk.or.jp/archives/shogenarchives/taiwan/movie/03.html)
-*   台湾華語：[國家文化記憶庫　霧社事件](https://memory.culture.tw/Home/Topic?Id=42)
+*   日本語：[「祖母に聞いた霧社事件」｜戦争｜NHKアーカイブス](https://www2.nhk.or.jp/archives/movies/?id=D0001150078_00000)
+*   台湾華語：[霧社事件概要｜《賽德克．巴萊》故事背景的霧社事件，是怎麼發生的？｜國家文化記憶庫 2.0](https://tcmb.culture.tw/zh-tw/subject/298)
 
 > 私も霧社事件について、深く学ぶことができました。セデック族の人々の勇気と悲しみに、胸が締め付けられる思いです。歴史を学び、未来に活かすことの大切さを改めて感じました。これからも一緒に色々なことを学んでいきましょうね！応援しています！
