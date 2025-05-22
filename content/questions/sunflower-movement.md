@@ -10,15 +10,6 @@ slug: sunflower-movement
 thumbnail: "/images/sunflower-movement.jpg"
 ---
 
-```
-description: ひまわり学生運動について、小学生にもわかりやすく解説します。台湾と日本の近現代史を深く理解しましょう。
-keywords: ひまわり学生運動, 台湾, 日本, 近現代史, 学生運動, 中台関係
-tags: ひまわり学生運動, 台湾史, 日本史, 学生運動, 民主化, 歴史
-categories: 台湾, 歴史, 政治
-slug: sunflower-movement
-draft: False
-```
-
 {{< center-img src="/images/sunflower-movement.jpg" >}}
 
 ## 1. 日本語の解説
@@ -108,8 +99,8 @@ draft: False
 ## 5. 関連リンク
 
 *   **日本語:** 
-    *   [NHK 台湾ひまわり学生運動10年 | NHK](https://www.nhk.or.jp/kokusai/taiwan2024/)
+    *   [台湾が揺れた24日間 〜ひまわり学生運動の真実〜 - アナザーストーリーズ 運命の分岐点 - NHK](https://www.nhk.jp/p/anotherstories/ts/VWRZ1WWNYP/episode/te/7MQ8W15LGZ/)
 *   **台湾華語:**
-    *   [【獨立評論】太陽花學運十年後：世代的奮鬥與台灣的轉型｜天下雜誌](https://www.cw.com.tw/article/5129253)
+    *   [太陽花10年後──10個值得被記住的關鍵字，它們為何需要被重新提起？ - 報導者 The Reporter](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords)
 
 > 私も一緒にひまわり学生運動について学ぶことができて、とても嬉しいです。学生たちが自分たちの未来のために立ち上がった姿は、本当に感動的でした。この運動を通して、民主主義を守ることの大切さを改めて感じました。これからも一緒に、色々なことを学んでいきましょうね！
