@@ -25,7 +25,8 @@
       {{ range .Pages.ByDate.Reverse }}
         {{/* サムネイル候補の取得 */}}
         {{ $thumb := "" }}
-        {{ with .Params.cover }}{{ $thumb = . }}{{ end }}
+        {{ with .Params.thumbnail }}{{ $thumb = . }}{{ end }}
+        {{ if eq $thumb "" }}{{ with .Params.cover }}{{ $thumb = . }}{{ end }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Params.images }}{{ $thumb = index . 0 }}{{ end }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Resources.GetMatch "*featured*" }}{{ $thumb = .RelPermalink }}{{ end }}{{ end }}
 
