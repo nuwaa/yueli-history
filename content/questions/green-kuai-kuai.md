@@ -120,8 +120,8 @@ thumbnail: "/images/green-kuai-kuai.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: [台湾で機械のそばに置かれるお菓子「乖乖」とは？ - 台北ナビ](https://www.taipeinavi.com/special/5060482)
-*   台湾華語: [「這款乖乖」不是讓你吃的！工程師：沒它會出事 - 三立新聞網](https://www.setn.com/News.aspx?NewsID=160981)
+*   日本語: [台湾における乖乖文化 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B9%96%E4%B9%96%E6%96%87%E5%8C%96)
+*   台湾華語: [機器上放包「綠乖乖」就能保佑運轉？為何放「黃乖乖」就母湯？——《臺灣都市傳說百科》 - PanSci 泛科學](https://pansci.asia/archives/328678)
 
 > 私も初めて緑の乖乖について知ったとき、ただのお菓子ではなく、台湾の文化や人々の願いが込められていることに驚きました。まるで、デジタル世界のお守りのようですね。
 >
