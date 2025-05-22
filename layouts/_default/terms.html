@@ -49,7 +49,7 @@
   >
     {{ range .Data.Terms.ByCount }}
       {{/* 代表記事を1件取得してアイキャッチ・更新日を流用 */}}
-      {{ $rep := first 1 .Pages | first }}
+      {{ $rep := index (first 1 .Pages) 0 }}
       {{ $thumb := $rep.Params.images | default $rep.Params.cover | default $rep.Params.thumbnail }}
       <a
         href="{{ .Page.RelPermalink }}"
