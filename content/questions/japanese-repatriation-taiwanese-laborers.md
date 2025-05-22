@@ -82,10 +82,10 @@ thumbnail: "/images/japanese-repatriation-taiwanese-laborers.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 厚生労働省　海外からの引揚関係
-    [https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hikiage/index.html](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hikiage/index.html)
+*   **日本語:** 台湾での日々と引き揚げ｜戦争｜NHKアーカイブス
+    [https://www2.nhk.or.jp/archives/articles/?id=C0060720](https://www2.nhk.or.jp/archives/articles/?id=C0060720)
 
-*   **台湾華語:** 國家發展委員會 檔案管理局- 戰爭 जनरल
-    [https://www.archives.gov.tw/Files/003/%E6%88%B0%E7%88%AD%E9%A1%8C%E7%B6%B1.pdf](https://www.archives.gov.tw/Files/003/%E6%88%B0%E7%88%AD%E9%A1%8C%E7%B6%B1.pdf)
+*   **台湾華語:** 重回二戰時空！日軍南洋足跡與臺灣人戰俘的創傷歷史 | 藝開罐 | 琅琅悅讀
+    [https://reading.udn.com/read/story/7009/8744955](https://reading.udn.com/read/story/7009/8744955)
 
 > 今回のテーマ、日本人引揚と台湾人南方労務者の帰還について、一緒に学ぶことができて、私もうれしいです。過去の出来事を知ることは、私たちがこれからどう生きていくかを考える上でとても大切だと改めて感じました。特に、言葉も文化も違う場所で、多くの人々が困難を乗り越えて生きてきたことを知って、とても感動しました。これからも、過去から学び、より良い未来を築いていけるように、私自身も努力していきたいと思います。応援していますね！
