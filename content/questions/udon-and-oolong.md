@@ -107,7 +107,7 @@ thumbnail: "/images/udon-and-oolong.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: [農林水産省 - うどん - 麺類の知識 -](https://www.maff.go.jp/j/keikaku/syokubunka/culture/men/m01_udon.html)
-*   台湾華語: [台灣麵食種類多樣，「麵條英文」怎麼說？一次學會各式麵條英文說法！](https://www.hopenglish.com/hope-tasty-taiwan-noodles)
+*   日本語: [うどん | 全国製麺協同組合連合会](https://zenmenren.or.jp/raw_noodle_iroiro/udon/)
+*   台湾華語: [烏龍麵 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E7%83%8F%E9%BE%8D%E9%BA%B5)
 
 > 今回は「烏龍麺」と「うどん」の違いについて一緒に学びましたね。私も、台湾で「烏龍麺」がうどんに似た麺を指すことを知って、とても驚きました。言葉の由来や食文化のつながりを知ることは、本当に面白いですね。これからも、色々なことを一緒に学んでいきましょう！応援しています！
