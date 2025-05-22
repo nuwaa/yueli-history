@@ -1,77 +1,40 @@
-{{/*  layouts/_default/terms.html  */}}
 {{ define "main" }}
-{{/* taxonomy（categories / tags など）名を取得 */}}
-{{ $taxonomyName := .Title | default (site.GetPage .Kind).Title }}
-<main class="terms-wrapper mx-auto px-4 sm:px-6 lg:px-8 max-w-screen-xl">
-  <header class="my-8 text-center">
-    <h1 class="text-3xl font-bold">{{ $taxonomyName }}</h1>
-    {{/* taxonomy 自体に description を持たせたい場合 → config/_default/taxonomies.toml で description 定義 */}}
-    {{ with .Description }}<p class="mt-2 opacity-70">{{ . }}</p>{{ end }}
-  </header>
 
-  {{/* ────────────── 1) キーワード検索 ────────────── */}}
-  <div x-data="{ q: '' }" class="mb-6">
-    <input aria-label="検索" x-model="q"
-      class="w-full sm:w-1/2 border rounded-xl py-2 px-3 focus:outline-none focus:ring"
-      placeholder='{{ i18n "search_placeholder" | default "キーワードで絞り込み" }}'>
-  </div>
+<main class="page single cute-article">
 
-  {{/* ────────────── 2) ソートトグル ────────────── */}}
-  <div x-data="{ sort:'count' }" class="mb-4 flex flex-wrap gap-3 text-sm">
-    <label class="cursor-pointer">
-      <input type="radio" x-model="sort" value="count" class="mr-1">人気順
-    </label>
-    <label class="cursor-pointer">
-      <input type="radio" x-model="sort" value="az" class="mr-1">A → Z
-    </label>
-    <label class="cursor-pointer">
-      <input type="radio" x-model="sort" value="new" class="mr-1">新着順
-    </label>
-  </div>
+  <!-- 🌸 ナビバー（上部） -->
+  {{ partial "nav.html" . }}
 
-  {{/* ────────────── 3) 一覧カード ────────────── */}}
-  <div
-    class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-    x-data="{
-      get terms() {
-        let list = [...document.querySelectorAll('[data-term]')];
-        /* AlpineJS 1ファイルだけ読む想定 */
-        const q = this.$root.querySelector('input[aria-label]')?.value.toLowerCase();
-        const s = this.$root.querySelector('input[type=radio]:checked')?.value;
-        if (q)  list = list.filter(el=>el.dataset.term.includes(q));
-        if (s==='az')   list.sort((a,b)=>a.dataset.term.localeCompare(b.dataset.term));
-        if (s==='new')  list.sort((a,b)=>b.dataset.updated.localeCompare(a.dataset.updated));
-        if (s==='count')list.sort((a,b)=>b.dataset.count - a.dataset.count);
-        return list;
-      }
-    }"
-    x-init="$watch('terms', t => $el.innerHTML = '';);"
-  >
+<div class="page-header" style="text-align: center;">
+  <h1 class="page-title">
+    {{ if eq .Data.Plural "tags" }}タグ一覧（件数順）
+    {{ else if eq .Data.Plural "categories" }}カテゴリ一覧（件数順）
+    {{ else }}{{ .Data.Plural }}（件数順）{{ end }}
+  </h1>
+</div>
+
+  <!-- ✅ 質問回答件数の表示 -->
+  {{ $questions := where site.RegularPages "Section" "questions" }}
+  <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
+    現在の質問回答件数：{{ len $questions }}件
+  </p>
+
+  <div class="tag-bubble-container">
     {{ range .Data.Terms.ByCount }}
-      {{/* 代表記事を1件取得してアイキャッチ・更新日を流用 */}}
-      {{ $rep := index (first 1 .Pages) 0 }}
-      {{ $thumb := $rep.Params.images | default $rep.Params.cover | default $rep.Params.thumbnail }}
-      <a
-        href="{{ .Page.RelPermalink }}"
-        class="term-card block bg-white/80 dark:bg-zinc-800 rounded-2xl shadow hover:shadow-lg transition overflow-hidden"
-        data-term="{{ .Page.Title | lower }}"
-        data-count="{{ len .Pages }}"
-        data-updated="{{ $rep.Date.Format `2006-01-02` }}"
-      >
-        {{ if $thumb }}
-          <img src="{{ $thumb }}" alt="" class="h-36 w-full object-cover">
-        {{ end }}
-        <div class="p-4 space-y-1">
-          <h2 class="text-lg font-semibold">
-            {{ .Page.Title }}
-            <span class="text-primary text-sm align-middle">({{ len .Pages }})</span>
-          </h2>
-          {{ with $rep.Summary }}
-            <p class="text-sm opacity-70">{{ . | plainify | truncate 80 }}</p>
-          {{ end }}
-        </div>
+      <a href="{{ .Page.Permalink }}" class="tag-bubble">
+        #{{ .Page.Title }} <span class="count">({{ .Count }})</span>
       </a>
     {{ end }}
   </div>
+
+  <!-- 🌸 ナビバー（下部） -->
+  {{ partial "nav.html" . }}
+
+  <!-- 🌙 著作権 -->
+  <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
+    © 2025 月璃(Yueli) 🌙
+  </footer>
+
 </main>
+
 {{ end }}
