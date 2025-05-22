@@ -70,8 +70,8 @@ thumbnail: "/images/taiwan-vegetarian.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：[明治日本の食生活 - 農林水産省](https://www.maff.go.jp/j/heya/syokuiku/ishoku/meiji/1.html)
-*   台湾華語：[臺灣素食發展現況與趨勢分析](https://www.airitilibrary.com/Article/Detail?DocID=22202910-201609-201701180015-201701180015-55-64)
+*   日本語：[台湾素食 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B4%A0%E9%A3%9F)
+*   台湾華語：[臺灣素食 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B4%A0%E9%A3%9F)
 
 > こんにちは、私です。今回のテーマは、台湾のベジタリアン料理についてでしたね。台湾にこんなにもベジタリアンのお店が多いのは、歴史や宗教の影響が大きいと知って、とても驚きました。台湾の素食は、ただ肉を食べないだけでなく、色々な工夫がされているんですね。
 >
