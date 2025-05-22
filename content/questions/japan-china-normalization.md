@@ -10,17 +10,6 @@ slug: japan-china-normalization
 thumbnail: "/images/japan-china-normalization.jpg"
 ---
 
-はい、承知いたしました。
-
----
-description: 日中共同声明と互恵協会の誕生について、小学生にもわかりやすく解説します。日中国交正常化の背景と台湾への影響を学びましょう。
-keywords: 日中共同声明, 互恵協会, 日中国交正常化, 台湾, 民間大使館
-tags: 日中関係, 台湾, 歴史, 外交, 国際関係
-categories: 日本史, 台湾史, 国際関係
-slug: japan-china-normalization
-draft: False
----
-
 {{< center-img src="/images/japan-china-normalization.jpg" >}}
 
 ## 1. 日本語の解説
@@ -101,8 +90,8 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語**: [外務省 - 日中共同声明](https://www.mofa.go.jp/mofaj/ka/chn/kp/page3_000739.html)
-*   **台湾華語**: [中華民國外交部 - 我國與日本關係](https://www.mofa.gov.tw/cp.aspx?n=1284)
+*   **日本語**: [日本国政府と中華人民共和国政府の共同声明](https://www.mofa.go.jp/mofaj/area/china/nc_seimei.html)
+*   **台湾華語**: [中華民國—日本關係 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E2%80%94%E6%97%A5%E6%9C%AC%E9%97%9C%E4%BF%82)
 
 > 応援コメント：
 >
