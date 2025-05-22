@@ -13,6 +13,12 @@
     <input type="text" id="searchInput" placeholder="キーワードで検索" style="padding: 0.5rem; width: 60%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc;">
   </div>
 
+  <!-- 🔀 並び替え -->
+  <div x-data="{ sort: 'lastmod' }" class="sort-toggle" style="text-align: center; margin-bottom: 1rem;">
+    <label><input type="radio" x-model="sort" value="lastmod" checked> 更新日順</label>
+    <label style="margin-left: 1rem;"><input type="radio" x-model="sort" value="popular"> 人気順</label>
+  </div>
+
   <!-- ✅ 質問回答件数表示 -->
   {{ $questions := .Pages }}
   <p style="text-align: center; font-weight: bold; color: #cc3388; margin-bottom: 1rem;">
@@ -23,14 +29,18 @@
   <div class="question-cards" style="width: 100%;">
     <div class="card-container" id="cardContainer">
       {{ range .Pages.ByDate.Reverse }}
-        {{/* サムネイル候補の取得 */}}
         {{ $thumb := "" }}
         {{ with .Params.thumbnail }}{{ $thumb = . }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Params.cover }}{{ $thumb = . }}{{ end }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Params.images }}{{ $thumb = index . 0 }}{{ end }}{{ end }}
         {{ if eq $thumb "" }}{{ with .Resources.GetMatch "*featured*" }}{{ $thumb = .RelPermalink }}{{ end }}{{ end }}
 
-        <div class="card" data-title="{{ .Title | lower }}" data-body="{{ .Plain | lower }}" style="margin-bottom: 2.5rem;">
+        <div class="card"
+             data-title="{{ .Title | lower }}"
+             data-body="{{ .Plain | lower }}"
+             data-lastmod="{{ .Lastmod.Format `2006-01-02` }}"
+             data-popularity="{{ .Params.views | default 0 }}"
+             style="margin-bottom: 2.5rem;">
           {{ if $thumb }}
             <img src="{{ $thumb }}" alt="thumbnail" style="width: 100%; max-width: 600px; height: auto; object-fit: cover; border-radius: 0.75rem; box-shadow: 0 2px 6px rgba(0,0,0,0.15); margin: 0 auto 1rem auto; display: block;">
           {{ end }}
@@ -41,31 +51,20 @@
             </h3>
             <p class="date" style="font-size: 0.85rem; color: #888;">{{ .Date.Format "2006年01月02日" }}</p>
 
-            {{/* 要約の生成 */}}
-            {{ $plain := replace .Plain "\n" " " }}
+            {{ $plain := replace .Plain "
+" " " }}
             {{ $lines := split $plain "." }}
             {{ $summary := "" }}
             {{ range $lines }}
               {{ $line := trim . " " }}
               {{ $line = replace $line "日本語の解説" "" }}
-              {{ if and 
-                  (eq $summary "") 
-                  (ne $line "") 
-                  (ne $line "1") 
-                  (not (hasPrefix $line "description:")) 
-                  (not (hasPrefix $line "keywords:")) 
-                  (not (hasPrefix $line "{{<")) 
-                  (not (hasPrefix $line "#")) 
-                }}
-                {{ with $line }}
-                  {{ $summary = . }}
-                {{ end }}
+              {{ if and (eq $summary "") (ne $line "") (ne $line "1") (not (hasPrefix $line "description:")) (not (hasPrefix $line "keywords:")) (not (hasPrefix $line "{{<")) (not (hasPrefix $line "#")) }}
+                {{ with $line }}{{ $summary = . }}{{ end }}
                 {{ break }}
               {{ end }}
             {{ end }}
 
             <p style="margin-top: 0.5rem;">{{ $summary | truncate 80 }}</p>
-
             <a class="read-more" href="{{ .RelPermalink }}" style="color: #cc3388;">続きを読む →</a>
           </div>
         </div>
@@ -88,46 +87,46 @@
     © 2025 月璃(Yueli) 🌙
   </footer>
 
-  <!-- 🔍 JavaScript for 検索 -->
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <script>
     const searchInput = document.getElementById("searchInput");
     const cards = document.querySelectorAll(".card");
+    const container = document.getElementById("cardContainer");
 
     function highlight(text, keyword) {
       if (!keyword) return text;
-      const escaped = keyword.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(escaped, "gi");
       return text.replace(re, match => "<mark>" + match + "</mark>");
     }
 
     searchInput.addEventListener("input", function () {
       const keyword = this.value.toLowerCase();
-
       cards.forEach(card => {
         const titleElem = card.querySelector("h3");
         const titleLink = titleElem.querySelector("a");
         const bodyElem = card.querySelector("p:not(.date)");
-
         const rawTitle = card.getAttribute("data-title");
         const rawBody = card.getAttribute("data-body");
-
         const match = rawTitle.includes(keyword) || rawBody.includes(keyword);
+        card.style.display = match || keyword === "" ? "block" : "none";
+        titleLink.innerHTML = highlight(titleLink.textContent, keyword);
+        bodyElem.innerHTML = highlight(bodyElem.textContent, keyword);
+      });
+    });
 
-        if (match || keyword === "") {
-          card.style.display = "block";
-          card.style.opacity = 0;
-          setTimeout(() => {
-            card.style.opacity = 1;
-          }, 50);
-        } else {
-          card.style.display = "none";
-        }
-
-        const originalTitle = titleLink.textContent;
-        titleLink.innerHTML = highlight(originalTitle, keyword);
-
-        const originalBody = bodyElem.textContent;
-        bodyElem.innerHTML = highlight(originalBody, keyword);
+    document.querySelectorAll("input[type=radio][x-model='sort']").forEach(radio => {
+      radio.addEventListener("change", () => {
+        const selected = document.querySelector("input[type=radio][x-model='sort']:checked").value;
+        const cardsArray = Array.from(container.querySelectorAll(".card"));
+        cardsArray.sort((a, b) => {
+          if (selected === "popular") {
+            return (parseInt(b.dataset.popularity) || 0) - (parseInt(a.dataset.popularity) || 0);
+          } else {
+            return b.dataset.lastmod.localeCompare(a.dataset.lastmod);
+          }
+        });
+        cardsArray.forEach(card => container.appendChild(card));
       });
     });
   </script>
