@@ -10,15 +10,6 @@ slug: ten-major-constructions
 thumbnail: "/images/ten-major-constructions.jpg"
 ---
 
-```
-description: 蔣経国の「十大建設」について、小学生にもわかりやすく解説します。台湾の近代化に大きく貢献したプロジェクトを、一緒に学びましょう。
-keywords: 十大建設, 蔣経国, 台湾, 経済発展, インフラ
-tags: 台湾史, 近代史, 経済史, 政治史, インフラ
-categories: 台湾, 歴史, 経済
-slug: ten-major-constructions
-draft: False
-```
-
 {{< center-img src="/images/ten-major-constructions.jpg" >}}
 
 ## 1. 日本語の解説
@@ -107,7 +98,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾観光局 - 台湾の歴史: [https://jp.taiwan.net.tw/m1.aspx?sNo=0003017](https://jp.taiwan.net.tw/m1.aspx?sNo=0003017)
-*   **台湾華語:** 國家發展委員會檔案管理局 - 活絡經濟 十項建設： [https://www.archives.gov.tw/Publish.aspx?cnid=1319&p=113](https://www.archives.gov.tw/Publish.aspx?cnid=1319&p=113)
+*   **日本語:** 十大建設 (台湾) - Wikipedia: [https://xn--ja-bf3cq9n.wikipedia.org/wiki/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD_(%E5%8F%B0%E6%B9%BE)](https://xn--ja-bf3cq9n.wikipedia.org/wiki/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD_(%E5%8F%B0%E6%B9%BE))
+*   **台湾華語:** 十大建設是什麼？有什麼內容？提出的目的是什麼？ - StockFeel 股感： [https://www.stockfeel.com.tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD-%E5%85%A7%E5%AE%B9-%E6%8F%90%E5%87%BA%E7%9A%84%E7%9B%AE/](https://www.stockfeel.com.tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD-%E5%85%A7%E5%AE%B9-%E6%8F%90%E5%87%BA%E7%9A%84%E7%9B%AE/)
 
 > 皆さん、十大建設について一緒に学ぶことができて、私もうれしいです。今回のテーマを通して、台湾がどのように発展してきたのか、そして、目標に向かって努力することの大切さを知ることができました。特に、十大建設という大きなプロジェクトを成功させた蔣経国さんのリーダーシップと、台湾の人々の協力が素晴らしいと思いました。これからも、歴史を学びながら、未来に向かって頑張っていきましょうね！
