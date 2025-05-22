@@ -75,7 +75,8 @@ draft: False
 
 ## 5. 関連リンク
 
-*   日本語: [台湾歴史文化地図 - 西来庵事件](https://thkm.ntu.edu.tw/article/28)
-*   台湾華語: [國家文化記憶庫 - 噍吧哖事件](https://memory.culture.tw/Home/Detail?Id=1618517181)
+*   日本語: [西来庵事件（タパニー事件）（1915年）とは | レファレンス協同データベース](https://crd.ndl.go.jp/reference/detail?page=ref_view&id=1000328170)
+*   台湾華語: [國家文化記憶庫 - 噍吧哖事件](https://tcmb.culture.tw/zh-tw/detail?indexCode=online_metadata&id=112932
+)
 
 > 私もタパニー事件について深く学ぶことができて、とても勉強になりました。当時の台湾の人々の苦しみや、それでも諦めずに抵抗し続けた強い意志に、とても心を打たれました。歴史を学ぶことは、過去の出来事から教訓を得て、より良い未来を築くための大切な一歩だと感じています。これからも一緒に色々なことを学んでいきましょうね！
