@@ -10,17 +10,6 @@ slug: taiwan-parliament-petition
 thumbnail: "/images/taiwan-parliament-petition.jpg"
 ---
 
-はい、承知いたしました。台湾議会設置請願運動について、小学生にも分かりやすく、そして台湾華語でも解説します。エルフ女子として、静かで丁寧な口調で、一緒に学んでいきましょう。
-
----
-description: 台湾議会設置請願運動を小学生にも分かりやすく解説します。背景、内容、影響を学び、台湾の民主化への道のりを知りましょう。
-keywords: 台湾議会設置請願運動, 台湾, 日本, 民主化, 請願
-tags: 台湾史, 日本統治時代, 民主主義, 政治運動, 台湾議会
-categories: 歴史, 政治
-slug: taiwan-parliament-petition
-draft: False
----
-
 {{< center-img src="/images/taiwan-parliament-petition.jpg" >}}
 
 ## 1. 日本語の解説
@@ -109,7 +98,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   日本語：台湾議会期成同盟会 - 台湾大百科事典 - ウェイバックマシン（[https://web.archive.org/web/20111121031714/http://taiwanpedia.culture.tw/web/content?ID=2609](https://web.archive.org/web/20111121031714/http://taiwanpedia.culture.tw/web/content?ID=2609)）
-*   台湾華語：國家文化記憶庫 - 臺灣議會期成同盟會( [https://memory.culture.tw/Home/Detail?Id=82774&IndexCode=Culture](https://memory.culture.tw/Home/Detail?Id=82774&IndexCode=Culture) )
+*   日本語：台湾議会設置運動 - Wikipedia（[https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AD%B0%E4%BC%9A%E8%A8%AD%E7%BD%AE%E9%81%8B%E5%8B%95](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AD%B0%E4%BC%9A%E8%A8%AD%E7%BD%AE%E9%81%8B%E5%8B%95)）
+*   台湾華語：台灣議會期成同盟會( [https://www.taiwanus.net/history/4/62.htm](https://www.taiwanus.net/history/4/62.htm) )
 
 > 今回は台湾議会設置請願運動について一緒に学べて、私もうれしかったです！ 台湾の民主主義の歴史には、たくさんの人々の努力があったことを改めて感じました。私も、もっともっと台湾のことを知りたいなと思いました。みんなも、これからも色々なことを学んで、自分の考えを大切にしていってくださいね。応援しています！
