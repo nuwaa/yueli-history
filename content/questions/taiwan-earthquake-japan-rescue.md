@@ -10,17 +10,6 @@ slug: taiwan-earthquake-japan-rescue
 thumbnail: "/images/taiwan-earthquake-japan-rescue.jpg"
 ---
 
-はい、かしこまりました。921大地震と日本の国際救援隊について、小学生にもわかりやすく、そして台湾華語でも解説します。エルフ女子として、心を込めて丁寧に進めていきますね。
-
----
-description: 台湾の921大地震と日本の国際救援隊の活動を、小学生にもわかりやすく解説します。日台の絆を深めた災害支援について学びましょう。
-keywords: 921大地震, 国際救援隊, 日本, 台湾, 災害支援, 日台関係, 地震, 復興支援
-tags: 921大地震, 国際救援隊, 日本, 台湾, 災害支援, 日台関係, 地震, 復興支援, 防災
-categories: 歴史, 台湾, 日本, 国際関係
-slug: taiwan-earthquake-japan-rescue
-draft: False
----
-
 {{< center-img src="/images/taiwan-earthquake-japan-rescue.jpg" >}}
 
 ## 1. 日本語の解説
@@ -77,7 +66,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語:** 首相官邸 - 防災・危機管理: [https://www.kantei.go.jp/jp/headline/bousai/](https://www.kantei.go.jp/jp/headline/bousai/)
+*   **日本語:** jishin : 防災情報のページ - 内閣府: [https://www.bousai.go.jp/jishin/epcf/epcf3/23-03.html](https://www.bousai.go.jp/jishin/epcf/epcf3/23-03.html)
     *   日本の防災対策に関する情報が掲載されています。
 
 *   **台湾華語:** 國家災害防救科技中心: [https://www.ncdr.nat.gov.tw/](https://www.ncdr.nat.gov.tw/)
