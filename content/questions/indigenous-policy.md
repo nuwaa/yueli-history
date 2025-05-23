@@ -10,15 +10,6 @@ slug: indigenous-policy
 thumbnail: "/images/indigenous-policy.jpg"
 ---
 
-```
-description: 日本統治時代の台湾における「理蕃政策と原住民族行政」について、小学生にもわかりやすく解説します。
-keywords: 理蕃政策, 原住民族行政, 台湾, 日本統治時代, 同化政策
-tags: 台湾史, 日本史, 原住民族, 植民地, 歴史教育
-categories: 歴史, 台湾, 日本
-slug: indigenous-policy
-draft: False
-```
-
 {{< center-img src="/images/indigenous-policy.jpg" >}}
 
 ## 1. 日本語の解説
@@ -121,8 +112,8 @@ draft: False
 
 ## 5. 関連リンク
 
-*   日本語: 台湾原住民 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%8E%9F%E4%BD%8F%E6%B0%91](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%8E%9F%E4%BD%8F%E6%B0%91)
-*   台湾華語: 臺灣原住民族 - 维基百科，自由的百科全书: [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F)
+*   日本語: 理蕃政策 - Wikipedia: [https://ja.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96](https://ja.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
+*   台湾華語: 理蕃政策 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96](https://zh.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
 
 > 皆さん、今日は一緒に「理蕃政策と原住民族行政」について学ぶことができて、私もうれしいです。
 >
