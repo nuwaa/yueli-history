@@ -49,7 +49,7 @@
             <h3 style="font-size: 1.25rem; margin-bottom: 0.3rem;">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h3>
-            <p class="date" style="font-size: 0.85rem; color: #888;">{{ .Date.Format "2006年01月02日" }}</p>
+            <p class="date" style="font-size: 0.85rem; color: #888;">{{ .Date.In (time.LoadLocation "Asia/Tokyo") | time.Format "2006年01月02日" }}</p>
 
             {{ $plain := replace .Plain "\n" " " }}
             {{ $lines := split $plain "." }}
