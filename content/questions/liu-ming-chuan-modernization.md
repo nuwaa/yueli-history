@@ -70,7 +70,7 @@ thumbnail: "/images/liu-ming-chuan-modernization.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** [台湾の鉄道の歴史 - 台湾観光局](https://jp.taiwan.net.tw/m1.aspx?sNo=0003117&id=1682)
-*   **台湾華語:** [交通部臺灣鐵路管理局 - 臺灣鐵路歷史](https://www.railway.gov.tw/tra-web/History/History)
+*   **日本語:** [劉銘伝 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%89%E9%8A%98%E4%BC%9D)
+*   **台湾華語:** [劉銘傳 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8A%98%E5%82%B3)
 
 > こんにちは！ 今回は劉銘伝の近代化について一緒に学べて、私もうれしいです。劉銘伝が、台湾のために色々なことに挑戦したことを知って、とても感動しました。特に、鉄道を初めて作ったことには驚きました。彼の努力が、今の台湾の発展につながっているんですね。私も劉銘伝のように、誰かの役に立てるように頑張りたいと思いました。これからも一緒に楽しく勉強しましょうね！
