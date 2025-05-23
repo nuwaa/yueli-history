@@ -6,6 +6,9 @@ canonifyURLs = true
 relativeURLs = false
 enableRobotsTXT = true
 enableGitInfo   = true
+defaultContentLanguage = "ja"
+timeZone = "Asia/Tokyo"
+
 
 [params]
   title = "ユエリーの台日近現代史ノート"
