@@ -10,17 +10,6 @@ slug: martial-law-cheng-nan-jung
 thumbnail: "/images/martial-law-cheng-nan-jung.jpg"
 ---
 
-はい、承知いたしました。台湾と日本の近現代史「戒厳令解除と鄭南榕の言論自由運動」について、小学生にも分かりやすく、かつ詳細な解説を日本語と台湾華語で作成します。
-
----
-description: 台湾の戒厳令解除と鄭南榕の言論自由運動について、小学生にも分かりやすく解説します。歴史的背景や影響を学びましょう。
-keywords: 戒厳令, 鄭南榕, 言論の自由, 台湾, 歴史, 近現代史
-tags: 戒厳令, 鄭南榕, 言論の自由, 台湾, 歴史, 人権, 民主化
-categories: 台湾, 歴史, 政治
-slug: martial-law-cheng-nan-jung
-draft: False
----
-
 {{< center-img src="/images/martial-law-cheng-nan-jung.jpg" >}}
 
 ## 1. 日本語の解説
@@ -117,7 +106,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾における民主化の進展 - 笹川平和財団 [https://www.spf.org/jajsas/jpus/briefing/202010-0002.html](https://www.spf.org/jajsas/jpus/briefing/202010-0002.html)
-*   **台湾華語:** 自由之路—鄭南榕的故事 - 國家人權博物館 [https://www.nhrm.gov.tw/home/visit/exhibitionDetail/403](https://www.nhrm.gov.tw/home/visit/exhibitionDetail/403)
+*   **日本語:** 鄭南榕 - Wikipedia [https://ja.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95](https://ja.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95)
+*   **台湾華語:** 響應言論自由日，傳承民主的精神與價值 國家人權博物館推出「自由時代雜誌社」——鄭南榕紀念館3D線上導覽 | 中央社訊息平台 [https://www.cna.com.tw/postwrite/chi/338478](https://www.cna.com.tw/postwrite/chi/338478)
 
 >今回のテーマ、戒厳令解除と鄭南榕の言論自由運動について、一緒に学ぶことができて、私もうれしいです。 鄭南榕さんの勇気ある行動は、私にとっても大きな驚きでした。 言論の自由を守るために、自分の命を懸けるなんて、本当にすごいことだと思います。 私も、彼のように、自分の信じることを大切にして、勇気を持って生きていきたいと思いました。 これからも一緒に色々なことを学んでいきましょうね！
