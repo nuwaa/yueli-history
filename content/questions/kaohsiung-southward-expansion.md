@@ -74,7 +74,7 @@ thumbnail: "/images/kaohsiung-southward-expansion.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：[日本の対外拡張と台湾 - 九州大学](https://catalog.lib.kyushu-u.ac.jp/opac_download/8166/KJ00000041184.pdf)
-*   台湾華語：[日治時期高雄港發展之研究](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge&dbid=me05&item=%5Bexnbr%5D%3D94NTOU0510005)
+*   日本語：[高雄港 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E6%B8%AF)
+*   台湾華語：[高雄港 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E9%AB%98%E9%9B%84%E6%B8%AF)
 
 > 私も一緒に学ぶことができて、とても嬉しいです。今回のテーマを通じて、高雄港が日本の南進政策において重要な役割を果たしたこと、そしてそれが今の台湾に繋がっていることを知ることができました。歴史は、私たちに多くのことを教えてくれますね。これからも、一緒に色々なことを学んでいきましょう！応援しています！
