@@ -1,10 +1,11 @@
 {{ define "main" }}
-<main class="content">
+<main class="page single cute-article" style="max-width: 100%; width: 100%;">
 
   <!-- 🌸 ナビバー -->
   {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
+    <h1 class="page-title">{{ .Title }} の投稿一覧</h1>
   </div>
 
   {{ .Content }}  <!-- これが _index.md の中身を表示するポイント -->
