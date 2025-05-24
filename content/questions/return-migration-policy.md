@@ -10,17 +10,6 @@ slug: return-migration-policy
 thumbnail: "/images/return-migration-policy.jpg"
 ---
 
-はい、承知いたしました。台湾と日本の近現代史における「帰順」と移住政策について、小学生にも分かりやすい解説を心がけ、バイリンガルで提供いたします。
-
----
-description: 台湾と日本の近現代史における「帰順」と移住政策をやさしい日本語と台湾華語で解説します。小学生にもわかるように説明します。
-keywords: 帰順, 移住政策, 台湾, 日本, 近現代史, 同化政策
-tags: 帰順, 移住政策, 台湾史, 日本史, 歴史教育
-categories: 歴史, 台湾, 日本
-slug: return-migration-policy
-draft: False
----
-
 {{< center-img src="/images/return-migration-policy.jpg" >}}
 
 ## 1. 日本語の解説
@@ -93,7 +82,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   日本語：[台湾の歴史 - 外務省](https://www.mofa.go.jp/mofaj/area/taiwan/index.html)
-*   台湾華語：[認識台灣 > 歷史沿革 - 總統府](https://www.president.gov.tw/Page/106)
+*   日本語：[清末・日本統治直後、政権交代期の台湾先住民 - 東洋文庫リポジトリ](https://toyo-bunko.repo.nii.ac.jp/record/5908/files/gakuho01_80-4-02.pdf)
+*   台湾華語：[日治時期排灣族「南蕃事件」之研究 | 學術產出 | 政大學術集成](https://ah.lib.nccu.edu.tw/item?item_id=81179&locale=zh_TW)
 
 > 私も一緒に学ぶことができて、とても嬉しいです。今回のテーマを通して、台湾と日本の歴史的なつながりや、文化が混ざり合う中で生まれた様々な感情について、深く考えることができました。特に、当時の人々がどのような思いで「帰順」を受け入れたのか、移住してきた人々がどのように新しい生活を築いていったのかを知ることは、とても心に響きました。歴史を学ぶことで、私たちは過去から学び、より良い未来を築くことができると信じています。これからも一緒に頑張りましょうね！
