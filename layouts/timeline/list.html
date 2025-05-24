@@ -5,10 +5,12 @@
   {{ partial "nav.html" . }}
 
   <div class="page-header" style="text-align: center;">
-    <h1 class="page-title">{{ .Title }} の投稿一覧</h1>
   </div>
 
   {{ .Content }}  <!-- これが _index.md の中身を表示するポイント -->
+
+  <!-- 🌸 ナビバー -->
+  {{ partial "nav.html" . }}
 
   <!-- 🌙 著作権表示 -->
   <footer style="text-align:center; margin-top:1rem; font-size: 0.85rem; color: #aa88aa;">
