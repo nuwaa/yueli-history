@@ -94,7 +94,7 @@ thumbnail: "/images/taiwan-japan-earthquake-support.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 東日本大震災に対する海外からの支援（外務省）：[https://www.mofa.go.jp/mofaj/gaiko/earthquake2011/kankeikikan.html](https://www.mofa.go.jp/mofaj/gaiko/earthquake2011/kankeikikan.html)
-*   **台湾華語:** 日本311地震10周年 蔡總統：台日是互相扶持的真朋友（總統府）：[https://www.president.gov.tw/NEWS/25643](https://www.president.gov.tw/NEWS/25643)
+*   **日本語:** 東日本大震災での「台湾からの支援」が圧倒的だった2つの理由 | 「3.11から10年」の今を生きる | ダイヤモンド・オンライン：[https://diamond.jp/articles/-/264915](https://diamond.jp/articles/-/264915)
+*   **台湾華語:** 台日情誼長存！311大地震14年　日作家武嶺舉牌「謝謝台灣」│TVBS新聞網：[https://news.tvbs.com.tw/life/2804796](https://news.tvbs.com.tw/life/2804796)
 
 > 私も今回のテーマを一緒に学ぶことができて、とても嬉しかったです。東日本大震災の時に、台湾の人々がこんなにも温かい支援をしてくれたことを改めて知り、胸が熱くなりました。言葉や文化が違っても、心と心は繋がることができるんですね。私も、誰かのために何かできることを探して、行動していきたいと思います。そして、いつか台湾を訪れて、直接感謝の気持ちを伝えたいです。
