@@ -98,11 +98,11 @@ TSMC的熊本工廠，不僅是日本，也與美國合作建設。美國擅長�
 | 2021年 | 世界的な半導体不足 | 全球半導體短缺 | コロナ禍による需要増加と供給制約が原因 |
 | 2021年 | 日本政府、半導体産業支援を強化 | 日本政府加強半導體產業支援 | 経済安全保障の観点から国内生産を促進 |
 | 2022年 | TSMC、熊本に工場建設を発表 | 台積電宣布在熊本建廠 | 日本政府の支援を受け、サプライチェーンの強化を目指す |
-| 2024年 | TSMC熊本工場稼働予定 | 台積電熊本工廠預計開始運營 | 日本の半導体産業の復興に貢献することが期待される |
+| 2024年 | TSMC熊本工場稼働 | 台積電熊本工廠開始運營 | 日本の半導体産業の復興に貢献することが期待される |
 
 ## 5. 関連リンク
 
-*   **日本語:** 経済産業省 - 半導体・デジタル産業戦略 [https://www.meti.go.jp/policy/mono_info_service/digital/semiconductor/index.html](https://www.meti.go.jp/policy/mono_info_service/digital/semiconductor/index.html)
-*   **台湾華語:** 經濟部 - 強化半導體供應鏈韌性 [https://www.moea.gov.tw/MNS/doce/content/Detail.aspx?menu_id=16319](https://www.moea.gov.tw/MNS/doce/content/Detail.aspx?menu_id=16319)
+*   **日本語:** トランプ2.0と台湾の半導体戦略、日本企業の立脚点 | PwC Japanグループ [https://www.pwc.com/jp/ja/knowledge/column/geopolitical-risk-column/vol29.html](https://www.pwc.com/jp/ja/knowledge/column/geopolitical-risk-column/vol29.html)
+*   **台湾華語:** 經濟部攜手國內外產官學研推動「全球半導體供應鏈夥伴論壇」，共築韌性供應鏈與可信賴的未來需求 | 新聞發布 | 電子資訊產業 - 經濟部產業發展署 [https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsView&id=42834](https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsView&id=42834)
 
 > 半導体地政学と日台協力について、一緒に学ぶことができて、私もうれしいです！ 半導体は、私たちの生活を支える大切なものだってことがわかりましたね。特に、TSMCが熊本に工場を作ることで、日本と台湾の関係がもっと深まるかもしれないということに、とても驚きました。これからも、世界のニュースに興味を持って、一緒に学んでいきましょう！応援しています！
