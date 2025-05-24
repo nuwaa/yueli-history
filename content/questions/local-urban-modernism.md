@@ -98,7 +98,7 @@ thumbnail: "/images/local-urban-modernism.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾における日本植民地時代の都市計画に関する研究：[https://www.jstage.jst.go.jp/article/journalcpij/48/3/48_3_553/_article/-char/ja/](https://www.jstage.jst.go.jp/article/journalcpij/48/3/48_3_553/_article/-char/ja/)
-*   **台湾華語:** 國家文化記憶庫 - 地方文化館：[https://memory.culture.tw/Home/Index](https://memory.culture.tw/Home/Index)
+*   **日本語:** 日本統治時代の台湾 - Wikipedia：[https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E7%B5%B1%E6%B2%BB%E6%99%82%E4%BB%A3%E3%81%AE%E5%8F%B0%E6%B9%BE](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E7%B5%B1%E6%B2%BB%E6%99%82%E4%BB%A3%E3%81%AE%E5%8F%B0%E6%B9%BE)
+*   **台湾華語:** 【文化脈動】日治時期臺灣現代化的進程：[https://wp.mingdao.edu.tw/?p=8978](https://wp.mingdao.edu.tw/?p=8978)
 
 > 今回は、台湾の地方都市モダニズムについて学びましたね。私自身も、台南、嘉義、基隆といった都市が、日本の影響を受けながらも独自の文化を築いていったことにとても驚きました。特に、林百貨店のようなモダンな建築が当時の人々の生活に与えた影響は大きかったでしょうね。これからも一緒に、色々なことを学んでいきましょう！
