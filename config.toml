@@ -38,6 +38,12 @@ timeZone = "Asia/Tokyo"
   weight = 2
 
 [[menu.main]]
+  identifier = "timeline"
+  name = "年表"
+  url = "/timeline/"
+  weight = 3
+
+[[menu.main]]
   name = "プライバシー"
   url = "/privacy-policy/"
   weight = 50
