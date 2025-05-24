@@ -94,9 +94,7 @@ thumbnail: "/images/export-processing-zones-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：[経済産業省 - 世界の経済構造変化とグローバル化への対応](https://www.meti.go.jp/report/tsushohakusho/2000/html/i11120.html)
-    *   輸出加工区に関する記述があります。
-*   台湾華語：[經濟部投資審議委員會 - 歷年投資統計](https://www.moeaic.gov.tw/ বিনিয়োগ-stat/year.aspx)
-    *   台湾への投資に関する統計情報が掲載されています。
+*   日本語：[台湾を世界のブランドに――  メイド・イン・タイワンを輝かせた 「加工輸出区」の栄光とこれから - Taiwan Panorama](https://www.taiwan-panorama.com/ja/Articles/Details?Guid=681f5d05-8a7e-446a-9e3b-cf581c910602&CatId=9&postname=%E5%8F%B0%E6%B9%BE%E3%82%92%E4%B8%96%E7%95%8C%E3%81%AE%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AB%E2%80%95%E2%80%95-%E3%83%A1%E3%82%A4%E3%83%89%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%AF%E3%83%B3%E3%82%92%E8%BC%9D%E3%81%8B%E3%81%9B%E3%81%9F%20%E3%80%8C%E5%8A%A0%E5%B7%A5%E8%BC%B8%E5%87%BA%E5%8C%BA%E3%80%8D%E3%81%AE%E6%A0%84%E5%85%89%E3%81%A8%E3%81%93%E3%82%8C%E3%81%8B%E3%82%89&srsltid=AfmBOoomObPjJdPxmbxEo4WF7xwCde-cg0ON0verJBVlySrBHT8qUoT6)
+*   台湾華語：[經濟部產業園區管理局](https://www.bip.gov.tw/index.aspx)
 
 > 今回のテーマ、輸出加工区と日系企業の進出について、一緒に学ぶことができて、とても嬉しかったです！ 台湾がどのようにして経済を発展させてきたのか、そして日本との深い繋がりがあることを知ることができました。特に、台湾の皆さんが自宅の居間を工場にしていた「客廳即工廠」という言葉には、とても驚きました。どんな困難にも負けずに頑張る台湾の皆さんの姿が目に浮かぶようです。これからも、一緒に楽しく歴史を学んでいきましょうね！
