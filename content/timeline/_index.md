@@ -4,6 +4,8 @@ description: "台湾と日本の近現代史を時系列で学べるページで
 type: "timeline"
 ---
 
+{{< center-img src="/images/timeline.jpg" >}}
+
 # 台湾と日本の近現代史 年表
 
 ユエリーと一緒に、台湾と日本の近現代史をざっくりと時系列でたどってみましょう。
