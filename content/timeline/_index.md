@@ -6,9 +6,8 @@ type: "timeline"
 
 # 台湾と日本の近現代史 年表
 
-<p class="subtitle" style="text-align:center; color:#888; font-size: 1rem; margin-top: -0.5rem;">
-  ユエリーと一緒に、台湾と日本の近現代史をざっくりと時系列でたどってみましょう。
-</p>
+ユエリーと一緒に、台湾と日本の近現代史をざっくりと時系列でたどってみましょう。
+
 
 {{< center-img src="/images/timeline.jpg" >}}
 
