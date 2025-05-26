@@ -10,15 +10,6 @@ slug: tapani-incident
 thumbnail: "/images/tapani-incident.jpg"
 ---
 
-```
-description: タパニー事件（西来庵事件）について、小学生にもわかりやすく解説します。日本統治時代の台湾で起きた悲しい出来事を学びましょう。
-keywords: タパニー事件, 西来庵事件, 日本統治時代, 台湾史, 抗日運動
-tags: タパニー事件, 西来庵事件, 台湾, 歴史, 抗日
-categories: 台湾史, 日本統治時代
-slug: tapani-incident
-draft: False
-```
-
 {{< center-img src="/images/tapani-incident.jpg" >}}
 
 ## 1. 日本語の解説
