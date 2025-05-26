@@ -10,20 +10,11 @@ slug: taiwanese-soldiers-japan
 thumbnail: "/images/taiwanese-soldiers-japan.jpg"
 ---
 
-```
-description: 台湾人日本兵・軍属・挺身隊の動員について、その背景、実態、影響をやさしい日本語と台湾華語で解説します。
-keywords: 台湾人日本兵, 軍属, 挺身隊, 動員, 日本統治時代, 皇民化, 志願兵
-tags: 台湾史, 日本史, 戦争, 軍事, 歴史教育
-categories: 歴史, 台湾, 日本
-slug: taiwanese-soldiers-japan
-draft: False
-```
-
 {{< center-img src="/images/taiwanese-soldiers-japan.jpg" >}}
 
 ## 1. 日本語の解説
 
-みんな、こんにちは。今日は少し難しいけれど、大切なことを一緒に学んでいきましょうね。今回のテーマは「台湾人日本兵・軍属・挺身隊の動員」についてです。
+今日は少し難しいけれど、大切なことを一緒に学んでいきましょうね。今回のテーマは「台湾人日本兵・軍属・挺身隊の動員」についてです。
 
 **なぜこのテーマを学ぶ意味があるのかな？**
 
