@@ -10,17 +10,6 @@ slug: shimonoseki-taiwan-cession
 thumbnail: "/images/shimonoseki-taiwan-cession.jpg"
 ---
 
-はい、承知いたしました。下関条約と台湾割譲について、小学生にも分かりやすい解説、台湾華語訳、用語リスト、関連年表、関連リンクを作成します。
-
----
-description: 下関条約と台湾割譲について、小学生にも分かりやすい解説と台湾華語訳、用語リスト、関連年表、関連リンクを紹介します。
-keywords: 下関条約, 台湾割譲, 日清戦争, 李鴻章, 伊藤博文
-tags: 下関条約, 台湾割譲, 日清戦争, 歴史, 台湾史
-categories: 歴史, 台湾, 日本
-slug: shimonoseki-taiwan-cession
-draft: False
----
-
 {{< center-img src="/images/shimonoseki-taiwan-cession.jpg" >}}
 
 ## 1. 日本語の解説
