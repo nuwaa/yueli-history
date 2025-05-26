@@ -6,7 +6,9 @@ type: "timeline"
 
 # 台湾と日本の近現代史 年表
 
-<p class="text-center">ユエリーと一緒に、台湾と日本の近現代史をざっくりと時系列でたどってみましょう。</p>
+{{< center >}}
+ユエリーと一緒に、台湾と日本の近現代史をざっくりと時系列でたどってみましょう。</p>
+{{< /center >}}
 
 {{< center-img src="/images/timeline.jpg" >}}
 
