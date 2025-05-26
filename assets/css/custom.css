@@ -366,3 +366,7 @@ h1::after {
     }
   }
 }
+
+.text-center {
+  text-align: center;
+}
