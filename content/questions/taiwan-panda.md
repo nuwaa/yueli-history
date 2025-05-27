@@ -81,7 +81,7 @@ thumbnail: "/images/taiwan-panda.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾のパンダはなぜ中国に返還されない？　微妙な政治的関係を反映か：朝日新聞GLOBE＋[https://globe.asahi.com/article/15603329](https://globe.asahi.com/article/15603329)
-*   **台湾華語:** 臺北市立動物園-室內館-大貓熊館[https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&sms=4B48AE9F06DCAA6F&s=C1F6C579F136D58F](https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&sms=4B48AE9F06DCAA6F&s=C1F6C579F136D58F)
+*   日本語: [台湾のパンダはなぜ中国に返還されない？　微妙な政治的関係を反映か：朝日新聞GLOBE＋](https://globe.asahi.com/article/15603329)
+*   台湾華語: [臺北市立動物園-室內館-大貓熊館](https://www.zoo.gov.taipei/News_Content.aspx?n=0E2F1BDD15CF608D&sms=4B48AE9F06DCAA6F&s=C1F6C579F136D58F)
 
 > 今回は、台湾にパンダがいることを一緒に学ぶことができて、私もうれしいです！パンダが台湾と中国の架け橋になっているなんて、ちょっと驚きでした。これからも、いろんなことを一緒に学んでいきましょうね！応援しています！
