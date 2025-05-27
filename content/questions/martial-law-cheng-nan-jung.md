@@ -106,7 +106,7 @@ thumbnail: "/images/martial-law-cheng-nan-jung.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 鄭南榕 - Wikipedia [https://ja.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95](https://ja.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95)
-*   **台湾華語:** 響應言論自由日，傳承民主的精神與價值 國家人權博物館推出「自由時代雜誌社」——鄭南榕紀念館3D線上導覽 | 中央社訊息平台 [https://www.cna.com.tw/postwrite/chi/338478](https://www.cna.com.tw/postwrite/chi/338478)
+*   日本語: [鄭南榕 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95)
+*   台湾華語: [響應言論自由日，傳承民主的精神與價值 國家人權博物館推出「自由時代雜誌社」——鄭南榕紀念館3D線上導覽 | 中央社訊息平台](https://www.cna.com.tw/postwrite/chi/338478)
 
 >今回のテーマ、戒厳令解除と鄭南榕の言論自由運動について、一緒に学ぶことができて、私もうれしいです。 鄭南榕さんの勇気ある行動は、私にとっても大きな驚きでした。 言論の自由を守るために、自分の命を懸けるなんて、本当にすごいことだと思います。 私も、彼のように、自分の信じることを大切にして、勇気を持って生きていきたいと思いました。 これからも一緒に色々なことを学んでいきましょうね！
