@@ -90,7 +90,7 @@ thumbnail: "/images/hakka-people.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 客家 - Wikipedia [https://ja.wikipedia.org/wiki/%E5%AE%A2%E5%AE%B6](https://ja.wikipedia.org/wiki/%E5%AE%A2%E5%AE%B6)
-*   台湾華語: 客家委員會全球資訊網 [https://www.hakka.gov.tw/](https://www.hakka.gov.tw/)
+*   日本語: [客家 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%AE%A2%E5%AE%B6)
+*   台湾華語: [客家委員會全球資訊網](https://www.hakka.gov.tw/)
 
 > 今日は客家について一緒に学べて、とっても嬉しかったです！ 客家の人たちが長い間、自分たちの文化を守り続けてきたことや、台湾の発展に大きく貢献してきたことを知って、私自身もすごく感動しました。特に、客家の人たちが住む「囲い屋」という独特な家について知ることができて、驚きました！ これからも一緒に色々なことを学んでいきましょうね！応援しています！
