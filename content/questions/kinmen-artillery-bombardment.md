@@ -114,7 +114,7 @@ thumbnail: "/images/kinmen-artillery-bombardment.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** [金門砲戦 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%A6)
-*   **台湾華語:** [八二三戰役 - 维基百科](https://zh.wikipedia.org/wiki/%E5%85%AB%E4%BA%8C%E4%B8%89%E6%88%B0%E5%BD%B9)
+*   日本語: [金門砲戦 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%A6)
+*   台湾華語: [八二三戰役 - 维基百科](https://zh.wikipedia.org/wiki/%E5%85%AB%E4%BA%8C%E4%B8%89%E6%88%B0%E5%BD%B9)
 
 > 金門砲戦について、深く知ることができて、私自身もとても勉強になりました。この出来事を通して、平和な世界を築くために、私たちができることはたくさんあるはずです。これからも、歴史を学び、未来のために行動していきたいですね。応援しています！
