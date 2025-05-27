@@ -102,8 +102,8 @@ thumbnail: "/images/taiwan-disinformation.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語**: 総務省｜インターネット上の違法・有害情報に対する対応（情報流通プラットフォーム対処法）｜インターネット上のフェイクニュースや偽情報への対策：[https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai_05.html](https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai_05.html)
-*   **台湾華語**: 台湾ファクトチェックセンター：[https://tfc-taiwan.org.tw/](https://tfc-taiwan.org.tw/)
+*   日本語: [総務省｜インターネット上の違法・有害情報に対する対応（情報流通プラットフォーム対処法）｜インターネット上のフェイクニュースや偽情報への対策](https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai_05.html)
+*   台湾華語: [台湾ファクトチェックセンター](https://tfc-taiwan.org.tw/)
 
 > 今回は台湾の偽情報対策について一緒に勉強しました。私自身も、台湾が様々な方法で偽情報と戦っていることを知って、とても驚きました。特に、学校でメディアリテラシー教育をしていることは、未来を担う子供たちにとってとても大切なことだと思います。
 > これからも、私たちは情報を鵜呑みにせず、自分で考えて判断する力を身につけていきましょうね。私と一緒に、もっと色々なことを学んでいきましょう！
