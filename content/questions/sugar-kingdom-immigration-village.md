@@ -90,7 +90,7 @@ thumbnail: "/images/sugar-kingdom-immigration-village.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾を変えた日本人シリーズ：砂糖王国を築いた新渡戸稲造 | nippon.com - [https://www.nippon.com/ja/column/g00624/](https://www.nippon.com/ja/column/g00624/)
-*   **台湾華語:** 改變臺灣的日本人系列：打造砂糖王國的新渡戶稻造 | Nippon.com - [https://www.nippon.com/hk/column/g00624/](https://www.nippon.com/hk/column/g00624/)
+*   日本語: [台湾を変えた日本人シリーズ：砂糖王国を築いた新渡戸稲造 | nippon.com](https://www.nippon.com/ja/column/g00624/)
+*   台湾華語: [改變臺灣的日本人系列：打造砂糖王國的新渡戶稻造 | Nippon.com](https://www.nippon.com/hk/column/g00624/)
 
 > こんにちは。今回のテーマはいかがでしたか？砂糖が台湾の歴史にこんなにも深く関わっているなんて、私も初めて知って驚きました。特に、移民村という存在は、異なる文化が混ざり合い、新しいコミュニティが生まれる場所だったんですね。北港、虎尾、橋頭のそれぞれの場所で、砂糖産業がどのように発展し、人々の生活に影響を与えたのかを知ることができて、とても勉強になりました。これからも一緒に色々なことを学んでいきましょうね！
