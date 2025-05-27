@@ -84,7 +84,7 @@ thumbnail: "/images/formosa-incident.jpg"
 | 戒厳令 | 戒嚴令 | Jièyánlìng | ㄐㄧㄝˋ ㄧㄢˊ ㄌㄧㄥˋ | 非常事態に際し、行政権や司法権を軍が掌握する状態を定める法令。 |
 | 党外 | 黨外 | Dǎngwài | ㄉㄤˇ ㄨㄞˋ | 当時、与党である国民党以外の政治勢力。 |
 | 高雄 | 高雄 | Gāoxióng | ㄍㄠ ㄒㄩㄥˊ | 台湾南部の都市。美麗島事件の舞台となった場所。|
-| 國際人權日 | 国际人权日 | Guójì rénquán rì | ㄍㄨㄛˊ ㄐㄧˋ ㄖㄣˊ ㄑㄩㄢˊ ㄖˋ | 国際連合が定めた、人権に関する記念日（12月10日）。 |
+| 世界人権デー | 國際人權日 | Guójì rénquán rì | ㄍㄨㄛˊ ㄐㄧˋ ㄖㄣˊ ㄑㄩㄢˊ ㄖˋ | 国際連合が定めた、人権に関する記念日（12月10日）。 |
 
 ## 4. 関連年表
 
@@ -98,7 +98,7 @@ thumbnail: "/images/formosa-incident.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 美麗島事件 - Wikipedia：[https://ja.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6](https://ja.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
-*   台湾華語: 美麗島事件 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6](https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
+*   日本語: [美麗島事件 - Wikipedia](https://ja.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
+*   台湾華語: [美麗島事件 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6)
 
 > みなさん、今日は一緒に美麗島事件について学ぶことができて、私もうれしかったです。この事件は、台湾の民主化のために戦った人々の勇気と犠牲を私たちに教えてくれます。今の台湾があるのは、彼らのおかげなのですね。私も、彼らのように、自分の信じる道を強く歩んでいきたいと思いました。
