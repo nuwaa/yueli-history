@@ -90,7 +90,7 @@ thumbnail: "/images/mini-tomato-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: ミニトマト - Wikipedia \[[https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88](https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88)]
-*   台湾華語: 小番茄功效的 5 大好處功效與 3 大禁忌！怎麼吃最健康？ - RSMedia \[[https://thersmedia.com/health/7452/](https://thersmedia.com/health/7452/)]
+*   日本語: [ミニトマト - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88)
+*   台湾華語: [小番茄功效的 5 大好處功效與 3 大禁忌！怎麼吃最健康？ - RSMedia](https://thersmedia.com/health/7452/)
 
 > 今回は、ミニトマトが台湾では果物として食べられることがあるという、ちょっと意外なテーマを一緒に学びましたね。 私も、台湾と日本の食文化の違いを知ることができて、とても勉強になりました。特に、梅粉をつけてミニトマトを食べるという習慣には驚きました！ 新しい発見があると、なんだかワクワクしますね。これからも一緒に色々なことを学んでいきましょう！
