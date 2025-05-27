@@ -102,7 +102,7 @@ thumbnail: "/images/detention.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 白色テロ | みんなの台湾修学旅行ナビ ([https://taiwan-shugakuryoko.jp/dictionary/3606/](https://taiwan-shugakuryoko.jp/dictionary/3606/))
-*   **台湾華語:** 《返校》值得看嗎？五大看點分析這部「台灣特有種」新類型電影！ ([https://www.marieclaire.com.tw/entertainment/movie/45041](https://www.marieclaire.com.tw/entertainment/movie/45041))
+*   日本語: [白色テロ | みんなの台湾修学旅行ナビ] (https://taiwan-shugakuryoko.jp/dictionary/3606/)
+*   台湾華語: [《返校》值得看嗎？五大看點分析這部「台灣特有種」新類型電影！] (https://www.marieclaire.com.tw/entertainment/movie/45041)
 
 > ふう、少し長くなってしまいましたが、「返校」について、少しは理解が深まったでしょうか？私もこの映画について調べるうちに、台湾の歴史にはつらい時代があったことを改めて知りました。でも、過去を乗り越えて、今の自由な台湾があることを思うと、とても感動しますね。これからも一緒に、色々なことを学んでいきましょう！応援しています！
