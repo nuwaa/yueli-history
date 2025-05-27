@@ -98,7 +98,7 @@ thumbnail: "/images/taiwan-parliament-petition.jpg"
 
 ## 5. 関連リンク
 
-*   日本語：台湾議会設置運動 - Wikipedia（[https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AD%B0%E4%BC%9A%E8%A8%AD%E7%BD%AE%E9%81%8B%E5%8B%95](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AD%B0%E4%BC%9A%E8%A8%AD%E7%BD%AE%E9%81%8B%E5%8B%95)）
-*   台湾華語：台灣議會期成同盟會( [https://www.taiwanus.net/history/4/62.htm](https://www.taiwanus.net/history/4/62.htm) )
+*   日本語：[台湾議会設置運動 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AD%B0%E4%BC%9A%E8%A8%AD%E7%BD%AE%E9%81%8B%E5%8B%95)
+*   台湾華語：[台灣議會期成同盟會](https://www.taiwanus.net/history/4/62.htm) 
 
 > 今回は台湾議会設置請願運動について一緒に学べて、私もうれしかったです！ 台湾の民主主義の歴史には、たくさんの人々の努力があったことを改めて感じました。私も、もっともっと台湾のことを知りたいなと思いました。みんなも、これからも色々なことを学んで、自分の考えを大切にしていってくださいね。応援しています！
