@@ -90,7 +90,7 @@ thumbnail: "/images/abe-and-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** [台湾で最も愛された日本人政治家・安倍晋三]([https://www.youtube.com/watch?v=BgUjTqfWefQ](http://www.world-economic-review.jp/impact/article2598.html))
-*   **台湾華語:** [台灣有事就是日本有事 - 維基百科，自由的百科全書]([https://www.youtube.com/watch?v=vTr3TG-g3kI](https://zh.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%9C%89%E4%BA%8B%E5%B0%B1%E6%98%AF%E6%97%A5%E6%9C%AC%E6%9C%89%E4%BA%8B))
+*   **日本語:** [なぜ台湾に安倍元首相の銅像があるのか？「台湾のアイデンティティ」とは 【ブックレビュー】中国の習近平国家主席は台湾統一を目指すが、「自分は台湾人」が多数派に(1/3) | JBpress (ジェイビープレス)]([https://jbpress.ismedia.jp/articles/-/78676](https://jbpress.ismedia.jp/articles/-/78676))
+*   **台湾華語:** [安倍過世，臺灣人深深表達感謝的理由 | Nippon.com]([https://www.nippon.com/hk/japan-topics/g02177/](https://www.nippon.com/hk/japan-topics/g02177/))
 
 > 私も一緒に学ぶことができて、とても嬉しいです。安倍元総理が台湾との関係を大切にしていたこと、そしてそれが日本にとっても重要なことだと改めて理解できました。これからも、日本と台湾がより良い関係を築いていけるように、私たちもできることをしていきたいですね。
