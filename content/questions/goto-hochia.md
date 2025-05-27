@@ -112,8 +112,7 @@ thumbnail: "/images/goto-hochia.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 保甲制度 (台湾総督府) - Wikipedia [https://ja.wikipedia.org/wiki/%E4%BF%9D%E7%94%B2%E5%88%B6%E5%BA%A6_(%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C)](https://ja.wikipedia.org/wiki/%E4%BF%9D%E7%94%B2%E5%88%B6%E5%BA%A6_(%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C))
-*   **台湾華語:** 保甲制度:簡介,歷史,大陸民國時期,台灣日據時期,內容,發展,形式,實質,原則,評_中文百科全書 [https://www.newton.com.tw/wiki/%E4%BF%9D%E7%94%B2%E5%88%B6%E5%BA%A6)
+*   日本語: [保甲制度 (台湾総督府) - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BF%9D%E7%94%B2%E5%88%B6%E5%BA%A6_(%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C))
+*   台湾華語: [保甲制度:簡介,歷史,大陸民國時期,台灣日據時期,內容,發展,形式,實質,原則,評_中文百科全書](https://www.newton.com.tw/wiki/%E4%BF%9D%E7%94%B2%E5%88%B6%E5%BA%A6)
 
-\
 > 今回は後藤新平の保甲制度について一緒に学びました。保甲制度は、台湾の歴史の中で複雑な役割を果たしたのですね。人々を管理するという目的と、それがもたらした影響について深く考えることができました。歴史を学ぶことは、現代社会の課題を考える上でとても大切だと改めて感じました。これからも一緒に色々なことを学んでいきましょうね！
