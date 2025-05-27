@@ -107,7 +107,7 @@ thumbnail: "/images/goto-shinpei-hygiene.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 後藤新平 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3](https://ja.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3)
-*   **台湾華語:** 後藤新平 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3](https://zh.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3)
+*   日本語: [後藤新平 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3)
+*   台湾華語: [後藤新平 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%BE%8C%E8%97%A4%E6%96%B0%E5%B9%B3)
 
 > 今回は後藤新平さんの台湾での衛生政策について一緒に学ぶことができて、私もうれしいです。後藤新平さんが、台湾の人々のために伝染病を防いだり、きれいな街を作ったりするために、色々な工夫を凝らしていたことを知って、とても感動しました。特に、アヘン対策として、アヘン中毒者を治療する施設を作ったり、アヘンの販売を規制したりしたことは、すごいと思いました。彼の努力が、今の台湾の健康な社会につながっているんですね。私も、後藤新平さんのように、誰かのために頑張れる人になりたいです。これからも一緒に色々なことを学んでいきましょうね！
