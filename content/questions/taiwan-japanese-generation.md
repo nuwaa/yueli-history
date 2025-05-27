@@ -70,7 +70,7 @@ thumbnail: "/images/taiwan-japanese-generation.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語**: 日本語世代 - Wikipedia：[https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E4%B8%96%E4%BB%A3](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E4%B8%96%E4%BB%A3)
-*   **台湾華語**: 日語世代 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E4%B8%96%E4%BB%A3](https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E4%B8%96%E4%BB%A3)
+*   日本語: [日本語世代 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%AA%9E%E4%B8%96%E4%BB%A3)
+*   台湾華語: [日語世代 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E6%97%A5%E8%AA%9E%E4%B8%96%E4%BB%A3)
 
 > 私も一緒に「台湾の日本語世代」について学ぶことができて、とても嬉しいです。日本語を学んだ世代の人々の物語は、台湾と日本の歴史の深さを教えてくれますね。彼らの経験は、私たちが過去から学び、未来を築く上で、とても大切な教訓を与えてくれると思います。今回初めて知った「灣生」という言葉は、台湾と日本の歴史が交差する特別な存在を象徴しているようで、とても心に残りました。これからも、色々なことを一緒に学んでいきましょうね！
