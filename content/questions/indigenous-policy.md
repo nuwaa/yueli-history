@@ -112,8 +112,8 @@ thumbnail: "/images/indigenous-policy.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 理蕃政策 - Wikipedia: [https://ja.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96](https://ja.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
-*   台湾華語: 理蕃政策 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96](https://zh.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
+*   日本語: [理蕃政策 - Wikipedia](https://ja.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
+*   台湾華語: [理蕃政策 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E7%90%86%E8%95%83%E6%94%BF%E7%AD%96)
 
 > 皆さん、今日は一緒に「理蕃政策と原住民族行政」について学ぶことができて、私もうれしいです。
 >
