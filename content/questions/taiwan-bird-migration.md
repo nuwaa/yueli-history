@@ -90,7 +90,7 @@ thumbnail: "/images/taiwan-bird-migration.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** アジア随一のバードウォッチングの聖地   台湾で鳥と出会う - Taiwan Panorama：[https://www.taiwan-panorama.com/ja/Articles/Details?Guid=360c0976-205b-4eaa-8d20-e2e0a9bfc192](https://www.taiwan-panorama.com/ja/Articles/Details?Guid=360c0976-205b-4eaa-8d20-e2e0a9bfc192)
-*   **台湾華語:** 台灣濕地列表 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E6%BF%95%E5%9C%B0%E5%88%97%E8%A1%A8](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E6%BF%95%E5%9C%B0%E5%88%97%E8%A1%A8)
+*   日本語: [アジア随一のバードウォッチングの聖地   台湾で鳥と出会う - Taiwan Panorama](https://www.taiwan-panorama.com/ja/Articles/Details?Guid=360c0976-205b-4eaa-8d20-e2e0a9bfc192)
+*   台湾華語: [台灣濕地列表 - 維基百科，自由的百科全書]https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E6%BF%95%E5%9C%B0%E5%88%97%E8%A1%A8)
 
 >今回のテーマ、いかがでしたでしょうか？私自身、台湾がこんなにもたくさんの鳥たちにとって大切な場所だということを改めて知り、とても感動しました。鳥たちが安全に旅を続けられるように、私たちもできることから始めて、自然を守っていきたいですね。これからも一緒に楽しく学んでいきましょう！
