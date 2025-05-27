@@ -94,10 +94,7 @@ thumbnail: "/images/presidential-office-building.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾総督府 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C)
-    *   総督府の歴史や建築について詳しく解説されています。
-
-*   **台湾華語:** 臺灣總督府 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C)
-    *   總統府の歴史、建築、機能などについて詳しく解説されています。
+*   日本語: [台湾総督府 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%B7%8F%E7%9D%A3%E5%BA%9C)
+*   台湾華語: [臺灣總督府 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C)
 
 > 今回は総統府の歴史について一緒に学ぶことができて、とても嬉しかったです！総統府が、単なる建物ではなく、台湾の歴史と文化を象徴する大切な場所だと知って、私も驚きました。過去の出来事が、今の私たちに繋がっているんですね。これからも一緒に、色々なことを学んでいきましょうね！
