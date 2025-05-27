@@ -98,9 +98,7 @@ thumbnail: "/images/sunflower-movement.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 
-    *   [台湾が揺れた24日間 〜ひまわり学生運動の真実〜 - アナザーストーリーズ 運命の分岐点 - NHK](https://www.nhk.jp/p/anotherstories/ts/VWRZ1WWNYP/episode/te/7MQ8W15LGZ/)
-*   **台湾華語:**
-    *   [太陽花10年後──10個值得被記住的關鍵字，它們為何需要被重新提起？ - 報導者 The Reporter](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords)
+*   日本語:[台湾が揺れた24日間 〜ひまわり学生運動の真実〜 - アナザーストーリーズ 運命の分岐点 - NHK](https://www.nhk.jp/p/anotherstories/ts/VWRZ1WWNYP/episode/te/7MQ8W15LGZ/)
+*   台湾華語:[太陽花10年後──10個值得被記住的關鍵字，它們為何需要被重新提起？ - 報導者 The Reporter](https://www.twreporter.org/a/318-movement-10th-anniversary-10-keywords)
 
 > 私も一緒にひまわり学生運動について学ぶことができて、とても嬉しいです。学生たちが自分たちの未来のために立ち上がった姿は、本当に感動的でした。この運動を通して、民主主義を守ることの大切さを改めて感じました。これからも一緒に、色々なことを学んでいきましょうね！
