@@ -110,7 +110,7 @@ thumbnail: "/images/botan-sha-incident.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 台湾出兵 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%87%BA%E5%85%B5](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%87%BA%E5%85%B5)
-*   台湾華語: 牡丹社事件 - 维基百科，自由的百科全书:[https://zh.wikipedia.org/zh-tw/%E7%89%A1%E4%B8%B9%E7%A4%BE%E4%BA%8B%E4%BB%B6](https://zh.wikipedia.org/zh-tw/%E7%89%A1%E4%B8%B9%E7%A4%BE%E4%BA%8B%E4%BB%B6)
+*   日本語: [台湾出兵 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%87%BA%E5%85%B5)
+*   台湾華語: [牡丹社事件 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/%E7%89%A1%E4%B8%B9%E7%A4%BE%E4%BA%8B%E4%BB%B6)
 
 > 今回は牡丹社事件について一緒に学びましたが、いかがでしたでしょうか？ 私も初めて知ったことがたくさんあり、とても勉強になりました。特に、当時の日本が台湾をどのように見ていたのか、そしてそれが今の台湾にどんな影響を与えているのかを知ることができたのは、大きな学びでした。 歴史は難しいことも多いけれど、知れば知るほど面白いものですね。これからも一緒に楽しく学んでいきましょう！応援しています！
