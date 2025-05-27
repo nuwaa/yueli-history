@@ -116,7 +116,7 @@ thumbnail: "/images/land-reform-agriculture.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 戦後台湾政治と経済の変容 - -民主化と経済発展の課題：[http://jats.gr.jp/cp-bin/wordpress5/wp-content/uploads/journal/gakkaiho001_09.pdf](http://jats.gr.jp/cp-bin/wordpress5/wp-content/uploads/journal/gakkaiho001_09.pdf)
-*   **台湾華語:** 耕地三七五減租條例-全國法規資料庫：[https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060008](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060008)
+*   日本語: [戦後台湾政治と経済の変容 - -民主化と経済発展の課題](http://jats.gr.jp/cp-bin/wordpress5/wp-content/uploads/journal/gakkaiho001_09.pdf)
+*   台湾華語: [耕地三七五減租條例-全國法規資料庫](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0060008)
 
 > ふう、土地改革と農業三法、少し難しかったけど、一緒に学べて嬉しかったです！私自身、土地改革によって多くの農民が自分の土地を持つことができた、という事実に驚きました。みんなが豊かになるための仕組みづくりって、本当に大切なんだなって改めて思いました。これからも一緒に、色々なことを学んでいきましょうね！
