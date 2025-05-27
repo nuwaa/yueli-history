@@ -94,7 +94,7 @@ KANO棒球隊的活躍，給予了台灣人民自信和驕傲。 他們相信，
 
 ## 5. 関連リンク
 
-*   **日本語:** KANO 1931海の向こうの甲子園 - Wikipedia[https://ja.wikipedia.org/wiki/KANO_1931%E6%B5%B7%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AE%E7%94%B2%E5%AD%90%E5%9C%92](https://ja.wikipedia.org/wiki/KANO_1931%E6%B5%B7%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AE%E7%94%B2%E5%AD%90%E5%9C%92)
-*   **台湾華語:** KANO - 維基百科，自由的百科全書[https://zh.wikipedia.org/wiki/KANO](https://zh.wikipedia.org/wiki/KANO)
+*   日本語: [KANO 1931海の向こうの甲子園 - Wikipedia](https://ja.wikipedia.org/wiki/KANO_1931%E6%B5%B7%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E3%81%AE%E7%94%B2%E5%AD%90%E5%9C%92)
+*   台湾華語: [KANO - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/KANO)
 
 > 私も「KANO」の映画を見たことがあります。言葉や文化が違う人々が、一つの目標に向かって努力する姿に感動しました。特に、嘉義農林学校の選手たちが、困難を乗り越えて甲子園で活躍する姿は、とても勇気づけられました。この映画を通して、台湾と日本の歴史についてもっと深く学ぶことができて、本当に嬉しかったです。みなさんも、この映画を見て、何かを感じていただけたら嬉しいです。応援しています！
