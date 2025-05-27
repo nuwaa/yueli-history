@@ -102,7 +102,7 @@ TSMC的熊本工廠，不僅是日本，也與美國合作建設。美國擅長�
 
 ## 5. 関連リンク
 
-*   **日本語:** トランプ2.0と台湾の半導体戦略、日本企業の立脚点 | PwC Japanグループ [https://www.pwc.com/jp/ja/knowledge/column/geopolitical-risk-column/vol29.html](https://www.pwc.com/jp/ja/knowledge/column/geopolitical-risk-column/vol29.html)
-*   **台湾華語:** 經濟部攜手國內外產官學研推動「全球半導體供應鏈夥伴論壇」，共築韌性供應鏈與可信賴的未來需求 | 新聞發布 | 電子資訊產業 - 經濟部產業發展署 [https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsView&id=42834](https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsView&id=42834)
+*   日本語: [トランプ2.0と台湾の半導体戦略、日本企業の立脚点 | PwC Japanグループ](https://www.pwc.com/jp/ja/knowledge/column/geopolitical-risk-column/vol29.html)
+*   台湾華語: [經濟部攜手國內外產官學研推動「全球半導體供應鏈夥伴論壇」，共築韌性供應鏈與可信賴的未來需求 | 新聞發布 | 電子資訊產業 - 經濟部產業發展署](https://www.ida.gov.tw/ctlr?PRO=news.rwdNewsView&id=42834)
 
 > 半導体地政学と日台協力について、一緒に学ぶことができて、私もうれしいです！ 半導体は、私たちの生活を支える大切なものだってことがわかりましたね。特に、TSMCが熊本に工場を作ることで、日本と台湾の関係がもっと深まるかもしれないということに、とても驚きました。これからも、世界のニュースに興味を持って、一緒に学んでいきましょう！応援しています！
