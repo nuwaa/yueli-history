@@ -66,7 +66,7 @@ thumbnail: "/images/taiwan-plurality.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾IT大臣オードリー・タン氏による「文化多元化」を語るー「脳内トラベル台湾」トークイベント - Taiwan Creative Content Agency (TAICCA) English official website：[https://en.taicca.tw/article/e8112155](https://en.taicca.tw/article/e8112155)
-*   **台湾華語:** 多元族群在台灣  - 台灣光華雜誌：[https://www.taiwan-panorama.com/Articles/Details?Guid=d8cc5e8d-a0cf-4e7c-9d46-bc2462c12b38](https://www.taiwan-panorama.com/Articles/Details?Guid=d8cc5e8d-a0cf-4e7c-9d46-bc2462c12b38)
+*   日本語: [台湾IT大臣オードリー・タン氏による「文化多元化」を語るー「脳内トラベル台湾」トークイベント - Taiwan Creative Content Agency (TAICCA) English official website](https://en.taicca.tw/article/e8112155)
+*   台湾華語: [多元族群在台灣  - 台灣光華雜誌](https://www.taiwan-panorama.com/Articles/Details?Guid=d8cc5e8d-a0cf-4e7c-9d46-bc2462c12b38)
 
 > 私も台湾の多元性について深く学ぶことができて、とても嬉しいです。様々な文化や歴史が混ざり合って、今の台湾があるのですね。まるで、色とりどりの宝石が散りばめられた宝箱のようです。これからも、台湾の多様性を大切にし、尊重する気持ちを忘れずにいたいです。応援しています！
