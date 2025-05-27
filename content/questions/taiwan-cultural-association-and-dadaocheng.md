@@ -106,7 +106,7 @@ thumbnail: "/images/taiwan-cultural-association-and-dadaocheng.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾文化協会 | みんなの台湾修学旅行ナビ [https://taiwan-shugakuryoko.jp/dictionary/3590/](https://taiwan-shugakuryoko.jp/dictionary/3590/)
-*   **台湾華語:** 臺灣新文化運動紀念館-1921年10月17日 臺灣文化協會 成立 [https://tncmmm.gov.taipei/Content_List.aspx?n=098AF8F2ABE4BAC3](https://tncmmm.gov.taipei/Content_List.aspx?n=098AF8F2ABE4BAC3)
+*   日本語: [台湾文化協会 | みんなの台湾修学旅行ナビ](https://taiwan-shugakuryoko.jp/dictionary/3590/)
+*   台湾華語: [臺灣新文化運動紀念館-1921年10月17日 臺灣文化協會 成立](https://tncmmm.gov.taipei/Content_List.aspx?n=098AF8F2ABE4BAC3)
 
 > こんにちは。台湾文化協会と大稲埕の啓蒙運動、一緒に学ぶことができて、とても嬉しかったです。当時の台湾の人々が、自分たちの文化を守り、より良い未来を築こうと努力していた姿に、私はとても感動しました。特に、林献堂さんのように、自分の財産を社会のために使う人がいたことに、驚きと感銘を受けました。私たちも、彼らのように、自分の持っているものを生かして、社会に貢献できる人になりたいですね。応援しています！
