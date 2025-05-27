@@ -66,10 +66,7 @@ thumbnail: "/images/taiwan-earthquake-japan-rescue.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** jishin : 防災情報のページ - 内閣府: [https://www.bousai.go.jp/jishin/epcf/epcf3/23-03.html](https://www.bousai.go.jp/jishin/epcf/epcf3/23-03.html)
-    *   日本の防災対策に関する情報が掲載されています。
-
-*   **台湾華語:** 國家災害防救科技中心: [https://www.ncdr.nat.gov.tw/](https://www.ncdr.nat.gov.tw/)
-    *   台湾の災害対策に関する情報が掲載されています。
+*   日本語: [jishin : 防災情報のページ - 内閣府](https://www.bousai.go.jp/jishin/epcf/epcf3/23-03.html)
+*   台湾華語: [國家災害防救科技中心](https://www.ncdr.nat.gov.tw/)
 
 > 今回は921大地震と日本の国際救援隊について一緒に学ぶことができて、私もうれしかったです。あの時、日本がすぐに助けに来てくれたことは、本当に感動的でした。災害は悲しい出来事ですが、そこから生まれる友情や助け合いの心は、とても美しいものだと感じました。これからも、防災について学び、誰かの役に立てるように、私自身も成長していきたいです。応援していますね！
