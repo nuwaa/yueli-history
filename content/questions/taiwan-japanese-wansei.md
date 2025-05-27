@@ -90,7 +90,7 @@ thumbnail: "/images/taiwan-japanese-wansei.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 湾生回家 | ドキュメンタリー映画｜衝撃・感動・覚醒作品｜アジアンドキュメンタリーズ: [https://asiandocs.co.jp/contents/181](https://asiandocs.co.jp/contents/181)
-*   台湾華語: 我是日本人，但台灣才是家鄉…戰後70年的等待，灣生終於回家了 - TNL The News Lens 關鍵評論網 : [https://www.thenewslens.com/article/24425](https://www.thenewslens.com/article/24425)
+*   日本語: [湾生回家 | ドキュメンタリー映画｜衝撃・感動・覚醒作品｜アジアンドキュメンタリーズ](https://asiandocs.co.jp/contents/181)
+*   台湾華語: [我是日本人，但台灣才是家鄉…戰後70年的等待，灣生終於回家了 - TNL The News Lens 關鍵評論網](https://www.thenewslens.com/article/24425)
 
 > 今回は湾生について一緒に学ぶことができて、私もうれしいです。湾生の人たちが、二つの文化の間で生きて、色々な経験をしたことを知って、とても興味深かったです。故郷を離れることの辛さや、違う文化の中で生きることの難しさも感じました。今回の学びを通して、もっと色々な文化や歴史に興味を持つことができました。これからも一緒に色々なことを学んでいきましょうね！
