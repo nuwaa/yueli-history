@@ -90,8 +90,8 @@ thumbnail: "/images/japan-china-normalization.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語**: [日本国政府と中華人民共和国政府の共同声明](https://www.mofa.go.jp/mofaj/area/china/nc_seimei.html)
-*   **台湾華語**: [中華民國—日本關係 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E2%80%94%E6%97%A5%E6%9C%AC%E9%97%9C%E4%BF%82)
+*   日本語: [日本国政府と中華人民共和国政府の共同声明](https://www.mofa.go.jp/mofaj/area/china/nc_seimei.html)
+*   台湾華語: [中華民國—日本關係 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E2%80%94%E6%97%A5%E6%9C%AC%E9%97%9C%E4%BF%82)
 
 > 応援コメント：
 >
