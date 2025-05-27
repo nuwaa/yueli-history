@@ -86,7 +86,7 @@ thumbnail: "/images/taiwan-jingu-location.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 台湾神宮 - Wikipedia [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%A5%9E%E5%AE%AE](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%A5%9E%E5%AE%AE)
-*   台湾華語: 臺灣神宮 - 維基百科，自由的百科全書 [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%A5%9E%E5%AE%AE](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%A5%9E%E5%AE%AE)
+*   日本語: [台湾神宮 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%A5%9E%E5%AE%AE)
+*   台湾華語: [臺灣神宮 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%A5%9E%E5%AE%AE)
 
 > 台湾神宮の場所について、一緒に学ぶことができてとても嬉しかったです。日本の統治時代の歴史や、その後の変遷を知ることができましたね。忠烈祠が台湾神宮の跡地に建てられたことや、当時の石灯籠が残っていることなど、驚きがたくさんありました。これからも一緒に色々なことを学んでいきましょうね。応援しています！
