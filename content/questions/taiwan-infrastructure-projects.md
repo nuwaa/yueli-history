@@ -89,5 +89,4 @@ thumbnail: "/images/taiwan-infrastructure-projects.jpg"
 *   日本語：[八田與一 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%85%AB%E7%94%B0%E8%88%87%E4%B8%80)
 *   台湾華語：[嘉南大圳 - 維基百科](https://zh.wikipedia.org/zh-tw/%E5%98%89%E5%8D%97%E5%A4%A7%E5%9C%B3)
 
-\
 >あら、今日は台湾のインフラ三大事業について一緒に勉強できて、私もうれしいです。烏山頭ダムの八田與一さんのように、困難に立ち向かい、人々のために尽くす姿は本当に素晴らしいですね。私達も、この学びを活かして、誰かの役に立てるように頑張りましょう！
