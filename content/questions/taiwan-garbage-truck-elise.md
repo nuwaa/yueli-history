@@ -10,15 +10,6 @@ slug: taiwan-garbage-truck-elise
 thumbnail: "/images/taiwan-garbage-truck-elise.jpg"
 ---
 
-```
-description: 台湾のごみ収集車から流れる「エリーゼのために」のメロディー。その理由と台湾の歴史、文化との繋がりをやさしく解説します。
-keywords: 台湾, ごみ収集車, エリーゼのために, 歴史, 文化, 音楽, 台湾華語, 近現代史
-tags: 台湾, ごみ収集車, エリーゼのために, 音楽, 歴史, 文化, 台湾華語, TOCFL
-categories: 台湾, 歴史, 文化
-slug: taiwan-garbage-truck-elise
-draft: False
-```
-
 {{< center-img src="/images/taiwan-garbage-truck-elise.jpg" >}}
 
 ## 1. 日本語の解説
@@ -95,7 +86,7 @@ draft: False
 
 ## 5. 関連リンク
 
-*   **日本語:** 花蓮のゴミ収集車、新テーマ曲で注目 - ニュース - Rti 台湾国際放送：[https://jp.rti.org.tw/news/view/id/93084](https://jp.rti.org.tw/news/view/id/93084)
-*   **台湾華語:**  FORMOSA FILES IN CHINESE! CH03-臺灣街頭巷口的洗腦名曲—臺灣垃圾車音樂文化：[https://www.formosafiles.com/CH03-TrashTruckMusic/](https://www.formosafiles.com/CH03-TrashTruckMusic/)
+*   日本語:[花蓮のゴミ収集車、新テーマ曲で注目 - ニュース - Rti 台湾国際放送](https://jp.rti.org.tw/news/view/id/93084)
+*   台湾華語:[FORMOSA FILES IN CHINESE! CH03-臺灣街頭巷口的洗腦名曲—臺灣垃圾車音樂文化](https://www.formosafiles.com/CH03-TrashTruckMusic/)
 
 > 台湾のごみ収集車と「エリーゼのために」のお話、いかがでしたでしょうか？音楽が、ただの合図ではなく、台湾の歴史や文化を伝えているなんて、とても素敵ですよね。私も、このテーマを学ぶことで、台湾の魅力をもっと深く知ることができました。これからも一緒に、色々なことを学んでいきましょうね！
