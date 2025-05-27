@@ -102,8 +102,8 @@ thumbnail: "/images/san-francisco-peace-treaty.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 昭和26年（1951）9月｜サンフランシスコ平和条約・日米安全保障条約が調印される：日本のあゆみ [https://www.archives.go.jp/ayumi/kobetsu/s26_1951_01.html](https://www.archives.go.jp/ayumi/kobetsu/s26_1951_01.html)
-*   **台湾華語:** 舊金山對日和平條約(舊金山和約):簡單介紹,主要內容,領土,軍事法庭判決,政治及經_中文百科全書 [https://www.newton.com.tw/wiki/%E8%88%8A%E9%87%91%E5%B1%B1%E5%92%8C%E7%B4%84](https://www.newton.com.tw/wiki/%E8%88%8A%E9%87%91%E5%B1%B1%E5%92%8C%E7%B4%84)
+*   日本語: [昭和26年（1951）9月｜サンフランシスコ平和条約・日米安全保障条約が調印される：日本のあゆみ](https://www.archives.go.jp/ayumi/kobetsu/s26_1951_01.html)
+*   台湾華語: [舊金山對日和平條約(舊金山和約):簡單介紹,主要內容,領土,軍事法庭判決,政治及經_中文百科全書](https://www.newton.com.tw/wiki/%E8%88%8A%E9%87%91%E5%B1%B1%E5%92%8C%E7%B4%84)
 
 > こんにちは！今回のテーマ「サンフランシスコ講和条約と日華平和条約」について、一緒に学べてとても嬉しかったです。
 >
