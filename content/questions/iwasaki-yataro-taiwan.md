@@ -102,7 +102,7 @@ thumbnail: "/images/iwasaki-yataro-taiwan.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** vol.12 台湾出兵と三菱 | 三菱グループサイト：[https://www.mitsubishi.com/ja/series/yataro/12/](https://www.mitsubishi.com/ja/series/yataro/12/)
-*   **台湾華語:** 三菱集團創始人、日本著名實業家——岩崎彌太郎的人生故事 - 每日頭條：[https://kknews.cc/zh-tw/history/a2x2rzj.html](https://kknews.cc/zh-tw/history/a2x2rzj.html)
+*   日本語: [vol.12 台湾出兵と三菱 | 三菱グループサイト](https://www.mitsubishi.com/ja/series/yataro/12/)
+*   台湾華語: [三菱集團創始人、日本著名實業家——岩崎彌太郎的人生故事 - 每日頭條](https://kknews.cc/zh-tw/history/a2x2rzj.html)
 
 > 今回は岩崎弥太郎と台湾の関係について一緒に学ぶことができて、とても嬉しかったです。三菱という大きな会社が、台湾の歴史に深く関わっていたことに驚きました。特に、樟脳の取引を独占していたことは、台湾の経済に大きな影響を与えたんですね。歴史を学ぶことで、今の私たちがどのようにしてここにいるのか、少し理解できた気がします。これからも一緒に色々なことを学んでいきましょうね！
