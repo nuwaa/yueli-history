@@ -92,7 +92,7 @@ thumbnail: "/images/taiwan-railway-hobby.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語**: 鉄道好き必見のスポット > 交通部観光署：[https://jp.taiwan.net.tw/m1.aspx?sNo=0015497](https://jp.taiwan.net.tw/m1.aspx?sNo=0015497)
-*   **台湾華語**: 交通部臺灣鐵路管理局：[https://www.railway.gov.tw/](https://www.railway.gov.tw/)
+*   日本語: [鉄道好き必見のスポット > 交通部観光署](https://jp.taiwan.net.tw/m1.aspx?sNo=0015497)
+*   台湾華語: [交通部臺灣鐵路管理局](https://www.railway.gov.tw/)
 
 > 今回は台湾の鉄道の趣味としての面白さを一緒に学ぶことができて、私もとても嬉しいです。台湾の鉄道には、歴史や文化、美しい景色、美味しい駅弁など、たくさんの魅力が詰まっていることが分かりましたね。特に、日本統治時代の駅舎やSL列車は、歴史を感じさせてくれる特別な存在です。いつか私も台湾の鉄道に乗って、ゆっくりと旅をしてみたいです。これからも一緒に楽しく学んでいきましょう！
