@@ -100,7 +100,7 @@ TASA至今已取得多項重要成果。
 
 ## 5. 関連リンク
 
-*   **日本語**: 台湾国家宇宙センター - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%9B%BD%E5%AE%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%9B%BD%E5%AE%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC)
-*   **台湾華語**: 國家太空中心 TASA: [https://www.tasa.org.tw/](https://www.tasa.org.tw/)
+*   日本語: [台湾国家宇宙センター - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E5%9B%BD%E5%AE%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC)
+*   台湾華語: [國家太空中心 TASA](https://www.tasa.org.tw/)
 
 > こんにちは。台湾の宇宙開発、特にTASAについて一緒に学ぶことができて、とても嬉しいです。TASAが台湾の科学技術の発展に大きく貢献していることや、福衛シリーズのような独自の技術を開発していることに驚きました。これからも、TASAの活躍を応援していきたいです。
