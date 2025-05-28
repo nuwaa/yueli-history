@@ -98,7 +98,7 @@ thumbnail: "/images/ten-major-constructions.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 十大建設 (台湾) - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD_(%E5%8F%B0%E6%B9%BE)](https://ja.wikipedia.org/wiki/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD_(%E5%8F%B0%E6%B9%BE))
-*   **台湾華語:** 十大建設是什麼？有什麼內容？提出的目的是什麼？ - StockFeel 股感： [https://www.stockfeel.com.tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD-%E5%85%A7%E5%AE%B9-%E6%8F%90%E5%87%BA%E7%9A%84%E7%9B%AE/](https://www.stockfeel.com.tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD-%E5%85%A7%E5%AE%B9-%E6%8F%90%E5%87%BA%E7%9A%84%E7%9B%AE/)
+*   日本語: [十大建設 (台湾) - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD_(%E5%8F%B0%E6%B9%BE))
+*   台湾華語: [十大建設是什麼？有什麼內容？提出的目的是什麼？ - StockFeel 股感](https://www.stockfeel.com.tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD-%E5%85%A7%E5%AE%B9-%E6%8F%90%E5%87%BA%E7%9A%84%E7%9B%AE/)
 
 > 皆さん、十大建設について一緒に学ぶことができて、私もうれしいです。今回のテーマを通して、台湾がどのように発展してきたのか、そして、目標に向かって努力することの大切さを知ることができました。特に、十大建設という大きなプロジェクトを成功させた蔣経国さんのリーダーシップと、台湾の人々の協力が素晴らしいと思いました。これからも、歴史を学びながら、未来に向かって頑張っていきましょうね！
