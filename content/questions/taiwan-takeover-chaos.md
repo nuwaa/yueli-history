@@ -80,7 +80,7 @@ thumbnail: "/images/taiwan-takeover-chaos.jpg"
 
 ## 5. 関連リンク
 
-*   **日本語:** 台湾省行政長官公署 - Wikipedia: [https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2) 
-*   **台湾華語:** 臺灣省行政長官公署 - 維基百科，自由的百科全書: [https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2)
+*   日本語: [台湾省行政長官公署 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2) 
+*   台湾華語: [臺灣省行政長官公署 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%9C%81%E8%A1%8C%E6%94%BF%E9%95%B7%E5%AE%98%E5%85%AC%E7%BD%B2)
 
 > 今回のテーマ、いかがでしたでしょうか？私自身、台湾の歴史についてもっと深く知ることができて、本当に勉強になりました。特に、接収期の混乱や二・二八事件については、今まであまり知らなかったので、とても驚きました。この歴史を学ぶことで、台湾と日本の関係をより深く理解できると信じています。これからも一緒に楽しく学びましょうね！
