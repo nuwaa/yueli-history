@@ -10,15 +10,6 @@ slug: taiwan-valentine
 thumbnail: "/images/taiwan-valentine.jpg"
 ---
 
-```
-description: 台湾ではバレンタインデーが年に2回あるって本当？その理由と背景をやさしい日本語と台湾華語で解説します。
-keywords: 台湾, バレンタインデー, 七夕, 文化, 恋愛, 習慣
-tags: 台湾, バレンタインデー, 七夕, 恋愛, 文化, イベント
-categories: 台湾, 文化, 恋愛
-slug: taiwan-valentine
-draft: False
-```
-
 {{< center-img src="/images/taiwan-valentine.jpg" >}}
 
 ## 1. 日本語の解説
