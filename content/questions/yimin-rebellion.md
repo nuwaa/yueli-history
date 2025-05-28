@@ -90,7 +90,7 @@ thumbnail: "/images/yimin-rebellion.jpg"
 
 ## 5. 関連リンク
 
-*   日本語: 台湾を知る - 日本統治時代の抵抗運動：[https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95)
-*   台湾華語: 台灣抗日運動 - 維基百科，自由的百科全書：[https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95)
+*   日本語: [台湾抗日運動 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95)
+*   台湾華語: [台灣抗日運動 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%8A%97%E6%97%A5%E9%81%8B%E5%8B%95)
 
 > 今回は義民戦役について一緒に学ぶことができて、とても嬉しかったです。特に、林少貓さんの勇気や、北埔事件で起きた悲劇を知ることができて、心が揺さぶられました。台湾の歴史は、私たちが忘れずに大切にすべきものです。これからも一緒に色々なことを学んでいきましょうね！
