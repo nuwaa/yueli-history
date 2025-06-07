@@ -10,17 +10,6 @@ slug: taiwanese-mandarin-chinese
 thumbnail: "/images/taiwanese-mandarin-chinese.jpg"
 ---
 
-はい、承知いたしました。台湾語と台湾華語、中国語の違いについて、小学生にもわかりやすいように解説を作成します。
-
----
-description: 台湾語、台湾華語、中国語の違いを解説します。それぞれの言語の特徴や歴史的背景をやさしい日本語で説明します。
-keywords: 台湾語, 台湾華語, 中国語, 言語, 台湾, 歴史, 発音, 文法
-tags: 台湾語, 台湾華語, 中国語, 言語, 台湾, 歴史
-categories: 歴史, 言語, 台湾
-slug: taiwanese-mandarin-chinese
-draft: False
----
-
 {{< center-img src="/images/taiwanese-mandarin-chinese.jpg" >}}
 
 ## 1. 日本語の解説
@@ -122,7 +111,7 @@ draft: False
 ## 5. 関連リンク
 
 *   日本語：[台湾語 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E8%AA%9E)
-*   台湾華語：[臺灣閩南語 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E9%96%A9%E5%8D%97%E8%AA%9E)
+*   台湾華語：[臺灣話 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E9%96%A9%E5%8D%97%E8%AA%9E)
 
 >今回のテーマはいかがでしたでしょうか？
 >
